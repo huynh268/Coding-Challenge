@@ -74,7 +74,7 @@ public class Sorting {
         int[] left = copyArray(a, 0, middle);
         int[] right = copyArray(a, middle, len);
 
-        return merge(mergeSort(left),mergeSort(right));
+        return merge2(mergeSort(left),mergeSort(right));
     }
 
 
@@ -89,6 +89,31 @@ public class Sorting {
             else if(left[l] > right[r]) result[i] = right[r++];
             else result[i] = left[l++];
         }
+        return result;
+    }
+
+    //Merge 2 arrays using while and merge from largest to smallest number
+    public int[] merge2(int[] A, int[] B) {
+        int m = A.length - 1;
+        int n = B.length - 1;
+        int[] result = new int[A.length + B.length];
+        int k = result.length - 1;
+
+        while (m >= 0 && n >= 0) {
+            if(A[m] > B[n]) {
+                result[k--] = A[m--];
+            } else {
+                result[k--] = B[n--];
+            }
+        }
+
+        while (m >= 0) {
+            result[k--] = A[m--];
+        }
+        while (n >= 0) {
+            result[k--] = B[n--];
+        }
+
         return result;
     }
 
