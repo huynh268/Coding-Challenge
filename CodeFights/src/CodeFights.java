@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 /**
  * Created by Tien on 10/16/2017.
  */
@@ -30,25 +32,80 @@ public class CodeFights {
         return res;
     }
 
+    /*
+     * Given an array a that contains only numbers in the range from 1 to a.length,
+     * find the first duplicate number for which the second occurrence has the minimal index.
+     * In other words, if there are more than 1 duplicated numbers, return the number for
+     * which the second occurrence has a smaller index than the second occurrence of the other number does.
+     * If there are no such elements, return -1.
+     *
+     * Example
+     *      For a = [2, 3, 3, 1, 5, 2], the output should be
+     *      firstDuplicate(a) = 3.
+     *      There are 2 duplicates: numbers 2 and 3.
+     *      The second occurrence of 3 has a smaller index than than second occurrence of 2 does, so the answer is 3.
+     *
+     *      For a = [2, 4, 3, 5, 1], the output should be
+     *      firstDuplicate(a) = -1.
+     */
+
+    //Time complexity is O(n), and Space complexity is O(n)
+    public static int firstDuplicate1(int[] a) {
+        HashSet<Integer> hashSet = new HashSet<>();
+
+        for(int i = 0; i < a.length; i++) {
+            if(hashSet.contains(a[i])) {
+                return a[i];
+            } else {
+                hashSet.add(a[i]);
+            }
+        }
+        return -1;
+    }
+
+    //Time complexity is O(n), and Space complexity is O(1)
+    public static int firstDuplicate2(int[] a) {
+        for(int i: a) {
+            int temp = i > 0? i:-i;
+            if(a[temp - 1] > 0) {
+                a[temp - 1] = -a[temp-1];
+            } else {
+                return temp;
+            }
+        }
+        return -1;
+    }
+
     public static void main(String[] args) {
+
+        /*
+            lazyFriends problem
+         */
         int[] houses1 = {1, 2, 4, 8, 10},
-              houses2 = {-5, 0, 5, 10, 15},
-              houses3 = {1, 2, 3, 4, 5, 6};
+                houses2 = {-5, 0, 5, 10, 15},
+                houses3 = {1, 2, 3, 4, 5, 6};
 
         System.out.print("houses1 and maxDist = 5 : ");
-        for(int i: lazyFriends(houses1, 5)) {
+        for (int i : lazyFriends(houses1, 5)) {
             System.out.print(i + " ");
         }
         System.out.println();
         System.out.print("houses2 and maxDist = 10: ");
-        for(int i: lazyFriends(houses2, 10)) {
+        for (int i : lazyFriends(houses2, 10)) {
             System.out.print(i + " ");
         }
         System.out.println();
         System.out.print("houses3 and maxDist = 3 : ");
-        for(int i: lazyFriends(houses3, 3)) {
+        for (int i : lazyFriends(houses3, 3)) {
             System.out.print(i + " ");
         }
-    }
+        System.out.println();
 
+        /*
+            firstDuplicate problem
+         */
+        int[] a = {2, 3, 3, 1, 5, 2};
+        System.out.println("firstDuplicate1 of a = [2, 3, 3, 1, 5, 2]: " + firstDuplicate1(a));
+        System.out.println("firstDuplicate2 of a = [2, 3, 3, 1, 5, 2]: " + firstDuplicate2(a));
+    }
 }
