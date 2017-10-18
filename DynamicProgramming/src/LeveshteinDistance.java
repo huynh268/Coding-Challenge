@@ -13,12 +13,12 @@ public class LeveshteinDistance {
         if(n == 0) return m;
 
         if(s1.charAt(m-1) == s2.charAt(n-1)){
-            return editDistanceRecursive(s1.substring(0,m-2), s2.substring(0, n-2));
+            return editDistanceRecursive(s1.substring(0,m-1), s2.substring(0, n-1));
         }
 
-        return 1 + min( editDistanceRecursive(s1.substring(0,m-2), s2.substring(0, n-1)),
-                        editDistanceRecursive(s1.substring(0,m-1), s2.substring(0, n-2)),
-                        editDistanceRecursive(s1.substring(0,m-2), s2.substring(0, n-2)));
+        return 1 + min( editDistanceRecursive(s1.substring(0,m-1), s2.substring(0, n)),
+                        editDistanceRecursive(s1.substring(0,m), s2.substring(0, n-1)),
+                        editDistanceRecursive(s1.substring(0,m-1), s2.substring(0, n-1)));
     }
 
     //Using DP
