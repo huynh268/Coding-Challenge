@@ -62,10 +62,10 @@ public class LeveshteinDistance {
     }
     public static void main(String[] args) {
 
-        System.out.println(editDistanceDP("sunday","saturday"));
-        System.out.println(editDistanceDP("cat","cut"));
-        System.out.println(editDistanceDP("caat","cut"));
+        System.out.println("Distance between sunday and saturday: " + editDistanceDP("sunday","saturday"));
+        System.out.println("Distance between cat and cut: " + editDistanceDP("cat","cut"));
+        System.out.println("Distance between caat and cut: " + editDistanceDP("caat","cut"));
 
-        System.out.println(editDistanceRecursive("sunday","saturday"));
+        System.out.println("Distance between sunday and saturday (recursive): " + editDistanceRecursive("sunday","saturday"));
     }
 }
