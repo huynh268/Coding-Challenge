@@ -95,13 +95,13 @@ public class MaxSumSubsequence {
 
     //DP O(n) time complexity - 0(1) space
     public static int maxSumSubsequenceNonAdjacent(int[] a) {
-        int incl = a[0];
-        int excl = 0;
+        int incl = a[0]; //Sum including the previous element
+        int excl = 0;    //Sum excluding the previous element
 
         for(int i = 1; i < a.length; i++) {
             int temp = incl;
-            incl = Math.max(excl+a[i], incl);
-            excl = temp;
+            incl = Math.max(excl+a[i], incl); //incl = maximum of the sum before i which can include or exclude the previous element
+            excl = temp;  //
         }
         return incl;
     }
