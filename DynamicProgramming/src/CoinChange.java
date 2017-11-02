@@ -49,7 +49,7 @@ public class CoinChange {
             }
         }
 
-        
+
         for (int j = 0; j < total+1; j++) {
 
             System.out.printf("%4d", j);

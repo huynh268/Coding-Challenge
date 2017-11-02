@@ -47,7 +47,29 @@ public class coinChange322 {
         return dp[coins.length][amount] > amount ? -1 : dp[coins.length][amount];
     }
 
+    //O(m*n) Complexity - O(n) Space
+    public static int coinChange2(int[] coins, int amount) {
+        if(amount == 0) return 0;
+        int[] dp = new int[amount+1];
+
+        for (int i = 0; i<amount+1; i++) {
+            dp[i] = Integer.MAX_VALUE-1;
+        }
+
+        for(int coin : coins) {
+            for(int i = 0; i < amount+1; i++) {
+                if(coin <= i) {
+                    dp[i] = Math.min(dp[i], dp[i]+dp[i-coin]);
+                }
+            }
+        }
+
+        return dp[amount];
+    }
+
     public static void main(String[] args) {
         System.out.println("coins = [1,2,5], amount = 11: "+coinChange(new int[] {1,2,5}, 11));
+        System.out.println();
+        System.out.println("coins = [1,2,5], amount = 11: "+coinChange2(new int[] {1,2,5}, 11));
     }
 }
