@@ -11,10 +11,11 @@ class ListNode<T> {
 }
 public class RemoveKFromList {
 
-    public void add(ListNode<Integer> l, int value) {
+    public ListNode<Integer> add(ListNode<Integer> l, int value) {
         ListNode<Integer> newNode = new ListNode<>(value);
         newNode.next = l;
         l = newNode;
+        return  l;
     }
 
     public ListNode<Integer> removeKFromList(ListNode<Integer> l, int k) {
@@ -44,17 +45,17 @@ public class RemoveKFromList {
     }
 
     public static void main(String[] args) {
-        ListNode<Integer> list = new ListNode<>(3);
+        ListNode<Integer> list = new ListNode<>(2);
         RemoveKFromList l = new RemoveKFromList();
-        //l.add(list, 3);
+        l.print(l.add(list, 3));
         l.add(list, 1);
         l.add(list, 2);
         l.add(list, 3);
         l.add(list, 4);
-        l.add(list, 5);
+        l.print(l.add(list, 5));
 
-        l.removeKFromList(list, 3);
-
+        l.print(l.removeKFromList(list, 1));
         l.print(list);
+
     }
 }
