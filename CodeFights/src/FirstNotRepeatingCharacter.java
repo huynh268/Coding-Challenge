@@ -19,15 +19,18 @@ public class FirstNotRepeatingCharacter {
      There are no characters in this string that do not repeat.
      */
 
-    //
+    //O(n) Time complexity - O(1) Space(2D array with 2 rows and 26 columns) since the additional space doesn't depend on the length of input string
     public static char firstNotRepeatingCharacter(String s) {
+
+        //2D array - 1st row stores the index which character appears 1st time
+        //         - 2nd row stores the number of appearances of character
         int[][] count = new int[2][26];
 
         for(int i = 0 ; i < s.length(); i++){
             if(count[1][s.charAt(i)-'a'] == 0) {
-                count[0][s.charAt(i)-'a'] = i; //1st appreance index
+                count[0][s.charAt(i)-'a'] = i; //1st appearance index
             }
-            count[1][s.charAt(i) - 'a']++; //count number of appreances
+            count[1][s.charAt(i) - 'a']++; //count number of appearances
         }
 
         int index = -1, min = Integer.MAX_VALUE;
