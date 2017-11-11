@@ -49,12 +49,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sudoku.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sudoku.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sudoku.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-316">
               <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsCryptSolution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IsCryptSolution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/RemoveKFromList.java" />
         <option value="$PROJECT_DIR$/src/FirstNotRepeatingCharacter.java" />
         <option value="$PROJECT_DIR$/src/Sudoku.java" />
+        <option value="$PROJECT_DIR$/src/IsCryptSolution.java" />
       </list>
     </option>
   </component>
@@ -159,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sudoku">
+  <component name="RunManager" selected="Application.IsCryptSolution">
     <configuration default="false" name="CodeFights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CodeFights" />
@@ -208,6 +221,21 @@
     <configuration default="false" name="Sudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Sudoku" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeFights" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IsCryptSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="IsCryptSolution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -796,18 +824,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.CodeFights" />
       <item index="1" class="java.lang.String" itemvalue="Application.RemoveKFromList" />
       <item index="2" class="java.lang.String" itemvalue="Application.FirstNotRepeatingCharacter" />
       <item index="3" class="java.lang.String" itemvalue="Application.Sudoku" />
+      <item index="4" class="java.lang.String" itemvalue="Application.IsCryptSolution" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Sudoku" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FirstNotRepeatingCharacter" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RemoveKFromList" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CodeFights" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.IsCryptSolution" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Sudoku" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FirstNotRepeatingCharacter" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RemoveKFromList" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CodeFights" />
       </list>
     </recent_temporary>
   </component>
@@ -832,12 +862,12 @@
       <workItem from="1510116668997" duration="3018000" />
       <workItem from="1510200655628" duration="2127000" />
       <workItem from="1510287023564" duration="346000" />
-      <workItem from="1510375897579" duration="385000" />
+      <workItem from="1510375897579" duration="3032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13079000" />
+    <option name="totallyTimeSpent" value="15726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1007,6 +1037,16 @@
         <state relative-caret-position="-316">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsCryptSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
