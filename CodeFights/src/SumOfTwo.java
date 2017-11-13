@@ -54,7 +54,7 @@ public class SumOfTwo {
         System.out.println("sumOfTwo1 "+v1+" : "+sumOfTwo1(a,b,v1));
         System.out.println("sumOfTwo2 "+v1+" : "+sumOfTwo2(a,b,v1));
         System.out.println();
-        
+
         System.out.println("sumOfTwo1 "+v2+" : "+sumOfTwo1(a,b,v2));
         System.out.println("sumOfTwo2 "+v2+" : "+sumOfTwo2(a,b,v2));
         System.out.println();
