@@ -1,3 +1,4 @@
+import javax.swing.plaf.PanelUI;
 import java.util.HashSet;
 
 /**
@@ -74,6 +75,28 @@ public class CodeFights {
             }
         }
         return -1;
+    }
+
+    /**
+     * Determine if a number can be expressed as a sum of some consecutive positive integers.
+
+     Example
+
+     For n = 9, the output should be
+     isSumOfConsecutive(n) = true.
+
+     Explanation: It is possible to get n = 9 in the following way: 2 + 3 + 4 = 9.
+
+     For n = 8, the output should be
+     isSumOfConsecutive(n) = false.
+     * @param n
+     * @return
+     */
+    //O(1) Time complexity
+    public static boolean isSumOfConsecutive(int n) {
+        //If a number is a power of two, then it cannot be expressed as a sum of consecutive numbers otherwise Yes.
+        //Proof: http://www.cut-the-knot.org/arithmetic/UnpropertyOfPowersOf2.shtml
+        return (((n&(n-1))!=0) && n!=0);
     }
 
     public static void main(String[] args) {

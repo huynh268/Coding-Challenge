@@ -18,6 +18,7 @@ public class SortByString {
         return r;
     }
 
+    //O(|s|+|t|)
     public static String sortByString2(String s, String t) {
         HashMap<Character, Integer> hm = new HashMap<>();
         for(int i = 0; i < s.length(); i++) {
