@@ -1,3 +1,5 @@
+
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
@@ -18,7 +20,7 @@ public class KthLargestElement {
      * @param k
      * @return
      */
-    public static int kthLargestElement(int[] nums, int k){
+    public static int kthLargestElement1(int[] nums, int k){
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
         for(int i = 0; i < nums.length; i++) {
             //System.out.println("add: "+nums[i]);
@@ -37,11 +39,24 @@ public class KthLargestElement {
         return priorityQueue.peek();
     }
 
+    public static int kthLargestElement2(int[] nums, int k){
+        Arrays.sort(nums);
+        return nums[nums.length - k];
+    }
     public static void main(String[] args) {
         int[] nums1 = {7, 6, 5, 4, 3, 2, 1},
                 nums2 = {3, 2, 3, 1, 2, 4, 5, 5, 6, 7, 7, 8, 2, 3, 1, 1, 1, 10, 11, 5, 6, 2, 4, 7, 8, 5, 6};
 
-        System.out.println(kthLargestElement(nums1,2));
-        System.out.println(kthLargestElement(nums2,5));
+        Long start1 = System.nanoTime();
+        System.out.println(kthLargestElement1(nums1,2));
+        System.out.println(kthLargestElement1(nums2,5));
+        System.out.println("Runtime1 = "+ (System.nanoTime()-start1));
+
+        System.out.println();
+
+        Long start2 = System.nanoTime();
+        System.out.println(kthLargestElement2(nums1,2));
+        System.out.println(kthLargestElement2(nums2,5));
+        System.out.println("Runtime2 = "+ (System.nanoTime()-start2));
     }
 }
