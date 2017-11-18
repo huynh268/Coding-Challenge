@@ -28,7 +28,7 @@ class Tree<T>{
 
 public class IsTreeSymmetric {
 
-    //Recursive 
+    //Recursive
     public static boolean isTreeSymmetric(Tree<Integer> t) {
         if(t == null)
             return true;
