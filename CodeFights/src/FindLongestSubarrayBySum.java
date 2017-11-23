@@ -23,6 +23,22 @@
  */
 public class FindLongestSubarrayBySum {
     public static int[] findLongestSubarrayBySum(int s, int[] arr) {
+        int[] r = new int[2];
+        for(int i = 0; i < arr.length-1; i++){
+            int sum = arr[i];
+            for(int j = i+1; j < arr.length; j++) {
+                sum += arr[j];
+                if(sum == s) {
+                    if(r[1] != 0 && r[1] < j){
+                        r[1] = j;
+                    } else {
+                        r[0] = i;
+                        r[1] = j;
+                    }
+                }
+            }
+        }
 
+        return r[1] != 0 ? new int[] {r[0]+1, r[1]+1} : new int[]{-1};
     }
 }
