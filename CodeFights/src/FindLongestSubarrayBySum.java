@@ -22,23 +22,52 @@
  The sum of elements from the 1st position to the 8th position (1-based) is equal to 15: 1 + 2 + 3 + 4 + 5 + 0 + 0 + 0
  */
 public class FindLongestSubarrayBySum {
-    public static int[] findLongestSubarrayBySum(int s, int[] arr) {
-        int[] r = new int[2];
+
+    //Brute Force
+    public static int[] findLongestSubarrayBySum1(int s, int[] arr) {
+        if(arr.length == 1 && arr[0] == s) return new int[]{1,1};
+        int[] r = new int[]{-1,-1};
         for(int i = 0; i < arr.length-1; i++){
             int sum = arr[i];
             for(int j = i+1; j < arr.length; j++) {
                 sum += arr[j];
                 if(sum == s) {
-                    if(r[1] != 0 && r[1] < j){
-                        r[1] = j;
-                    } else {
+                    if(r[1] == -1) {
                         r[0] = i;
                         r[1] = j;
+                    } else {
+                        if(r[1]  < j && r[0] == i)
+                            r[1] = j;
                     }
                 }
             }
         }
 
-        return r[1] != 0 ? new int[] {r[0]+1, r[1]+1} : new int[]{-1};
+        return r[1] != -1 ? new int[] {r[0]+1, r[1]+1} : new int[]{-1};
+    }
+
+
+    public static int[] findLongestSubarrayBySum2(int v, int[] arr) {
+        int n = arr.length;
+        if(n == 1 && arr[0] == v) return new int[]{1,1};
+
+        int sum = 0;
+        int p = 0;
+        int l = 0, r = 0;
+        for(int i = 0; i < n; i++) {
+            sum += arr[i];
+
+            while(sum > v) {
+                sum -= arr[p];
+                p++;
+            }
+
+            if(sum == v && ((r == 0) || (i - p > r - l))){
+                l = p+1;
+                r = i+1;
+            }
+        }
+
+        return r == 0 ? new int[]{-1} :  new int[]{l,r};
     }
 }
