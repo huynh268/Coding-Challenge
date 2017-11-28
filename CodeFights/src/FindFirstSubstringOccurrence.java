@@ -21,6 +21,12 @@ public class FindFirstSubstringOccurrence {
         return -1;
     }
 
+    //KMP Algorithm
+    public static int findFirstSubstringOccurrence2(String s, String x) {
+
+        return -1;
+    }
+
     public static void main(String[] args) {
         String  s1 = "CodefightsIsAwesome",
                 x1 = "IA",

@@ -38,6 +38,8 @@ public class ProductExceptSelf {
         return sum % m;
     }
 
+    //Using https://en.wikipedia.org/wiki/Horner%27s_method
+    //http://blog.codefights.com/productexceptself-solution/
     public static int productExceptSelf2(int[] nums, int m) {
         int product = 1;
         int sum = 0;
