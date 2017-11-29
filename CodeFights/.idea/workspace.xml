@@ -29,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassifyStrings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassifyStrings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClassifyStrings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-85">
@@ -42,28 +42,18 @@
       <file leaf-file-name="ProductExceptSelf.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProductExceptSelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="490">
               <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinSubstringWithAllChars.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MinSubstringWithAllChars.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="31" column="92" lean-forward="false" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindFirstSubstringOccurrence.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FindFirstSubstringOccurrence.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FindFirstSubstringOccurrence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="677">
+              <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -103,8 +93,8 @@
         <option value="$PROJECT_DIR$/src/FindLongestSubarrayBySum.java" />
         <option value="$PROJECT_DIR$/src/ProductExceptSelf.java" />
         <option value="$PROJECT_DIR$/src/MinSubstringWithAllChars.java" />
-        <option value="$PROJECT_DIR$/src/FindFirstSubstringOccurrence.java" />
         <option value="$PROJECT_DIR$/src/ClassifyStrings.java" />
+        <option value="$PROJECT_DIR$/src/FindFirstSubstringOccurrence.java" />
       </list>
     </option>
   </component>
@@ -893,12 +883,12 @@
       <workItem from="1511673923262" duration="619000" />
       <workItem from="1511746813562" duration="2759000" />
       <workItem from="1511842097117" duration="3358000" />
-      <workItem from="1511921980281" duration="817000" />
+      <workItem from="1511921980281" duration="1525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64556000" />
+    <option name="totallyTimeSpent" value="65264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1273,30 +1263,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindFirstSubstringOccurrence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MinSubstringWithAllChars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="31" column="92" lean-forward="false" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProductExceptSelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FindLongestSubarrayBySum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -1309,6 +1275,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
           <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MinSubstringWithAllChars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="31" column="92" lean-forward="false" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProductExceptSelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindFirstSubstringOccurrence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
           <folding />
         </state>
       </provider>
