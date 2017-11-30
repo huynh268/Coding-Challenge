@@ -100,10 +100,13 @@ public class ClassifyStrings {
     }
 
     //Regex only
-    ////Does not work on "aa?bbb?aa" - "bad"
+    ////Does not work on "aa?bbb?aa", "aa?bbbb -> "bad"
     public static String classifyStrings3(String s) {
         if(s.matches("(.*[aeiou]{3}.*)|(.*[^aeiou?]{5}.*)"))
             return "bad";
+        if(s.matches("(.*[aeiuo?]{3})|(.*[^aeiou]{5}.*)"))
+            return "mixed";
+        return "good";
 
     }
 }

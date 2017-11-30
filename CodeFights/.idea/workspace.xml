@@ -32,8 +32,8 @@
       <file leaf-file-name="ClassifyStrings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ClassifyStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="104" column="60" lean-forward="true" selection-start-line="104" selection-start-column="60" selection-end-line="104" selection-end-column="60" />
+            <state relative-caret-position="646">
+              <caret line="102" column="49" lean-forward="false" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
               <folding>
                 <element signature="e#2877#2878#0" expanded="true" />
                 <element signature="e#2922#2923#0" expanded="true" />
@@ -887,12 +887,12 @@
       <workItem from="1511746813562" duration="2759000" />
       <workItem from="1511842097117" duration="3358000" />
       <workItem from="1511921980281" duration="1550000" />
-      <workItem from="1512013105620" duration="1754000" />
+      <workItem from="1512013105620" duration="2016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67043000" />
+    <option name="totallyTimeSpent" value="67305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1301,8 +1301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClassifyStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="104" column="60" lean-forward="true" selection-start-line="104" selection-start-column="60" selection-end-line="104" selection-end-column="60" />
+        <state relative-caret-position="646">
+          <caret line="102" column="49" lean-forward="false" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
           <folding>
             <element signature="e#2877#2878#0" expanded="true" />
             <element signature="e#2922#2923#0" expanded="true" />
