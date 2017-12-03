@@ -24,7 +24,7 @@ import java.util.List;
                                 "justification.  "]
  */
 public class TextJustification {
-    
+
     public static String[] textJustification(String[] words, int l) {
         int n = words.length;
 
