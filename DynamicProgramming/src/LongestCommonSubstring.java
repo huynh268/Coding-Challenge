@@ -43,6 +43,8 @@ public class LongestCommonSubstring {
         System.out.println("abcdef, mbcdf: " + LCSubstring("abcdef", "mbcdf"));
         System.out.println("GeeksforGeeks, GeeksQuiz: "+ LCSubstring("GeeksforGeeks", "GeeksQuiz"));
         System.out.println("zxabcdezy, yzabcdezx: " + LCSubstring("zxabcdezy", "yzabcdezx"));
+        System.out.println("ABC , ABCD: "+ LCSubstring("ABC","ABCD"));
+        System.out.println("abcdxyz , xyzabcd: "+ LCSubstring("abcdxyz","xyzabcd"));
     }
 
 }
