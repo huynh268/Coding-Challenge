@@ -1,3 +1,5 @@
+package DynamicProgramming;
+
 /**
  * Created by Tien on 11/20/2017.
  * https://codefights.com/interview-practice/task/yWF4MmhvtmzfKNWgt
