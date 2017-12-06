@@ -14,7 +14,7 @@ package DynamicProgramming;
  The optimal way to get the most money in one night is to rob the first and the third houses for a total of 2.
  */
 public class HouseRobber {
-    
+
     int houseRobber1(int[] nums) {
         int n = nums.length;
 
