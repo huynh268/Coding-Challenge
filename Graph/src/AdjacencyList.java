@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * Created by Tien on 12/7/2017.
  *
- * Create Adjacency List to represent the graph
+ * Create Adjacency List to represent the undirected graph
  */
 public class AdjacencyList {
 
@@ -28,12 +28,14 @@ public class AdjacencyList {
      * @param pair - pair of vertices that have the connection
      */
     static void addEdge(Graph graph, int[] pair) {
+        //If pair[0] > pair[1], then swap them
         if(pair[0] > pair[1]) {
             int temp = pair[0];
             pair[0] = pair[1];
             pair[1] = temp;
         }
-        if(!graph.adjacencyArray[pair[0]].contains(pair[1])) {
+        
+        if(pair[0] != pair[1] && !graph.adjacencyArray[pair[0]].contains(pair[1])) {
             graph.adjacencyArray[pair[0]].add(pair[1]);
             graph.adjacencyArray[pair[1]].add(pair[0]);
         }
