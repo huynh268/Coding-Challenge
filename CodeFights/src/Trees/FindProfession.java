@@ -1,3 +1,5 @@
+package Trees;
+
 /**
  * Created by Tien on 11/17/2017.
  * Consider a special family of Engineers and Doctors. This family has the following rules:

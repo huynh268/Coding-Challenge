@@ -1,14 +1,9 @@
+package LinkedLists;
+
 /**
  * Created by Tien on 11/7/2017.
  */
 
-class ListNode<T> {
-    T value;
-    ListNode<T> next;
-    ListNode(T x) {
-        value = x;
-    }
-}
 public class RemoveKFromList {
 
     public ListNode<Integer> add(ListNode<Integer> l, int value) {

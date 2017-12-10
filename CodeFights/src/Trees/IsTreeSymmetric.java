@@ -1,3 +1,4 @@
+package Trees;
 
 /**
  * Created by Tien on 11/16/2017.
@@ -17,16 +18,19 @@
     the output should be isTreeSymmetric(t) = false.
  */
 
-class Tree<T>{
-    Tree(T x) {
-        value = x;
-    }
-    T value;
-    Tree<T> left;
-    Tree<T> right;
-}
 
 public class IsTreeSymmetric {
+
+    // Definition for binary tree:
+    // class Tree<T> {
+    //   Tree(T x) {
+    //     value = x;
+    //   }
+    //   T value;
+    //   Tree<T> left;
+    //   Tree<T> right;
+    // }
+
 
     //Recursive
     public static boolean isTreeSymmetric(Tree<Integer> t) {
