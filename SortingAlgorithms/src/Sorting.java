@@ -26,7 +26,7 @@ public class Sorting {
         }
         return true;
     }
-
+    ////////////////////////////////////////////////////////////////////////
     //Bubble sort
     public int[] bubbleSort(int[] a) {
         int len = a.length;
@@ -66,6 +66,8 @@ public class Sorting {
         return result;
     }
 
+    ////////////////////////////////////////////////////////////////////////
+
     //Merge sort
     public int[] mergeSort(int[] a) {
         int len = a.length;
@@ -92,7 +94,7 @@ public class Sorting {
         return result;
     }
 
-    //Merge 2 arrays using while and merge from largest to smallest number
+    //Merge 2 arrays using while
     public int[] merge2(int[] A, int[] B) {
         int m = A.length - 1;
         int n = B.length - 1;
@@ -116,6 +118,9 @@ public class Sorting {
 
         return result;
     }
+
+    ////////////////////////////////////////////////////////////////////////
+
 
     //Copy array
     private int[] copyArray(int[] a, int start, int end){
