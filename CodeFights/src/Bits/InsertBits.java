@@ -21,4 +21,11 @@ package Bits;
  n = 0 00012, k = 112, 25 = 1 10012.
  */
 public class InsertBits {
+
+    int insertBits(int n, int a, int b, int k) {
+        for(int i = a; i <= b; i++)
+            n = n&~(1<<i);
+
+        return n^(k<<a);
+    }
 }
