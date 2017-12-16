@@ -1,3 +1,5 @@
+package CommonTechniques;
+
 /**
  * Created by Tien on 11/26/2017.
  * You have two strings, s and t. The string t contains only unique elements. Find and return the minimum consecutive substring of s that contains all of the elements from t.

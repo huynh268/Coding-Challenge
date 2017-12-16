@@ -1,3 +1,5 @@
+package CommonTechniques;
+
 /**
  * Created by Tien on 11/22/2017.
  * You have an unsorted array arr of non-negative integers and a number s. Find a longest contiguous subarray in arr that has a sum equal to s. Return two integers that represent its inclusive bounds. If there are several possible answers, return the one with the smallest left bound. If there are no answers, return [-1].

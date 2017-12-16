@@ -1,3 +1,5 @@
+package CommonTechniques;
+
 /**
  * Created by Tien on 11/24/2017.
  * You have an array nums. We determine two functions to perform on nums. In both cases, n is the length of nums:

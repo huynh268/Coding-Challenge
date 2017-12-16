@@ -1,3 +1,5 @@
+package CommonTechniques;
+
 import java.util.*;
 /**
  * Created by Tien on 11/11/2017.
