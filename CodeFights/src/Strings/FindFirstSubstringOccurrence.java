@@ -1,3 +1,5 @@
+package Strings;
+
 /**
  * Created by Tien on 11/12/2017.
  */

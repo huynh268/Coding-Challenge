@@ -1,3 +1,5 @@
+package Strings;
+
 /**
  * Created by Tien on 11/28/2017.
  * The string can also contain the character ?, which can be replaced by either a vowel or a consonant. This means that the string "?aa" can be bad if ? is a vowel or good if it is a consonant. This kind of string is categorized as mixed.

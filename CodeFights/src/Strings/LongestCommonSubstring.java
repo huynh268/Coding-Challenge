@@ -1,3 +1,5 @@
+package Strings;
+
 /**
  * Created by Tien on 12/3/2017.
  * Given two strings, s and t, find the length of their longest common substring.
