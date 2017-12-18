@@ -1,5 +1,7 @@
 package Trees;
 
+import java.util.Stack;
+
 /**
  * Created by Tien on 12/10/2017.
  *
@@ -61,5 +63,22 @@ public class KthSmallestInBST {
     //   Tree<T> left;
     //   Tree<T> right;
     // }
+
+    int kthSmallestInBST(Tree<Integer> t, int k) {
+        Stack<Tree<Integer>> stack = new Stack<>();
+
+        while(t != null || !stack.isEmpty()) {
+            while (t != null) {
+                stack.push(t);
+                t = t.left;
+            }
+
+            t = stack.pop();
+            if(--k == 0) return t.value;
+            t = t.right;
+        }
+
+        return t.value;
+    }
 }
 
