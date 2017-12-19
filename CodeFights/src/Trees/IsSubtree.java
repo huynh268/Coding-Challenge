@@ -20,21 +20,31 @@ public class IsSubtree {
     //   Tree<T> right;
     // }
 
-    int[] traverseTree(Tree<Integer> t) {
-        if(t == null) return new int[0];
+    boolean isSubtree(Tree<Integer> t1, Tree<Integer> t2) {
+        if(t1 == null && t2 == null)
+            return true;
 
-        List<Integer> list = new ArrayList<>();
-        Queue<Tree<Integer>> queue = new LinkedList<>();
-        queue.add(t);
+        if(t1 == null)
+            return false;
 
-        while(!queue.isEmpty()) {
-            t = queue.poll();
-            list.add(t.value);
-            if(t.left !=  null) queue.add(t.left);
-            if(t.right != null) queue.add(t.right);
-        }
+        if(t2 == null)
+            return true;
 
-        return list.stream().mapToInt(i->i).toArray();
+        if(isIdentical(t1,t2))
+            return true;
+
+        return isSubtree(t1.left, t2) || isSubtree(t1.right, t2);
+    }
+
+    boolean isIdentical(Tree<Integer> t1, Tree<Integer> t2) {
+        if(t1 == null && t2 == null)
+            return true;
+
+        if(t1 == null || t2 == null)
+            return false;
+
+        return t1.value.equals(t2.value) && isIdentical(t1.left, t2.left)
+                && isIdentical(t1.right, t2.right);
     }
 
 }
