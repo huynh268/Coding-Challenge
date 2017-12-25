@@ -1,3 +1,5 @@
+package DynamicProgrammingAdvanced;
+
 /**
  * Created by Tien on 12/3/2017.
  * You have a 2D binary matrix that's filled with 0s and 1s. In the matrix, find the largest square that contains only 1s and return its area.
