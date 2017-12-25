@@ -1,6 +1,7 @@
 package Sorting;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by Tien on 12/16/2017.
@@ -14,7 +15,8 @@ import java.util.ArrayList;
  */
 public class MergeKArrays {
 
-    ArrayList<Integer> mergeKArrays(int[][] arrays) {
+
+    static ArrayList<Integer> mergeKArrays1(int[][] arrays) {
         int[] firstUnused = new int[arrays.length];
         ArrayList<Integer> result = new ArrayList<>();
         int n = 0;
@@ -36,5 +38,54 @@ public class MergeKArrays {
             firstUnused[minIndex]++;
         }
         return result;
+    }
+
+    /**
+     * Using merge sort to merge k sorted arrays from input
+     * @param arrays - contains sorted arrays to be merged
+     * @return sorted arrays
+     */
+    static int[] mergeKArrays2(int[][] arrays) {
+        int[] res = merge(arrays[0], arrays[1]);
+        for(int i = 2; i < arrays.length; i++) {
+            res = merge(res, arrays[i]);
+        }
+
+        return res;
+    }
+
+    /**
+     * Merge 2 sorted arrays
+     * @param a - sorted array
+     * @param b - sorted array
+     * @return a sorted array with elements from a and b
+     */
+    static int[] merge(int[] a, int[] b) {
+        int m = a.length, n = b.length;
+        int[] c = new int[m+n];
+        int k = 0, i = 0, j = 0;
+
+        while(i < m && j < n) {
+            if(a[i] < b[j])
+                c[k++] = a[i++];
+            else
+                c[k++] = b[j++];
+        }
+
+        while(i<m) {
+            c[k++] = a[i++];
+        }
+
+        while(j<n) {
+            c[k++] = b[j++];
+        }
+
+        return c;
+    }
+
+    public static void main(String[] args) {
+        int[][] arrays = {{1, 3, 5}, {2, 3}, {2, 3, 5, 8}};
+        System.out.println("merge1: "+Arrays.toString(mergeKArrays1(arrays).toArray(new Integer[0])));
+        System.out.println("merge2: "+Arrays.toString(mergeKArrays2(arrays)));
     }
 }
