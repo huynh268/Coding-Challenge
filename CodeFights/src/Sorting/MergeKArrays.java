@@ -2,6 +2,7 @@ package Sorting;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 /**
  * Created by Tien on 12/16/2017.
@@ -40,6 +41,7 @@ public class MergeKArrays {
         return result;
     }
 
+    /*****************************************************************************************/
     /**
      * Using merge sort to merge k sorted arrays from input
      * @param arrays - contains sorted arrays to be merged
@@ -83,9 +85,29 @@ public class MergeKArrays {
         return c;
     }
 
+    /*****************************************************************************************/
+
+    static int[] mergeKArrays3(int[][] arrays) {
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+        int len = 0;
+        for(int i = 0; i < arrays.length; i++) {
+            for(int j = 0; j < arrays[i].length; j++) {
+                priorityQueue.offer(arrays[i][j]);
+                len++;
+            }
+        }
+        int[] res = new int[len];
+        int n = 0;
+        while (!priorityQueue.isEmpty()){
+            res[n++] = priorityQueue.remove();
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
         int[][] arrays = {{1, 3, 5}, {2, 3}, {2, 3, 5, 8}};
         System.out.println("merge1: "+Arrays.toString(mergeKArrays1(arrays).toArray(new Integer[0])));
         System.out.println("merge2: "+Arrays.toString(mergeKArrays2(arrays)));
+        System.out.println("merge3: "+Arrays.toString(mergeKArrays3(arrays)));
     }
 }

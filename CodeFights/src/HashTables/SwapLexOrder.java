@@ -57,7 +57,7 @@ public class SwapLexOrder {
         visited[letter] = true;
         component.add(letter);
 
-        for(int neighbor = 0; neighbor < graph[letter].length; i++) {
+        for(int neighbor = 0; neighbor < graph[letter].length; neighbor++) {
             if(graph[letter][neighbor] == 1 && !visited[neighbor]) {
                 dfs(neighbor, component, visited, graph);
             }
