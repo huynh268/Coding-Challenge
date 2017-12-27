@@ -48,4 +48,19 @@ public class SwapLexOrder {
 
         return new String(c);
     }
+
+
+    //DFS
+    //1 - Find connected components
+    //2 - Sort each component
+    void dfs(int letter, List<Integer> component, boolean[] visited, int[][] graph) {
+        visited[letter] = true;
+        component.add(letter);
+
+        for(int neighbor = 0; neighbor < graph[letter].length; i++) {
+            if(graph[letter][neighbor] == 1 && !visited[neighbor]) {
+                dfs(neighbor, component, visited, graph);
+            }
+        }
+    }
 }
