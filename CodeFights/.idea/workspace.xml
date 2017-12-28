@@ -22,8 +22,8 @@
       <file leaf-file-name="SwapLexOrder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HashTables/SwapLexOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+            <state relative-caret-position="337">
+              <caret line="21" column="93" lean-forward="false" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -942,12 +942,12 @@
       <workItem from="1514173397750" duration="303000" />
       <workItem from="1514237093198" duration="2512000" />
       <workItem from="1514332450798" duration="3479000" />
-      <workItem from="1514428672914" duration="1453000" />
+      <workItem from="1514428672914" duration="7137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132839000" />
+    <option name="totallyTimeSpent" value="138523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1392,8 +1392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTables/SwapLexOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+        <state relative-caret-position="337">
+          <caret line="21" column="93" lean-forward="false" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
           <folding />
         </state>
       </provider>
