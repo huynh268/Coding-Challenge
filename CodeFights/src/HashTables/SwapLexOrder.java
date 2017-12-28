@@ -53,14 +53,34 @@ public class SwapLexOrder {
     //DFS
     //1 - Find connected components
     //2 - Sort each component
-    void dfs(int letter, List<Integer> component, boolean[] visited, int[][] graph) {
+    String swapLexOrder2(String str, int[][] pairs) {
+        int n = str.length();
+        int[][] adjacencyMatrix = new int[n][n];
+        for(int i = 0; i < pairs.length; i++) {
+            adjacencyMatrix[pairs[i][0] - 1][pairs[i][1] - 1] = 1;
+            adjacencyMatrix[pairs[i][1] - 1][pairs[i][0] - 1] = 1;
+        }
+
+        boolean[] visited = new boolean[n];
+
+        for(int i = 0; i < n; i++) {
+            if(!visited[i]) {
+                List<Integer> component = new ArrayList<>();
+                dfs(i, component, visited, adjacencyMatrix);
+            }
+        }
+    }
+    void dfs(int letter, List<Integer> component, boolean[] visited, int[][] adjacencyMatrix) {
         visited[letter] = true;
         component.add(letter);
 
-        for(int neighbor = 0; neighbor < graph[letter].length; neighbor++) {
-            if(graph[letter][neighbor] == 1 && !visited[neighbor]) {
-                dfs(neighbor, component, visited, graph);
+        for(int neighbor = 0; neighbor < adjacencyMatrix[letter].length; neighbor++) {
+            if(adjacencyMatrix[letter][neighbor] == 1 && !visited[neighbor]) {
+                dfs(neighbor, component, visited, adjacencyMatrix);
             }
         }
+    }
+    void sort(String s, List<Integer> component) {
+        
     }
 }
