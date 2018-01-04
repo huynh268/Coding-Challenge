@@ -29,6 +29,7 @@ public class BSTIterator173 {
 
     /**
      * O(1) Time Complexity - O(h) Space where h is the height of the tree
+     * Since each node is visited twice (push to stack and pop out of stack)
      * @return The smallest value in BST
      */
     public int next() {
@@ -38,7 +39,7 @@ public class BSTIterator173 {
     }
 
     /**
-     * Push TreeNode root into stack
+     * Push TreeNode root into stack - O(h) Time complexity - O(h) Space
      * @param root
      */
     private void pushToStack(TreeNode root) {
