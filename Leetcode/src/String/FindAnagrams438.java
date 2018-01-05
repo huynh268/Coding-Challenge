@@ -42,11 +42,12 @@ public class FindAnagrams438 {
      * Based on Rabin-Karp Algorithm
      * O(n+m) Time complexity for Average and Best case
      * O(n*m) Worst case
+     * O(1) Space
      * @param s
      * @param p
      * @return
      */
-    List<Integer> findAnagrams(String s, String p) {
+    List<Integer> findAnagrams1(String s, String p) {
         List<Integer> ans = new ArrayList<>();
         int prime = 101;
         int hashS = 0;
@@ -64,11 +65,14 @@ public class FindAnagrams438 {
         }
 
         for(int i = 0; i <= n - m; i++) {
+
+            //if p and the substring of s have the same hash value
             if(hashP == hashS) {
                 if(isAnagram(s.substring(i, i+m), p))
                     ans.add(i);
             }
 
+            //Recalculate the hash value for the next window of s
             if(i < n - m){
                 hashS = (hashS - s.charAt(i) + s.charAt(i+m))%prime;
 
@@ -90,7 +94,6 @@ public class FindAnagrams438 {
         for(int i = 0; i < a.length(); i++) {
             c[a.charAt(i) - 'a']++;
         }
-
         for(int i = 0; i < b.length(); i++) {
             c[b.charAt(i) -'a']--;
             if(c[b.charAt(i)-'a'] < 0)
@@ -99,4 +102,62 @@ public class FindAnagrams438 {
 
         return true;
     }
+
+    /**
+     * Use Hashtalbe to store chars of p, the slide window to create substring of length p.length() through string s
+     * If the window has the same values in hashtable with p, then they are anagram
+     * O(n) Time complexity - O(m) Space
+     * @param s
+     * @param p
+     * @return
+     */
+    List<Integer> findAnagrams2(String s, String p) {
+        List<Integer> ans = new ArrayList<>();
+
+
+        if(s.length() == 0 || s.length() < p.length())
+            return ans;
+
+        int[] hash = new int[26];
+        for(int i = 0; i < p.length(); i++) {
+            hash[p.charAt(i)-'a']++;
+        }
+
+        int left = 0, right = 0, count = p.length();
+
+        while(right < s.length()) {
+
+            //hash[s.charAt(right)-'a'] > 0 means s.charAt(right) is in string p
+            if(hash[s.charAt(right)-'a'] > 0) {
+                count--;
+            }
+
+            //If s.charAt(right) is in p, hash[s.charAt(right)-'a']-- >= 0
+            //Otherwise, hash[s.charAt(right)-'a']-- < 0
+            hash[s.charAt(right)-'a']--;
+            right++;
+
+            //count = 0 means we found the substring of s which is anagram with p
+            if(count == 0) {
+                //Since left is not increased util right - left = p.length()
+                //left is the starting index of substring of s which is anagram with p
+                ans.add(left);
+            }
+
+            if(right - left == p.length()) {
+
+                //If s.charAt(left) is in p, then hash[s.charAt(left)-'a'] > 0 before the loop starts
+                //When it gets into the loop, hash[s.charAt(right)-'a'] is decreased
+                if(hash[s.charAt(left)-'a'] >= 0) {
+                    count++;
+                }
+                hash[s.charAt(left)-'a']++;
+                left++;
+            }
+        }
+
+        return ans;
+    }
+
 }
+
