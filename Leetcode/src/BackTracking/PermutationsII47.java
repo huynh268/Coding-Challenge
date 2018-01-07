@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class PermutationsII47 {
 
-    List<List<Integer>> permuteUnique1(int[] nums) {
+    List<List<Integer>> permuteUnique(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> ans = new ArrayList<>();
         backtrack(nums, new boolean[nums.length], new ArrayList<Integer>(), ans);
@@ -31,7 +31,7 @@ public class PermutationsII47 {
             ans.add(new ArrayList<>(list));
         } else {
             for(int i = 0; i < nums.length; i++) {
-                if(visited[i] || i > 0 && nums[i-1] == nums[i] && !visited[i-1])
+                if(visited[i] || i > 0 && nums[i-1] == nums[i] && visited[i-1])
                     continue;
 
                 visited[i] = true;
