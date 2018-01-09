@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImplementQueueusingStacks232.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImplementQueueusingStacks232.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/ImplementQueueusingStacks232.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="813">
@@ -44,6 +44,16 @@
                 <element signature="e#990#991#0" expanded="true" />
                 <element signature="e#1033#1034#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinCostClimbingStairs746.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/MinCostClimbingStairs746.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-173">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/HeapStackQueue/ImplementStackusingQueues225.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/NumberOfIslands200.java" />
         <option value="$PROJECT_DIR$/src/HeapStackQueue/ImplementQueueusingStacks232.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/MinCostClimbingStairs746.java" />
       </list>
     </option>
   </component>
@@ -186,7 +197,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HeapStackQueue" />
+              <option name="myItemId" value="DynamicProgramming" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -885,15 +896,15 @@
       <workItem from="1515195267907" duration="1360000" />
       <workItem from="1515198147460" duration="11383000" />
       <workItem from="1515284370322" duration="11590000" />
-      <workItem from="1515459764609" duration="112000" />
+      <workItem from="1515459764609" duration="2135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74545000" />
+    <option name="totallyTimeSpent" value="76568000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -943,13 +954,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/kSmallestPairs373.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="79" lean-forward="false" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/coinChange322.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -1278,7 +1282,7 @@
         <state relative-caret-position="3145">
           <caret line="187" column="33" lean-forward="false" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1313,6 +1317,14 @@
             <element signature="e#990#991#0" expanded="true" />
             <element signature="e#1033#1034#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/MinCostClimbingStairs746.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
