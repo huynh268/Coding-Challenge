@@ -19,12 +19,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FloodFill733.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DFSandBFS/FloodFill733.java">
+      <file leaf-file-name="SymmetricTree101.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/SymmetricTree101.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="269">
+              <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/coinChange322.java" />
-        <option value="$PROJECT_DIR$/src/HeapStackQueue/ValidParentheses20.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/EmployeeImportance690.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/DeleteandEarn740.java" />
         <option value="$PROJECT_DIR$/src/Tree/TreeNode.java" />
@@ -97,6 +99,8 @@
         <option value="$PROJECT_DIR$/src/List/AddTwoNumbers2.java" />
         <option value="$PROJECT_DIR$/src/Array/IslandPerimeter463.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/FloodFill733.java" />
+        <option value="$PROJECT_DIR$/src/DFSandBFS/LongestIncreasingPathInMatrix329.java" />
+        <option value="$PROJECT_DIR$/src/Tree/SymmetricTree101.java" />
       </list>
     </option>
   </component>
@@ -151,6 +155,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -868,12 +890,12 @@
       <workItem from="1515198147460" duration="11383000" />
       <workItem from="1515284370322" duration="11590000" />
       <workItem from="1515459764609" duration="4224000" />
-      <workItem from="1515560338082" duration="2571000" />
+      <workItem from="1515560338082" duration="8451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81228000" />
+    <option name="totallyTimeSpent" value="87108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -926,20 +948,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/kSmallestPairs373.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kSmallestPairs373.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/coinChange322.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1214,30 +1222,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFSandBFS/MaxAreaofIsland695.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="187" column="33" lean-forward="false" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFSandBFS/NumberOfIslands200.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/ImplementStackusingQueues225.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1247,12 +1237,12 @@
         <state relative-caret-position="816">
           <caret line="54" column="3" lean-forward="false" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
           <folding>
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#905#906#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
+            <element signature="e#1033#1034#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1270,8 +1260,8 @@
         <state relative-caret-position="119">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="false" />
+            <element signature="e#134#135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1302,9 +1292,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DFSandBFS/FloodFill733.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="796">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFSandBFS/NumberOfIslands200.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFSandBFS/MaxAreaofIsland695.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2751">
+          <caret line="187" column="33" lean-forward="false" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFSandBFS/LongestIncreasingPathInMatrix329.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="38" column="71" lean-forward="false" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/SymmetricTree101.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
