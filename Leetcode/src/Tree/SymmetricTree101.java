@@ -2,6 +2,7 @@ package Tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * Created by Tien on 1/10/2018.
@@ -84,5 +85,30 @@ public class SymmetricTree101 {
         return true;
     }
 
+    /**
+     * Iterative - Stack
+     * @param root
+     * @return
+     */
+    boolean isSymmertric3(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        stack.push(root);
 
+        while(!stack.isEmpty()) {
+            TreeNode t1 = stack.pop();
+            TreeNode t2 = stack.pop();
+
+            if(t1 == null && t2 == null) continue;
+            if(t1 == null || t2 == null) return false;
+            if(t1.val != t2.val) return false;
+
+            stack.push(t1.left);
+            stack.push(t2.right);
+            stack.push(t1.right);
+            stack.push(t2.left);
+        }
+
+        return true;
+    }
 }
