@@ -29,6 +29,16 @@ public class ReverseLinkedListII92 {
      * }
      */
 
+    /**
+     * Swap nodes
+     * 1 - 2 - 3 - 4 - 5, n=4, m =2
+     * => 1 - 3 - 2 - 4 - 5
+     * => 1 - 4 - 3 - 2 - 5
+     * @param head
+     * @param m
+     * @param n
+     * @return
+     */
     ListNode reverseBetween1(ListNode head, int m, int n) {
         if(head == null || head.next == null || n == m)
             return head;
@@ -58,12 +68,24 @@ public class ReverseLinkedListII92 {
     }
 
 
+    /**
+     * Using reverse
+     * 1 - 2 - 3 - 4 - 5, n=4, m=2
+     * => 1, 2 - 3 - 4, 5
+     * => 1, 4 - 3 - 2, 5
+     * => 1 - 4 - 3 - 2 - 5
+     * @param head
+     * @param m
+     * @param n
+     * @return
+     */
     ListNode reverseBetween2(ListNode head, int m, int n) {
         if(head == null || head.next == null || m == n)
             return head;
         ListNode dummy = new ListNode(0);
         ListNode tmp1 = dummy;
         dummy.next = head;
+        int k = n-m;
 
         while(m > 0){
             tmp1 = tmp1.next;
@@ -72,7 +94,6 @@ public class ReverseLinkedListII92 {
 
         ListNode newHead = tmp1.next;
         ListNode tmp2 = newHead;
-        int k = n-m;
 
         while(k > 0) {
             tmp2 = tmp2.next;
