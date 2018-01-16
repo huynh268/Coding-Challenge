@@ -36,7 +36,15 @@
  */
 public class PrimeNumberOfSetBitsInBinaryRepresentation762 {
 
-    int countPrimeSetBits(int L, int R) {
+    /**
+     * R-L = M
+     * O(M*(sqrt(n) + logn)) ~ O(N^2)
+     * O(1) Space
+     * @param L
+     * @param R
+     * @return
+     */
+    int countPrimeSetBits1(int L, int R) {
         int count = 0;
         for(int i = L; i <= R; i++) {
             if(isPrime(countBits(i))) count++;
@@ -44,6 +52,12 @@ public class PrimeNumberOfSetBitsInBinaryRepresentation762 {
         return count;
     }
 
+    /**
+     * O(logn) Time complexity
+     * O(1) Space
+     * @param n
+     * @return
+     */
     int countBits(int n) {
         int count = 0;
         while(n != 0) {
@@ -53,6 +67,12 @@ public class PrimeNumberOfSetBitsInBinaryRepresentation762 {
         return count;
     }
 
+    /**
+     * O(sqrt(n)) Time complexity
+     * 0(1) space
+     * @param n
+     * @return
+     */
     boolean isPrime(int n) {
         if(n <= 1) return false;
         if(n <= 3) return true;
@@ -63,5 +83,41 @@ public class PrimeNumberOfSetBitsInBinaryRepresentation762 {
             if(n%i == 0 || n%(i+2) == 0) return false;
         }
         return true;
+    }
+
+    /**********************************************************************************************************/
+    /**
+     * R-L = M
+     * O(M) Time complexity
+     * O(1) Space
+     *
+     * Since n <= 10^6 < 2^32-1 = Integer.MAX_VALUE, there are at most 32 bits.
+     * Therefore the maximum value bitcount is 32. And only 10 prime numbers less than 32
+     * p = {2,3,5,7,11,13,17,19,23,29}
+     *
+     * @param L
+     * @param R
+     * @return
+     */
+    int countPrimeSetBits2(int L, int R) {
+        int count = 0;
+        for(int i = L; i <= R; i++) {
+            if(isPrime2(i)) count++;
+        }
+
+        return count;
+    }
+
+    /**
+     * O(1) Time complexity
+     * O(1) Space
+     * @param n
+     * @return
+     */
+    boolean isPrime2(int n) {
+        return n == 2 || n == 3 || n == 5 ||
+                n == 7 || n == 11 || n == 13 ||
+                n == 17 || n == 19 || n == 23 ||
+                n == 29;
     }
 }
