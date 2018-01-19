@@ -19,12 +19,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LongestIncreasingSubsequence300.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestIncreasingSubsequence300.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubsequence300.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="269">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelativeRanks506.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/RelativeRanks506.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/String/FindAnagrams438.java" />
         <option value="$PROJECT_DIR$/src/String/IsAnagram242.java" />
         <option value="$PROJECT_DIR$/src/String/GroupAnagrams49.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/PermutationsII47.java" />
@@ -97,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/Tree/BalancedBinaryTree110.java" />
         <option value="$PROJECT_DIR$/src/Tree/MinimumDepthOfBinaryTree111.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubsequence300.java" />
+        <option value="$PROJECT_DIR$/src/Array/RelativeRanks506.java" />
       </list>
     </option>
   </component>
@@ -185,7 +197,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DynamicProgramming" />
+              <option name="myItemId" value="Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -894,12 +906,12 @@
       <workItem from="1516064830035" duration="5956000" />
       <workItem from="1516135801548" duration="3173000" />
       <workItem from="1516242853238" duration="2387000" />
-      <workItem from="1516307937758" duration="2630000" />
+      <workItem from="1516307937758" duration="5463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127025000" />
+    <option name="totallyTimeSpent" value="129858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -952,13 +964,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/MaxConsecutiveOnes485.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MergeSortedArray88.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1316,9 +1321,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubsequence300.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="269">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/RelativeRanks506.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
