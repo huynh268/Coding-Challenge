@@ -1,5 +1,6 @@
 package String;
 
+import java.util.HashSet;
 /**
  * Created by Tien on 1/19/2018.
  *
@@ -32,7 +33,7 @@ public class LongestPalindrome409 {
      * @param s
      * @return
      */
-    int longestPalindrome(String s) {
+    int longestPalindrome1(String s) {
         char[] c = new char[256];
 
         for(int i = 0; i < s.length(); i++)
@@ -51,5 +52,29 @@ public class LongestPalindrome409 {
         }
 
         return ans;
+    }
+
+    /**
+     * Using HashSet to count pairs
+     * O(n) Time complexity
+     * O(n) Space
+     * @param s
+     * @return
+     */
+    int longestPalindrome2(String s) {
+        HashSet<Character> hashSet = new HashSet<>();
+        int count = 0;
+        for(int i = 0; i < s.length(); i++) {
+            if(hashSet.contains(s.charAt(i))) {
+                hashSet.remove(s.charAt(i));
+                count++; //counting pairs
+            } else {
+                hashSet.add(s.charAt(i));
+            }
+        }
+
+        //If there is some character left which can't make pair, then it can be a center of a palindrome string
+        if(!hashSet.isEmpty()) return count*2 + 1;
+        return count*2;
     }
 }
