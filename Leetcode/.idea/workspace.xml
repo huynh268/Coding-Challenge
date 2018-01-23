@@ -39,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MissingNumber268.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MissingNumber268.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/MissingNumber268.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="830">
               <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToeplitzMatrix766.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/ToeplitzMatrix766.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -66,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/MaxConsecutiveOnes485.java" />
         <option value="$PROJECT_DIR$/src/Array/MergeSortedArray88.java" />
         <option value="$PROJECT_DIR$/src/Array/PlusOne66.java" />
         <option value="$PROJECT_DIR$/src/Array/TwoSum1.java" />
@@ -117,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/Tree/DiameterOfBinaryTree543.java" />
         <option value="$PROJECT_DIR$/src/String/LongestPalindrome409.java" />
         <option value="$PROJECT_DIR$/src/Array/MissingNumber268.java" />
+        <option value="$PROJECT_DIR$/src/Array/ToeplitzMatrix766.java" />
       </list>
     </option>
   </component>
@@ -172,24 +182,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -900,12 +892,12 @@
       <workItem from="1516400375634" duration="3878000" />
       <workItem from="1516497125928" duration="1160000" />
       <workItem from="1516596735295" duration="3331000" />
-      <workItem from="1516654192458" duration="4349000" />
+      <workItem from="1516654192458" duration="6844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144061000" />
+    <option name="totallyTimeSpent" value="146556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -958,13 +950,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/RemoveElement27.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/PascalTriangle118.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1314,6 +1299,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="830">
           <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/ToeplitzMatrix766.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="30" />
           <folding />
         </state>
       </provider>
