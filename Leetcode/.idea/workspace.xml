@@ -32,8 +32,8 @@
       <file leaf-file-name="MinimumAbsoluteDifferenceInBST530.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree/MinimumAbsoluteDifferenceInBST530.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="116">
+              <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -891,12 +891,12 @@
       <workItem from="1516497125928" duration="1160000" />
       <workItem from="1516596735295" duration="3331000" />
       <workItem from="1516654192458" duration="7452000" />
-      <workItem from="1516754487380" duration="4216000" />
+      <workItem from="1516754487380" duration="4994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151380000" />
+    <option name="totallyTimeSpent" value="152158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1309,8 +1309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/MinimumAbsoluteDifferenceInBST530.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="116">
+          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="46" />
           <folding />
         </state>
       </provider>

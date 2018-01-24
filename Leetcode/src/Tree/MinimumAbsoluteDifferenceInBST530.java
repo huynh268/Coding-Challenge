@@ -37,7 +37,7 @@ public class MinimumAbsoluteDifferenceInBST530 {
      * }
      */
 
-    int getMinimumDifference(TreeNode root) {
+    int getMinimumDifference1(TreeNode root) {
         int min = Integer.MAX_VALUE;
         Stack<TreeNode> stack = new Stack<>();
         TreeNode previousNode = null;
@@ -52,6 +52,20 @@ public class MinimumAbsoluteDifferenceInBST530 {
             previousNode = root;
             root = root.right;
         }
+        return min;
+    }
+
+
+    int min = Integer.MIN_VALUE;
+    TreeNode prev = null;
+    int getMinimumDifference2(TreeNode root) {
+        if(root == null) return min;
+
+        getMinimumDifference2(root.left);
+        if(prev != null) Math.min(min, root.val - prev.val);
+        prev = root;
+        getMinimumDifference2(root.right);
+
         return min;
     }
 }
