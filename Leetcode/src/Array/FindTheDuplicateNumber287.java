@@ -98,4 +98,37 @@ public class FindTheDuplicateNumber287 {
         }
         return slow;
     }
+
+    /**
+     * Binary Search
+     *
+     * nums[i] is in range [1,n]
+     * let low = 0 and high = n
+     * middle = low + (high-low)/2
+     * Count if number of elements that less than or equal middle
+     * If count <= middle, which means that the duplicate number is bigger than middle. Therefore make low = middle + 1
+     * Otherwise, let high = middle.
+     * Repeat until low = high
+     *
+     * O(nlogn) - Time complexity
+     * O(1) Space
+     *
+     * @param nums
+     * @return
+     */
+    int findDuplicate4(int[] nums) {
+        int low = 0;
+        int high = nums.length-1;
+
+        while(low < high) {
+            int middle = low + (high - low)/2;
+            int count = 0;
+            for(int num : nums)
+                count += num <= middle ? 1 : 0;
+
+            if(count <= middle) low = middle+1;
+            else high = middle;
+        }
+        return low;
+    }
 }
