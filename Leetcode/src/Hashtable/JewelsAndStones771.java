@@ -27,6 +27,16 @@ import java.util.HashSet;
 
  */
 public class JewelsAndStones771 {
+
+    /**
+     * j = J.length()
+     * s = s.length()
+     * O(j+s) Time complexity
+     * O(j) Space
+     * @param J
+     * @param S
+     * @return
+     */
     int numJewelsInStones(String J, String S) {
         int count = 0;
         HashSet<Character> h = new HashSet<>();
