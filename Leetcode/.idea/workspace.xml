@@ -32,8 +32,8 @@
       <file leaf-file-name="MedianOfTwoSortedArrays4.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MedianOfTwoSortedArrays4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            <state relative-caret-position="644">
+              <caret line="74" column="67" lean-forward="false" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -881,12 +881,12 @@
       <workItem from="1517289630524" duration="72000" />
       <workItem from="1517340035536" duration="606000" />
       <workItem from="1517450695699" duration="2722000" />
-      <workItem from="1517527769222" duration="1607000" />
+      <workItem from="1517527769222" duration="2582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176696000" />
+    <option name="totallyTimeSpent" value="177671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1286,8 +1286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MedianOfTwoSortedArrays4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="644">
+          <caret line="74" column="67" lean-forward="false" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
           <folding />
         </state>
       </provider>

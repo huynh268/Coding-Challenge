@@ -30,7 +30,7 @@ public class MedianOfTwoSortedArrays4 {
      */
     double findMedianSortedArrays1(int[] nums1, int[] nums2) {
         int[] nums = merge(nums1, nums2);
-        if(nums.length%2 == 0) return (double) (nums[nums.length/2-1] + nums[nums.length/2])/2;
+        if(nums.length%2 == 0) return (nums[nums.length/2-1] + nums[nums.length/2])/2.0;
         return nums[nums.length/2];
     }
 
@@ -54,6 +54,26 @@ public class MedianOfTwoSortedArrays4 {
      * @return
      */
     double findMedianSortedArrays2(int[] nums1, int[] nums2) {
+        int n1 = nums1.length;
+        int n2 = nums2.length;
+        if(n1 < n2) return findMedianSortedArrays1(nums2, nums1);
 
+        int low = 0;
+        int high = 2*n2;
+
+        while(low <= high) {
+            int mid2 = (low + high) / 2;
+            int mid1 = n1 + n2 - mid2;
+
+            int L1 = mid1 == 0 ? Integer.MIN_VALUE : nums1[(mid1-1)/2];
+            int R1 = mid1 == 2 * n1 ? Integer.MAX_VALUE : nums1[mid1/2];
+            int L2 = mid2 == 0 ? Integer.MIN_VALUE : nums2[(mid2-1)/2];
+            int R2 = mid2 == 2 * n2 ? Integer.MAX_VALUE : nums2[mid2/2];
+
+            if(L1 > R2) low = mid2 + 1;
+            else if(L2 > R1) high = mid2 - 1;
+            else return (Math.max(L1, L2) + Math.min(R1, R2)) / 2.0;
+        }
+        return -1;
     }
 }
