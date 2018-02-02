@@ -19,4 +19,41 @@
  The median is (2 + 3)/2 = 2.5
  */
 public class MedianOfTwoSortedArrays4 {
+
+    /**
+     * Merge 2 sorted arrays
+     * O(n+m) Time complexity
+     * O(n+m) Space
+     * @param nums1
+     * @param nums2
+     * @return
+     */
+    double findMedianSortedArrays1(int[] nums1, int[] nums2) {
+        int[] nums = merge(nums1, nums2);
+        if(nums.length%2 == 0) return (double) (nums[nums.length/2-1] + nums[nums.length/2])/2;
+        return nums[nums.length/2];
+    }
+
+    //O(n+m) time complexity, O(m+n) Space
+    int[] merge(int[] a, int[] b) {
+        int m = 0, n = 0, k = 0;
+        int[] c = new int[a.length+b.length];
+        while(m < a.length && n < b.length) {
+            c[k++] = a[m] < b[n] ? a[m++] : b[n++];
+        }
+        while(m < a.length) c[k++] = a[m++];
+        while(n < b.length) c[k++] = b[n++];
+
+        return c;
+    }
+
+    /**
+     * O(log(n+m)) Time complexity
+     * @param nums1
+     * @param nums2
+     * @return
+     */
+    double findMedianSortedArrays2(int[] nums1, int[] nums2) {
+
+    }
 }
