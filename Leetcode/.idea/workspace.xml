@@ -29,11 +29,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MedianOfTwoSortedArrays4.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MedianOfTwoSortedArrays4.java">
+      <file leaf-file-name="MedianOfTwoSortedArrays4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/MedianOfTwoSortedArrays4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="74" column="67" lean-forward="false" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
+            <state relative-caret-position="277">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReorganizeString767.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/String/ReorganizeString767.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegularExpressionMatching10.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/RegularExpressionMatching10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -57,9 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HeapStackQueue/ImplementQueueusingStacks232.java" />
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/MinCostClimbingStairs746.java" />
-        <option value="$PROJECT_DIR$/src/List/ListNode.java" />
         <option value="$PROJECT_DIR$/src/List/AddTwoNumbers2.java" />
         <option value="$PROJECT_DIR$/src/Array/IslandPerimeter463.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/FloodFill733.java" />
@@ -108,6 +125,9 @@
         <option value="$PROJECT_DIR$/src/Array/ThreeSumClosest16.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/JewelsAndStones771.java" />
         <option value="$PROJECT_DIR$/src/MedianOfTwoSortedArrays4.java" />
+        <option value="$PROJECT_DIR$/src/Array/MedianOfTwoSortedArrays4.java" />
+        <option value="$PROJECT_DIR$/src/String/ReorganizeString767.java" />
+        <option value="$PROJECT_DIR$/src/String/RegularExpressionMatching10.java" />
       </list>
     </option>
   </component>
@@ -159,6 +179,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="String" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -881,12 +919,12 @@
       <workItem from="1517289630524" duration="72000" />
       <workItem from="1517340035536" duration="606000" />
       <workItem from="1517450695699" duration="2722000" />
-      <workItem from="1517527769222" duration="2582000" />
+      <workItem from="1517527769222" duration="5359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177671000" />
+    <option name="totallyTimeSpent" value="180448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -939,20 +977,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/List/AddTwoNumbers2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/AddStrings415.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/MultiplyStrings43.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
@@ -1284,10 +1308,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MedianOfTwoSortedArrays4.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/MedianOfTwoSortedArrays4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="74" column="67" lean-forward="false" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
+        <state relative-caret-position="277">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/ReorganizeString767.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/RegularExpressionMatching10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
           <folding />
         </state>
       </provider>
