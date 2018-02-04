@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConvertSortedArrayToBinarySearchTree108.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tree/ConvertSortedArrayToBinarySearchTree108.java">
+      <file leaf-file-name="LongestPalindromicSubstring5.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/LongestPalindromicSubstring5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="48" column="53" lean-forward="true" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/IslandPerimeter463.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/FloodFill733.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/LongestIncreasingPathInMatrix329.java" />
         <option value="$PROJECT_DIR$/src/Tree/SymmetricTree101.java" />
@@ -128,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/String/ReorganizeString767.java" />
         <option value="$PROJECT_DIR$/src/String/RegularExpressionMatching10.java" />
         <option value="$PROJECT_DIR$/src/Tree/ConvertSortedArrayToBinarySearchTree108.java" />
+        <option value="$PROJECT_DIR$/src/String/LongestPalindromicSubstring5.java" />
       </list>
     </option>
   </component>
@@ -179,24 +179,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -941,12 +923,12 @@
       <workItem from="1517556740198" duration="33000" />
       <workItem from="1517561285605" duration="16000" />
       <workItem from="1517561597310" duration="1438000" />
-      <workItem from="1517720783681" duration="1109000" />
+      <workItem from="1517720783681" duration="1388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183150000" />
+    <option name="totallyTimeSpent" value="183429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1042" extended-state="1" />
@@ -999,13 +981,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PrimeNumberOfSetBitsInBinaryRepresentation762.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="114" column="14" lean-forward="false" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReverseInteger7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1115,13 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/LongestPalindrome409.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1342,10 +1310,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/ReorganizeString767.java">
+    <entry file="file://$PROJECT_DIR$/src/String/LongestPalindrome409.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="-187">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1354,6 +1322,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="48" column="53" lean-forward="true" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/ReorganizeString767.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/LongestPalindromicSubstring5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
