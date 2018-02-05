@@ -56,9 +56,9 @@ public class FindProfession {
         String  e = "Engineer",
                 d = "Doctor";
 
-        //return (countBit1(pos) - 1)%2 == 0 ? e : d;
-        //return (countBit2(pos) - 1)%2 == 0 ? e : d;
-        return (Integer.bitCount(pos) - 1)%2 == 0 ? e : d;
+        //return countBit1(pos - 1)%2 == 0 ? e : d;
+        //return countBit2(pos - 1)%2 == 0 ? e : d;
+        return Integer.bitCount(pos - 1)%2 == 0 ? e : d;
     }
 
     //Count bits
