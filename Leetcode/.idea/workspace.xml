@@ -72,8 +72,8 @@
       <file leaf-file-name="GlobalAndLocalInversions775.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Array/GlobalAndLocalInversions775.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="609">
+              <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -947,12 +947,12 @@
       <workItem from="1517561597310" duration="1438000" />
       <workItem from="1517720783681" duration="2946000" />
       <workItem from="1517800940284" duration="2081000" />
-      <workItem from="1517885188803" duration="1661000" />
+      <workItem from="1517885188803" duration="2335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188729000" />
+    <option name="totallyTimeSpent" value="189403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1358,8 +1358,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/GlobalAndLocalInversions775.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="609">
+          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
           <folding />
         </state>
       </provider>

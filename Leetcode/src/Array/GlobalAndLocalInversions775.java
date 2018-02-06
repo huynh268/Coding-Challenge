@@ -34,11 +34,24 @@ public class GlobalAndLocalInversions775 {
      * @param A
      * @return
      */
-    boolean isIdealPermutation(int[] A) {
+    boolean isIdealPermutation1(int[] A) {
         int max = -1;
         for(int i = 0; i < A.length-2; i++) {
             max = Math.max(max, A[i]);
             if(max > A[i+2]) return false;
+        }
+        return true;
+    }
+
+    /**
+     * O(n) Time complexity
+     * O(1) Space
+     * @param A
+     * @return
+     */
+    boolean isIdealPermutation2(int[] A) {
+        for(int i = 0; i < A.length; i++) {
+            if(Math.abs(A[i]-i) > 1) return false;
         }
         return true;
     }
