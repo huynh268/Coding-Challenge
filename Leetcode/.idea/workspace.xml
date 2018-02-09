@@ -99,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestUncommonSubsequenceI521.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestUncommonSubsequenceI521.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/LongestUncommonSubsequenceI521.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
@@ -108,6 +108,16 @@
                 <element signature="e#1422#1423#0" expanded="true" />
                 <element signature="e#1495#1496#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseStringII541.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/ReverseStringII541.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/String/ValidPalindrome125.java" />
         <option value="$PROJECT_DIR$/src/List/PalindromeLinkedList234.java" />
         <option value="$PROJECT_DIR$/src/String/ValidPalindromeII680.java" />
         <option value="$PROJECT_DIR$/src/String/AddStrings415.java" />
@@ -181,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/Tree/TrimBinarySearchTree669.java" />
         <option value="$PROJECT_DIR$/src/Tree/PathSumIII437.java" />
         <option value="$PROJECT_DIR$/src/String/LongestUncommonSubsequenceI521.java" />
+        <option value="$PROJECT_DIR$/src/String/ReverseStringII541.java" />
       </list>
     </option>
   </component>
@@ -982,15 +992,15 @@
       <workItem from="1517800940284" duration="2081000" />
       <workItem from="1517885188803" duration="2931000" />
       <workItem from="1517947954899" duration="4891000" />
-      <workItem from="1518147326930" duration="1958000" />
+      <workItem from="1518147326930" duration="2879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196848000" />
+    <option name="totallyTimeSpent" value="197769000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1040,13 +1050,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/SymmetricTree101.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/SortedArrayToBST108.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -1400,6 +1403,14 @@
             <element signature="e#1422#1423#0" expanded="true" />
             <element signature="e#1495#1496#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/ReverseStringII541.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
