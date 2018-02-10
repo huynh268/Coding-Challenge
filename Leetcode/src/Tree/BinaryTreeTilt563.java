@@ -45,7 +45,7 @@ public class BinaryTreeTilt563 {
      * O(n) Space
      */
     int tilt = 0;
-    int findTilt(TreeNode root) {
+    int findTilt1(TreeNode root) {
         helper(root);
         return tilt;
     }
@@ -57,5 +57,21 @@ public class BinaryTreeTilt563 {
         int right = helper(root.right);
         tilt += Math.abs(left - right);
         return root.val + left + right;
+    }
+
+    /**
+     * O(n) Time complexity
+     * O(n) Space
+     * @param root
+     * @return
+     */
+    int findTilt2(TreeNode root) {
+        if(root == null) return 0;
+        return Math.abs(sumSubtree(root.left) - sumSubtree(root.right)) + findTilt2(root.left) + findTilt2(root.right);
+    }
+
+    int sumSubtree(TreeNode root) {
+        if(root == null) return 0;
+        return root.val + sumSubtree(root.left) + sumSubtree(root.right);
     }
 }
