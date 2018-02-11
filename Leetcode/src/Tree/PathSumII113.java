@@ -2,6 +2,7 @@ package Tree;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Created by Tien on 2/10/2018.
@@ -45,14 +46,14 @@ public class PathSumII113 {
      * @param sum
      * @return
      */
-    List<List<Integer>> pathSum(TreeNode root, int sum) {
+    List<List<Integer>> pathSum1(TreeNode root, int sum) {
         List<List<Integer>> ans = new ArrayList<>();
         if(root == null) return ans;
-        dfs(root, sum, new ArrayList<>(), ans);
+        dfs1(root, sum, new ArrayList<>(), ans);
         return ans;
     }
 
-    void dfs(TreeNode root, int sum, List<Integer> path, List<List<Integer>> ans) {
+    void dfs1(TreeNode root, int sum, List<Integer> path, List<List<Integer>> ans) {
         path.add(root.val);
 
         if(root.left == null && root.right == null) {
@@ -60,13 +61,44 @@ public class PathSumII113 {
             return;
         }
 
+        if(root.left != null) dfs1(root.left, sum - root.val, path, ans);
+        if(root.right != null) dfs1(root.right, sum - root.val, path, ans);
+
+        path.remove(path.size() - 1);
+
+    }
+
+    /**
+     * DFS
+     * Recursive - Stack
+     * O(n) Time complexity
+     * O(n) Space
+     * @param root
+     * @param sum
+     * @return
+     */
+    List<List<Integer>> pathSum2(TreeNode root, int sum) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if(root == null) return ans;
+        dfs2(root, sum, new Stack<>(), ans);
+        return ans;
+    }
+
+    void dfs2(TreeNode root, int sum, Stack<Integer> path, List<List<Integer>> ans) {
+        path.push(root.val);
+
+        if(root.left == null && root.right == null) {
+            if(root.val == sum) ans.add(new ArrayList<>(path));
+            return;
+        }
+
         if(root.left != null) {
-            dfs(root.left, sum - root.val, path, ans);
-            path.remove(path.size() - 1);
+            dfs2(root.left, sum - root.val, path, ans);
+            path.pop();
         }
         if(root.right != null) {
-            dfs(root.right, sum - root.val, path, ans);
-            path.remove(path.size() - 1);
+            dfs2(root.right, sum - root.val, path, ans);
+            path.pop();
         }
     }
 }
