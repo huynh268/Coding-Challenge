@@ -101,4 +101,28 @@ public class PathSumII113 {
             path.pop();
         }
     }
+
+    /**
+     * Iterative - Stack - Post-order Traversal
+     * O(n) Time complexity
+     * O(n) Space
+     * @param root
+     * @param sum
+     * @return
+     */
+    List<List<Integer>> pathSum3(TreeNode root, int sum) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if(root == null) return ans;
+
+        Stack<Integer> path = new Stack<>();
+        path.push(root.val);
+        TreeNode currentNode = null;
+        TreeNode previousNode = null;
+
+        while(!path.isEmpty()) {
+            currentNode = path.pop();
+        }
+
+        return ans;
+    }
 }
