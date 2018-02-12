@@ -50,7 +50,7 @@ public class MinimumDistanceBetweenBSTNodes783 {
      * @param root
      * @return
      */
-    int minDiffInBST(TreeNode root) {
+    int minDiffInBST1(TreeNode root) {
         int min = Integer.MAX_VALUE;
         List<Integer> sortedList = inorderTraversal(root);
         for(int i = 1; i < sortedList.size(); i++) {
@@ -68,4 +68,23 @@ public class MinimumDistanceBetweenBSTNodes783 {
         }
         return list;
     }
+
+    /**
+     * Inorder Traversal
+     * O(n) Time complexity
+     * O(n) Space
+     * @param root
+     * @return
+     */
+    Integer min = Integer.MAX_VALUE, pre = null;
+    int minDiffInBST2(TreeNode root) {
+        if(root != null) {
+            if(root.left != null) minDiffInBST2(root.left);
+            if(pre != null) min = Math.min(min, root.val - pre);
+            pre = root.val;
+            if(root.right != null) minDiffInBST2(root.right);
+        }
+        return min;
+    }
+
 }
