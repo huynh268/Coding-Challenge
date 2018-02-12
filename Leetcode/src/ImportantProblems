@@ -1,5 +1,10 @@
 List    - LinkedListCycle141 - Floy's Cycle Detection
         - ReverseLinkedList206
         - LinkedListCycleII142
+        - RemoveDuplicatesFromSortedList83
 
-Tree -
+Tree    - InorderTraversal94
+        - PostorderTraversal145
+        - PreorderTraversal144
+        - MaximumDepthOfBinaryTree104
+        - MinimumDepthOfBinaryTree111
