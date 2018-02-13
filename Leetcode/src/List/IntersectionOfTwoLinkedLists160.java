@@ -32,6 +32,7 @@ public class IntersectionOfTwoLinkedLists160 {
      * 2 pointers
      * O(A+B) Time complexity
      * O(1) Space
+     * Find lengths of headA and headB, then make them run at the same distance by letting the longer list starts first
      * @param headA
      * @param headB
      * @return
@@ -99,5 +100,30 @@ public class IntersectionOfTwoLinkedLists160 {
             }
         }
         return null;
+    }
+
+    /**
+     * 2 pointers
+     * O(A+B) Time complexity
+     * O(1) Space
+     * Let 2 pointers run the same distance = A+B with the same speed.
+     * If they have the intersection, the will meet up at some point on the  road (A+B).
+     * Else they will end up at null.
+     * @param headA
+     * @param headB
+     * @return
+     */
+    ListNode getIntersectionNode3(ListNode headA, ListNode headB) {
+        if(headA == null || headB == null) return null;
+
+        ListNode a = headA;
+        ListNode b = headB;
+
+        while(a != b) {
+            a = a == null ? headB : a.next;
+            b = b == null ? headA : b.next;
+        }
+
+        return a;
     }
 }
