@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PathSumII113.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PathSumII113.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/PathSumII113.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="745">
@@ -90,6 +90,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntersectionOfTwoLinkedLists160.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/List/IntersectionOfTwoLinkedLists160.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="100" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BitManipulation/NumberOf1Bits191.java" />
         <option value="$PROJECT_DIR$/src/ReverseInteger7.java" />
         <option value="$PROJECT_DIR$/src/PrimeNumberOfSetBitsInBinaryRepresentation762.java" />
         <option value="$PROJECT_DIR$/src/String/DetectCapital520.java" />
@@ -163,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/Hashtable/KDiffPairsInArray532.java" />
         <option value="$PROJECT_DIR$/src/List/RemoveDuplicatesFromSortedList83.java" />
         <option value="$PROJECT_DIR$/src/ImportantProblems" />
+        <option value="$PROJECT_DIR$/src/List/IntersectionOfTwoLinkedLists160.java" />
       </list>
     </option>
   </component>
@@ -218,6 +228,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -950,12 +978,12 @@
       <workItem from="1518232037194" duration="4866000" />
       <workItem from="1518323349147" duration="3282000" />
       <workItem from="1518391288910" duration="3012000" />
-      <workItem from="1518466101077" duration="3487000" />
+      <workItem from="1518466101077" duration="5370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214022000" />
+    <option name="totallyTimeSpent" value="215905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1008,13 +1036,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/MinimumAbsoluteDifferenceInBST530.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MissingNumber268.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -1377,6 +1398,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List/IntersectionOfTwoLinkedLists160.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="100" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
