@@ -67,7 +67,7 @@ public class StudentAttendanceRecordI551 {
     boolean checkRecord3(String s) {
         return s.indexOf("LLL") == -1 && s.indexOf("A") == s.lastIndexOf("A");
     }
-    
+
     boolean checkRecord4(String s) {
         return !s.contains("LLL") && s.indexOf("A") == s.lastIndexOf("A");
     }
