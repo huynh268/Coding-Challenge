@@ -92,11 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthSmallestElementInBST230.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KthSmallestElementInBST230.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/KthSmallestElementInBST230.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
               <caret line="67" column="124" lean-forward="false" selection-start-line="67" selection-start-column="124" selection-end-line="67" selection-end-column="124" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertBSTtoGreaterTree538.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/ConvertBSTtoGreaterTree538.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -130,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/List/SortList148.java" />
         <option value="$PROJECT_DIR$/src/SumOfTwoIntegers371.java" />
         <option value="$PROJECT_DIR$/src/Tree/MaximumDepthOfBinaryTree104.java" />
         <option value="$PROJECT_DIR$/src/Tree/BalancedBinaryTree110.java" />
@@ -181,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/Tree/FindModeInBinarySearchTree501.java" />
         <option value="$PROJECT_DIR$/src/Tree/ValidateBinarySearchTree98.java" />
         <option value="$PROJECT_DIR$/src/Tree/KthSmallestElementInBST230.java" />
+        <option value="$PROJECT_DIR$/src/Tree/ConvertBSTtoGreaterTree538.java" />
       </list>
     </option>
   </component>
@@ -988,15 +998,15 @@
       <workItem from="1518391288910" duration="3012000" />
       <workItem from="1518466101077" duration="9114000" />
       <workItem from="1518563828876" duration="8792000" />
-      <workItem from="1518636288754" duration="3371000" />
+      <workItem from="1518636288754" duration="5076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231812000" />
+    <option name="totallyTimeSpent" value="233517000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1046,13 +1056,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/List/LinkedListCycleII142.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/List/LinkedListCycle141.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1417,6 +1420,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="67" column="124" lean-forward="false" selection-start-line="67" selection-start-column="124" selection-end-line="67" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/ConvertBSTtoGreaterTree538.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
           <folding />
         </state>
       </provider>
