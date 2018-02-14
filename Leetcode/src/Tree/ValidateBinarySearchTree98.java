@@ -2,6 +2,7 @@ package Tree;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Created by Tien on 2/13/2018.
@@ -46,7 +47,7 @@ public class ValidateBinarySearchTree98 {
      * @param root
      * @return
      */
-    boolean isValidBST(TreeNode root) {
+    boolean isValidBST1(TreeNode root) {
         List<Integer> sortedList = inorderTraversal(root);
         for(int i = 1; i < sortedList.size(); i++) {
             if(sortedList.get(i-1) >= sortedList.get(i)) return false;
@@ -62,5 +63,51 @@ public class ValidateBinarySearchTree98 {
             if (root.right != null) ans.addAll(inorderTraversal(root.right));
         }
         return ans;
+    }
+
+    /**
+     * Recursive
+     * Inorder Traversal
+     * O(n) Time complexity
+     * O(n) Space
+     * @param root
+     * @return
+     */
+    Integer pre = null;
+    boolean isValidBST2(TreeNode root) {
+        if(root == null) {
+            return true;
+        } else {
+            if(!isValidBST2(root.left)) return false;
+            if(pre != null && pre >= root.val) return false;
+            pre = root.val;
+            return isValidBST2(root.right);
+        }
+    }
+
+    /**
+     * Iterative
+     * Inorder Traversal
+     * O(n) Time complexity
+     * O(n) Space
+     * @param root
+     * @return
+     */
+    boolean isValidBST3(TreeNode root) {
+        if(root == null) return true;
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode pre = null;
+        while(!stack.isEmpty() || root != null) {
+            while(root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+
+            root = stack.pop();
+            if(pre != null && pre.val >= root.val) return false;
+            pre = root;
+            root = root.right;
+        }
+        return true;
     }
 }

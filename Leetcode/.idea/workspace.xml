@@ -85,8 +85,8 @@
       <file leaf-file-name="ValidateBinarySearchTree98.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree/ValidateBinarySearchTree98.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="1136">
+              <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -981,12 +981,12 @@
       <workItem from="1518323349147" duration="3282000" />
       <workItem from="1518391288910" duration="3012000" />
       <workItem from="1518466101077" duration="9114000" />
-      <workItem from="1518563828876" duration="5198000" />
+      <workItem from="1518563828876" duration="6589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224847000" />
+    <option name="totallyTimeSpent" value="226238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1410,8 +1410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/ValidateBinarySearchTree98.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="1136">
+          <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
