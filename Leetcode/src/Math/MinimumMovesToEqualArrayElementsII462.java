@@ -31,7 +31,7 @@ public class MinimumMovesToEqualArrayElementsII462 {
      * O(nlogn) Time complexity
      * O(1) Space
      *
-     * For every set S, the median m of S minimizes the sum ∑s∈S|m - s| 
+     * For every set S, the median m of S minimizes the sum ∑s∈S|m - s|
      * @param nums
      * @return
      */
