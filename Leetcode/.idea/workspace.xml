@@ -39,11 +39,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubtreeOfAnotherTree572.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tree/SubtreeOfAnotherTree572.java">
+      <file leaf-file-name="FindTheDuplicateNumber287.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/FindTheDuplicateNumber287.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="36" />
+            <state relative-caret-position="289">
+              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImportantProblems" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ImportantProblems">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinimumMovesToEqualArrayElements453.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Math/MinimumMovesToEqualArrayElements453.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -122,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubsequence300.java" />
         <option value="$PROJECT_DIR$/src/Array/RelativeRanks506.java" />
         <option value="$PROJECT_DIR$/src/Tree/InvertTree226.java" />
         <option value="$PROJECT_DIR$/src/Array/FindSmallestLetterGreaterThanTarget744.java" />
@@ -162,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/Tree/MinimumDistanceBetweenBSTNodes783.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/KDiffPairsInArray532.java" />
         <option value="$PROJECT_DIR$/src/List/RemoveDuplicatesFromSortedList83.java" />
-        <option value="$PROJECT_DIR$/src/ImportantProblems" />
         <option value="$PROJECT_DIR$/src/List/IntersectionOfTwoLinkedLists160.java" />
         <option value="$PROJECT_DIR$/src/String/StudentAttendanceRecordI551.java" />
         <option value="$PROJECT_DIR$/src/Tree/FindModeInBinarySearchTree501.java" />
@@ -173,6 +191,8 @@
         <option value="$PROJECT_DIR$/src/Math/PowerOfFour342.java" />
         <option value="$PROJECT_DIR$/src/Math/BaseSeven504.java" />
         <option value="$PROJECT_DIR$/src/Tree/SubtreeOfAnotherTree572.java" />
+        <option value="$PROJECT_DIR$/src/ImportantProblems" />
+        <option value="$PROJECT_DIR$/src/Math/MinimumMovesToEqualArrayElements453.java" />
       </list>
     </option>
   </component>
@@ -203,6 +223,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,15 +265,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tree" />
+              <option name="myItemId" value="Math" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -981,12 +1001,13 @@
       <workItem from="1518466101077" duration="9114000" />
       <workItem from="1518563828876" duration="8792000" />
       <workItem from="1518636288754" duration="6292000" />
-      <workItem from="1518749379337" duration="4911000" />
+      <workItem from="1518749379337" duration="5520000" />
+      <workItem from="1518820889226" duration="2672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239644000" />
+    <option name="totallyTimeSpent" value="242925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1006,7 +1027,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15458423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15618336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1039,20 +1060,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/Permutations46.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFSandBFS/MaxAreaofIsland695.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BackTracking/Subsets78.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1301,13 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImportantProblems">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hashtable/KDiffPairsInArray532.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -1387,12 +1387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding>
-            <element signature="e#641#642#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#868#869#0" expanded="false" />
-            <element signature="e#914#915#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1400,14 +1394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#803#804#0" expanded="false" />
-            <element signature="e#886#887#0" expanded="false" />
-            <element signature="e#1297#1298#0" expanded="false" />
-            <element signature="e#1378#1379#0" expanded="false" />
-            <element signature="e#2069#2070#0" expanded="false" />
-            <element signature="e#2145#2146#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1415,10 +1401,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/SubtreeOfAnotherTree572.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1430,10 +1420,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/SubtreeOfAnotherTree572.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/FindTheDuplicateNumber287.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="289">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImportantProblems">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/MinimumMovesToEqualArrayElements453.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="48" />
           <folding />
         </state>
       </provider>
