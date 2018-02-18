@@ -107,6 +107,7 @@ public class FourSum18 {
 
     /**
      * Generalized solution for K-Sum, K >= 2
+     * O(n^(k-1) Time complexity
      * @param nums
      * @param target
      * @return
@@ -133,6 +134,8 @@ public class FourSum18 {
 
                     i++;
                     j--;
+
+                    //Skip duplicate numbers
                     while(i < j && nums[i] == nums[i-1]) i++;
                     while(i < j && nums[j] == nums[j+1]) j--;
                 } else if(sum > target) {
@@ -144,12 +147,14 @@ public class FourSum18 {
         } else {
             for(int i = start; i < nums.length - k +1; i++) {
                 List<List<Integer>> temp = kSum(nums, target - nums[i], k - 1, i + 1);
-                if(temp != null) {
+                if(temp != null) { //leads to valid solution, then it is not NULL
                     for(List<Integer> l : temp) {
-                        l.add(0, nums[i]);
+                        l.add(0, nums[i]); // l.add(nums[i]) - the outputs are not inorder - increasing, but it is an accepted solution
                     }
                     ans.addAll(temp);
                 }
+
+                //Skip duplicate numbers
                 while(i < nums.length-1 && nums[i] == nums[i+1]) i++;
             }
         }
