@@ -104,4 +104,55 @@ public class FourSum18 {
         }
         return ans;
     }
+
+    /**
+     * Generalized solution for K-Sum, K >= 2
+     * @param nums
+     * @param target
+     * @return
+     */
+    List<List<Integer>> fourSum3(int[] nums, int target) {
+        Arrays.sort(nums);
+
+        return kSum(nums, target, 4, 0);
+    }
+
+    List<List<Integer>> kSum(int[] nums, int target, int k, int start) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if(start >= nums.length) return ans;
+        if(k == 2) {
+            int i = start, j = nums.length-1;
+
+            while(i < j) {
+                int sum = nums[i] + nums[j];
+                if(sum == target) {
+                    List<Integer> list = new ArrayList<>();
+                    list.add(nums[i]);
+                    list.add(nums[j]);
+                    ans.add(new ArrayList(list));
+
+                    i++;
+                    j--;
+                    while(i < j && nums[i] == nums[i-1]) i++;
+                    while(i < j && nums[j] == nums[j+1]) j--;
+                } else if(sum > target) {
+                    j--;
+                } else {
+                    i++;
+                }
+            }
+        } else {
+            for(int i = start; i < nums.length - k +1; i++) {
+                List<List<Integer>> temp = kSum(nums, target - nums[i], k - 1, i + 1);
+                if(temp != null) {
+                    for(List<Integer> l : temp) {
+                        l.add(0, nums[i]);
+                    }
+                    ans.addAll(temp);
+                }
+                while(i < nums.length-1 && nums[i] == nums[i+1]) i++;
+            }
+        }
+        return ans;
+    }
 }
