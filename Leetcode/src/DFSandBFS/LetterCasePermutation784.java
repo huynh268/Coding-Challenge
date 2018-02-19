@@ -35,7 +35,7 @@ public class LetterCasePermutation784 {
      * @param S
      * @return
      */
-    List<String> letterCasePermutation(String S) {
+    List<String> letterCasePermutation1(String S) {
         List<String> ans = new ArrayList<>();
         if(S.isEmpty()) {
             ans.add(S);
@@ -59,5 +59,16 @@ public class LetterCasePermutation784 {
             c[i] = Character.toLowerCase(c[i]);
             dfs(c, i+1, ans);
         }
+    }
+
+    /**
+     * BFS - Iterative
+     * O(n*2^n) Time complexity
+     * O(n*2^n) Space
+     * @param S
+     * @return
+     */
+    List<String> letterCasePermutation2(String S) {
+
     }
 }

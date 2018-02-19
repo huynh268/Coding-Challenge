@@ -51,14 +51,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LetterCasePermutation784.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LetterCasePermutation784.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DFSandBFS/LetterCasePermutation784.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="898">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveDuplicatesFromSortedArrayII80.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArrayII80.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="643">
+              <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SelfDividingNumbers728.java" />
         <option value="$PROJECT_DIR$/src/Tree/MinimumAbsoluteDifferenceInBST530.java" />
         <option value="$PROJECT_DIR$/src/Array/NonDecreasingArray665.java" />
         <option value="$PROJECT_DIR$/src/ImportantProblems.ipynb" />
@@ -164,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/Math/RotateFunction396.java" />
         <option value="$PROJECT_DIR$/src/Graph/IsGraphBipartite785.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/LetterCasePermutation784.java" />
+        <option value="$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArrayII80.java" />
       </list>
     </option>
   </component>
@@ -235,7 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DFSandBFS" />
+              <option name="myItemId" value="Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -975,12 +985,12 @@
       <workItem from="1518749379337" duration="5520000" />
       <workItem from="1518820889226" duration="5536000" />
       <workItem from="1518919669129" duration="9446000" />
-      <workItem from="1518991188101" duration="8548000" />
+      <workItem from="1518991188101" duration="10762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263783000" />
+    <option name="totallyTimeSpent" value="265997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1033,20 +1043,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/DiameterOfBinaryTree543.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFSandBFS/FloodFill733.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MedianOfTwoSortedArrays4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-272">
@@ -1400,13 +1396,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArray26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFSandBFS/LetterCasePermutation784.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="898">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArrayII80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
