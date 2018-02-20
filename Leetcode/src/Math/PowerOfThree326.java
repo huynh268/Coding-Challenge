@@ -31,6 +31,6 @@ public class PowerOfThree326 {
      * @return
      */
     boolean isPowerOfThree2(int n) {
-        return (Math.log10(n) / Math.log10(3)) % 1 == 0?
+        return (Math.log10(n) / Math.log10(3)) % 1 == 0;
     }
 }
