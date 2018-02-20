@@ -54,8 +54,8 @@
       <file leaf-file-name="LetterCasePermutation784.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DFSandBFS/LetterCasePermutation784.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MajorityElement169.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MajorityElement169.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement169.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
@@ -71,6 +71,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerfectSquares279.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PerfectSquares279.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/List/LinkedListCycleII142.java" />
         <option value="$PROJECT_DIR$/src/Array/FindTheDuplicateNumber287.java" />
         <option value="$PROJECT_DIR$/src/Array/ThreeSumClosest16.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/JewelsAndStones771.java" />
@@ -154,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/ImportantProblems" />
         <option value="$PROJECT_DIR$/src/Array/MaximumAverageSubarrayI643.java" />
         <option value="$PROJECT_DIR$/src/Array/MajorityElement169.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/PerfectSquares279.java" />
       </list>
     </option>
   </component>
@@ -227,7 +237,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Array" />
+              <option name="myItemId" value="Math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamicProgramming" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -966,12 +994,12 @@
       <workItem from="1518820889226" duration="5536000" />
       <workItem from="1518919669129" duration="9446000" />
       <workItem from="1518991188101" duration="11672000" />
-      <workItem from="1519078256504" duration="6902000" />
+      <workItem from="1519078256504" duration="9858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273809000" />
+    <option name="totallyTimeSpent" value="276765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1024,13 +1052,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/InvertTree226.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="81" column="18" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/LongestPalindromicSubstring5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1308,24 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math/PowerOfFour342.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math/PowerOfThree326.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-          <folding>
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#719#720#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/PathSumII113.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1204">
@@ -1382,10 +1385,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/PowerOfThree326.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/PowerOfFour342.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFSandBFS/LetterCasePermutation784.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1399,6 +1421,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PerfectSquares279.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
