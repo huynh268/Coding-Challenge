@@ -17,7 +17,7 @@ import java.util.Arrays;
 public class ThreeSumClosest16 {
 
     /**
-     * O(n^n) Time complexity
+     * O(n^2) Time complexity
      * O(1) Space
      * @param nums
      * @param target
