@@ -60,5 +60,5 @@ public class SearchInsertPosition35 {
         }
         return nums.length;
     }
-    
+
 }
