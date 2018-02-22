@@ -61,11 +61,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeLevelOrderTraversalII107.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTreeLevelOrderTraversalII107.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversalII107.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeLevelOrderTraversal102.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversal102.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/GlobalAndLocalInversions775.java" />
         <option value="$PROJECT_DIR$/src/Array/ShortestCompletingWord748.java" />
         <option value="$PROJECT_DIR$/src/SwimInRisingWater778.java" />
         <option value="$PROJECT_DIR$/src/Tree/TrimBinarySearchTree669.java" />
@@ -172,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/Tree/MaximumBinaryTree654.java" />
         <option value="$PROJECT_DIR$/src/Tree/ConstructStringFromBinaryTree606.java" />
         <option value="$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversalII107.java" />
+        <option value="$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversal102.java" />
       </list>
     </option>
   </component>
@@ -986,12 +998,12 @@
       <workItem from="1518991188101" duration="11672000" />
       <workItem from="1519078256504" duration="11467000" />
       <workItem from="1519175322682" duration="8652000" />
-      <workItem from="1519245577075" duration="5756000" />
+      <workItem from="1519245577075" duration="6325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292782000" />
+    <option name="totallyTimeSpent" value="293351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1044,13 +1056,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeTilt563.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="7" lean-forward="false" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/List/RemoveDuplicatesFromSortedList83.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
@@ -1419,6 +1424,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeLevelOrderTraversal102.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
