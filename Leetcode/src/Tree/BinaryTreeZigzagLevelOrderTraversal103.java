@@ -69,6 +69,7 @@ public class BinaryTreeZigzagLevelOrderTraversal103 {
                 size--;
             }
             ans.add(list);
+            i++;
         }
         return ans;
     }
