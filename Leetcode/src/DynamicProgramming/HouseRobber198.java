@@ -44,6 +44,6 @@ public class HouseRobber198 {
         for(int i = 1; i < nums.length; i++) {
             b = Math.max(a + nums[i], a = b);
         }
-        return Math.max(a,b);
+        return b;
     }
 }
