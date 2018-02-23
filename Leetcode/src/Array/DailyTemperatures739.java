@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Stack;
+
 /**
  * Created by Tien on 2/22/2018.
  *
@@ -21,7 +23,7 @@ public class DailyTemperatures739 {
      * @param temperatures
      * @return
      */
-    int[] dailyTemperatures(int[] temperatures) {
+    int[] dailyTemperatures1(int[] temperatures) {
         int n = temperatures.length;
         int[] ans = new int[n];
         for(int i = 0; i < n; i++) {
@@ -34,6 +36,25 @@ public class DailyTemperatures739 {
                     break;
                 }
             }
+        }
+        return ans;
+    }
+
+    /**
+     * Stack
+     * O(n) Time complexity
+     * O(n) Space
+     * @param temperatures
+     * @return
+     */
+    int[] dailyTemperatures2(int[] temperatures) {
+        int n = temperatures.length;
+        int[] ans = new int[n];
+        Stack<Integer> stack = new Stack<>();
+        for(int i = n-1; i >= 0; i--) {
+            while(!stack.isEmpty() && temperatures[i] >= temperatures[stack.peek()]) stack.pop();
+            ans[i] = stack.isEmpty() ? 0 : stack.peek() - i;
+            stack.push(i);
         }
         return ans;
     }
