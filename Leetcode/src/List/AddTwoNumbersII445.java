@@ -91,7 +91,7 @@ public class AddTwoNumbersII445 {
         Stack<ListNode> stack2 = new Stack<>();
 
         while(l1 != null) {
-            stack1.push((l1);
+            stack1.push(l1);
             l1 = l1.next;
         }
         while(l2 != null) {
