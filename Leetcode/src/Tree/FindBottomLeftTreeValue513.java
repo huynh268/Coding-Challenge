@@ -97,14 +97,15 @@ public class FindBottomLeftTreeValue513 {
      * @param root
      * @return
      */
+    int ans = 0;
+    int height = 0;
     int findBottomLeftValue3(TreeNode root) {
-        int ans = root.val;
-        int height = 0;
-        dfs(root, 1, height, ans);
+
+        dfs(root, 1);
         return ans;
     }
 
-    void dfs(TreeNode root, int depth, int height, int ans) {
+    void dfs(TreeNode root, int depth) {
         if(root == null) return;
 
         if(depth > height) {
@@ -112,7 +113,7 @@ public class FindBottomLeftTreeValue513 {
             height = depth;
         }
 
-        dfs(root.left, depth + 1, height, ans);
-        dfs(root.right, depth + 1, height, ans);
+        dfs(root.left, depth + 1);
+        dfs(root.right, depth + 1);
     }
 }

@@ -119,8 +119,8 @@
       <file leaf-file-name="FindBottomLeftTreeValue513.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree/FindBottomLeftTreeValue513.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+            <state relative-caret-position="745">
+              <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1018,12 +1018,12 @@
       <workItem from="1519524079944" duration="5181000" />
       <workItem from="1519685511844" duration="3352000" />
       <workItem from="1519719533391" duration="176000" />
-      <workItem from="1519959702390" duration="6313000" />
+      <workItem from="1519959702390" duration="7560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327981000" />
+    <option name="totallyTimeSpent" value="329228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1452,8 +1452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/FindBottomLeftTreeValue513.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+        <state relative-caret-position="745">
+          <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
