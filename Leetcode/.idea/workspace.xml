@@ -19,18 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindTheDuplicateNumber287.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/FindTheDuplicateNumber287.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ImportantProblems" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImportantProblems">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,11 +104,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindLargestValueInEachTreeRow572.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindLargestValueInEachTreeRow572.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/FindLargestValueInEachTreeRow572.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="88" column="83" lean-forward="false" selection-start-line="88" selection-start-column="83" selection-end-line="88" selection-end-column="83" />
+            <state relative-caret-position="286">
+              <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindBottomLeftTreeValue513.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/FindBottomLeftTreeValue513.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Math/PowerOfTwo231.java" />
         <option value="$PROJECT_DIR$/src/Math/PowerOfFour342.java" />
         <option value="$PROJECT_DIR$/src/Math/BaseSeven504.java" />
         <option value="$PROJECT_DIR$/src/Tree/SubtreeOfAnotherTree572.java" />
@@ -197,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/DFSandBFS/TargetSum494.java" />
         <option value="$PROJECT_DIR$/src/Tree/SumRootToLeafNumbers129.java" />
         <option value="$PROJECT_DIR$/src/Tree/FindLargestValueInEachTreeRow572.java" />
+        <option value="$PROJECT_DIR$/src/Tree/FindBottomLeftTreeValue513.java" />
       </list>
     </option>
   </component>
@@ -1018,12 +1018,12 @@
       <workItem from="1519524079944" duration="5181000" />
       <workItem from="1519685511844" duration="3352000" />
       <workItem from="1519719533391" duration="176000" />
-      <workItem from="1519959702390" duration="4564000" />
+      <workItem from="1519959702390" duration="6313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326232000" />
+    <option name="totallyTimeSpent" value="327981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1076,13 +1076,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Graph/FindRedundantConnection684.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArray26.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1449,8 +1442,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/FindLargestValueInEachTreeRow572.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="88" column="83" lean-forward="false" selection-start-line="88" selection-start-column="83" selection-end-line="88" selection-end-column="83" />
+        <state relative-caret-position="286">
+          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/FindBottomLeftTreeValue513.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
