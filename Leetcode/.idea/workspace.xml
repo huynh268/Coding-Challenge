@@ -53,16 +53,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestPalindromicSubstring5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LongestPalindromicSubstring5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="29" lean-forward="false" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RotatedDigits788.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RotatedDigits788.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumRootToLeafNumbers129.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SumRootToLeafNumbers129.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/SumRootToLeafNumbers129.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -121,6 +111,18 @@
               <folding>
                 <element signature="e#945#946#0" expanded="true" />
                 <element signature="e#980#981#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindLargestValueInEachTreeRow572.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/FindLargestValueInEachTreeRow572.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tree/ConvertBSTtoGreaterTree538.java" />
         <option value="$PROJECT_DIR$/src/Math/PowerOfTwo231.java" />
         <option value="$PROJECT_DIR$/src/Math/PowerOfFour342.java" />
         <option value="$PROJECT_DIR$/src/Math/BaseSeven504.java" />
@@ -195,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/Tree/MergeTwoBinaryTrees617.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/TargetSum494.java" />
         <option value="$PROJECT_DIR$/src/Tree/SumRootToLeafNumbers129.java" />
+        <option value="$PROJECT_DIR$/src/Tree/FindLargestValueInEachTreeRow572.java" />
       </list>
     </option>
   </component>
@@ -1016,12 +1018,12 @@
       <workItem from="1519524079944" duration="5181000" />
       <workItem from="1519685511844" duration="3352000" />
       <workItem from="1519719533391" duration="176000" />
-      <workItem from="1519959702390" duration="2937000" />
+      <workItem from="1519959702390" duration="3618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324605000" />
+    <option name="totallyTimeSpent" value="325286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1074,13 +1076,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Graph/IsGraphBipartite785.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="134" column="118" lean-forward="true" selection-start-line="134" selection-start-column="118" selection-end-line="134" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/FindRedundantConnection684.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -1448,6 +1443,16 @@
           <folding>
             <element signature="e#945#946#0" expanded="true" />
             <element signature="e#980#981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/FindLargestValueInEachTreeRow572.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
