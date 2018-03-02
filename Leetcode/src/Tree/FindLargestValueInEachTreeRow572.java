@@ -42,7 +42,7 @@ public class FindLargestValueInEachTreeRow572 {
      * @param root
      * @return
      */
-    List<Integer> largestValues(TreeNode root) {
+    List<Integer> largestValues1(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         if(root == null) return ans;
 
@@ -63,5 +63,34 @@ public class FindLargestValueInEachTreeRow572 {
         }
 
         return ans;
+    }
+
+    /**
+     * DFS - Recursive
+     * O(n) Time complexity
+     * O(n) Space
+     * @param root
+     * @return
+     */
+    List<Integer> largestValues2(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        if(root == null) return ans;
+        dfs(root, 0, ans);
+        return ans;
+    }
+
+    void dfs(TreeNode root, int depth, List<Integer> ans) {
+        if(root == null) return;
+
+        //Expand the list - Move to the next level of the tree
+        if(depth == ans.size()) {
+            ans.add(root.val);
+        } else {
+            //Check the current max value of level-depth and the current node value
+            ans.set(depth, Math.max(ans.get(depth), root.val));
+        }
+
+        dfs(root.left, depth + 1, ans);
+        dfs(root.right, depth + 1, ans);
     }
 }
