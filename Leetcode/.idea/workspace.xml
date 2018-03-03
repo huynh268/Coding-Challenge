@@ -49,11 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeRightSideView199.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTreeRightSideView199.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeRightSideView199.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="524">
               <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RansomNote383.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/RansomNote383.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -77,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Math/BaseSeven504.java" />
         <option value="$PROJECT_DIR$/src/Tree/SubtreeOfAnotherTree572.java" />
         <option value="$PROJECT_DIR$/src/Math/MinimumMovesToEqualArrayElements453.java" />
         <option value="$PROJECT_DIR$/src/Math/MinimumMovesToEqualArrayElementsII462.java" />
@@ -128,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/Tree/FindLargestValueInEachTreeRow572.java" />
         <option value="$PROJECT_DIR$/src/Tree/FindBottomLeftTreeValue513.java" />
         <option value="$PROJECT_DIR$/src/Tree/BinaryTreeRightSideView199.java" />
+        <option value="$PROJECT_DIR$/src/String/RansomNote383.java" />
       </list>
     </option>
   </component>
@@ -200,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tree" />
+              <option name="myItemId" value="String" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -950,12 +960,12 @@
       <workItem from="1519685511844" duration="3352000" />
       <workItem from="1519719533391" duration="176000" />
       <workItem from="1519959702390" duration="7560000" />
-      <workItem from="1520052387874" duration="1403000" />
+      <workItem from="1520052387874" duration="2288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330631000" />
+    <option name="totallyTimeSpent" value="331516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1008,13 +1018,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArrayII80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/PathSum112.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -1304,7 +1307,7 @@
         <state relative-caret-position="711">
           <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1314,7 +1317,7 @@
         <state relative-caret-position="286">
           <caret line="67" column="7" lean-forward="false" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1379,6 +1382,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/RansomNote383.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="26" />
           <folding />
         </state>
       </provider>
