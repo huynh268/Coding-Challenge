@@ -49,11 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberOfSubarraysWithBoundedMaximum795.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumberOfSubarraysWithBoundedMaximum795.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/NumberOfSubarraysWithBoundedMaximum795.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberOfMatchingSubsequences792.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/NumberOfMatchingSubsequences792.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="77" lean-forward="false" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -77,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Math/MinimumMovesToEqualArrayElements453.java" />
         <option value="$PROJECT_DIR$/src/Math/MinimumMovesToEqualArrayElementsII462.java" />
         <option value="$PROJECT_DIR$/src/Array/ThirdMaximumNumber414.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/FourSum18.java" />
@@ -128,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/Tree/BinaryTreeRightSideView199.java" />
         <option value="$PROJECT_DIR$/src/String/RansomNote383.java" />
         <option value="$PROJECT_DIR$/src/Array/NumberOfSubarraysWithBoundedMaximum795.java" />
+        <option value="$PROJECT_DIR$/src/Array/NumberOfMatchingSubsequences792.java" />
       </list>
     </option>
   </component>
@@ -951,12 +961,12 @@
       <workItem from="1519719533391" duration="176000" />
       <workItem from="1519959702390" duration="7560000" />
       <workItem from="1520052387874" duration="2886000" />
-      <workItem from="1520123891013" duration="1274000" />
+      <workItem from="1520123891013" duration="1306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333388000" />
+    <option name="totallyTimeSpent" value="333420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1009,13 +1019,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/FindModeInBinarySearchTree501.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="96" column="30" lean-forward="true" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MaximumAverageSubarrayI643.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
@@ -1376,7 +1379,15 @@
     <entry file="file://$PROJECT_DIR$/src/Array/NumberOfSubarraysWithBoundedMaximum795.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/NumberOfMatchingSubsequences792.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="77" lean-forward="false" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
           <folding />
         </state>
       </provider>

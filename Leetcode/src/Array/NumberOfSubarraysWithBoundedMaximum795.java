@@ -24,6 +24,6 @@ package Array;
 public class NumberOfSubarraysWithBoundedMaximum795 {
 
     int numSubarrayBoundedMax(int[] A, int L, int R) {
-        
+
     }
 }
