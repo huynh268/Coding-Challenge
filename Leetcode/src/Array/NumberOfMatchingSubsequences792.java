@@ -21,4 +21,39 @@ package Array;
  The length of words[i] will be in the range of [1, 50].
  */
 public class NumberOfMatchingSubsequences792 {
+
+    /**
+     * O(n^2) Time complexity
+     * O(1) Space
+     * @param S
+     * @param words
+     * @return
+     */
+    public int numMatchingSubseq(String S, String[] words) {
+        int count = 0;
+        for(int i = 0; i < words.length; i++) {
+            if(isSubseq(S, words[i])) count++;
+        }
+        return count;
+    }
+
+    /**
+     * O(m + n) Time complexity, m = a.length() and n = b.length()
+     * O(1) Space
+     * @param a
+     * @param b
+     * @return
+     */
+    private boolean isSubseq(String a, String b) {
+        int i = 0, j = 0;
+        while(i < a.length() && j < b.length()) {
+            if(a.charAt(i) == b.charAt(j)) {
+                i++;
+                j++;
+            } else {
+                i++;
+            }
+        }
+        return j == b.length();
+    }
 }
