@@ -33,13 +33,26 @@ public class SumOfLeftLeaves404 {
      */
 
     /**
+     * O(n) Time complexity
+     * O(n) Time complexity
+     * @param root
+     * @return
+     */
+    int sumOfLeftLeaves1(TreeNode root) {
+        if(root == null) return 0;
+        int sum = 0;
+        if(root.left != null && root.left.left == null && root.left.right == null) sum += root.left.val;
+        sum += sumOfLeftLeaves1(root.left) + sumOfLeftLeaves1(root.right);
+        return sum;
+    }
+    /**
      * BFS
      * O(n) Time complexity
      * O(n) Space
      * @param root
      * @return
      */
-    int sumOfLeftLeaves1(TreeNode root) {
+    int sumOfLeftLeaves2(TreeNode root) {
         int sum = 0;
         if(root == null) return sum;
         Queue<TreeNode> queue = new LinkedList<>();
@@ -62,7 +75,7 @@ public class SumOfLeftLeaves404 {
      * @param root
      * @return
      */
-    int sumOfLeftLeaves2(TreeNode root) {
+    int sumOfLeftLeaves3(TreeNode root) {
         int sum = 0;
         if(root == null) return sum;
         Stack<TreeNode> stack = new Stack<>();

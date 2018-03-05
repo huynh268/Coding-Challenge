@@ -65,8 +65,8 @@
       <file leaf-file-name="SumOfLeftLeaves404.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree/SumOfLeftLeaves404.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            <state relative-caret-position="405">
+              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -968,12 +968,12 @@
       <workItem from="1520052387874" duration="2886000" />
       <workItem from="1520123891013" duration="2743000" />
       <workItem from="1520142723384" duration="16000" />
-      <workItem from="1520200516961" duration="1457000" />
+      <workItem from="1520200516961" duration="1967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336330000" />
+    <option name="totallyTimeSpent" value="336840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1386,8 +1386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/SumOfLeftLeaves404.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        <state relative-caret-position="405">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
