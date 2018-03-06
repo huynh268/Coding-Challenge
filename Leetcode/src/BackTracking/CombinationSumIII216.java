@@ -32,11 +32,12 @@ public class CombinationSumIII216 {
      */
     List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> ans = new ArrayList<>();
-        dfs(k, n, 1, new ArrayList<>(); ans);
+        dfs(k, n, 1, new ArrayList<>(), ans);
         return ans;
     }
 
     void dfs(int k, int n, int start, List<Integer> list, List<List<Integer>> ans) {
+        if(n < 0) return;
         if(list.size() == k) {
             if(n == 0) ans.add(new ArrayList<>(list));
             return;
