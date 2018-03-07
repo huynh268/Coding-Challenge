@@ -6,6 +6,8 @@ import java.util.List;
 /**
  * Created by Tien on 12/30/2017.
  *
+ * https://leetcode.com/problems/permutations/description/
+ *
  * Given a collection of distinct numbers, return all possible permutations.
 
  For example,
@@ -21,13 +23,19 @@ import java.util.List;
  */
 public class Permutations46 {
 
-    List<List<Integer>> permute(int[] nums) {
+    /**
+     * O(n!) Time complexity
+     * O(n!) Space
+     * @param nums
+     * @return
+     */
+    List<List<Integer>> permute1(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        dfs(nums, new ArrayList<>(), result);
+        dfs1(nums, new ArrayList<>(), result);
         return result;
     }
 
-    void dfs(int[] nums, List<Integer> list, List<List<Integer>> result) {
+    void dfs1(int[] nums, List<Integer> list, List<List<Integer>> result) {
         if (list.size() == nums.length)
             result.add(new ArrayList<>(list));
 
@@ -35,8 +43,35 @@ public class Permutations46 {
             if(list.contains(nums[i]))
                 continue;
             list.add(nums[i]);
-            dfs(nums, list, result);
+            dfs1(nums, list, result);
             list.remove(list.size()-1);
+        }
+    }
+
+    /**
+     * O(n!) Time complexity
+     * O(n!) Space
+     * @param nums
+     * @return
+     */
+    List<List<Integer>> permute2(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
+        dfs2(nums, new boolean[nums.length], new ArrayList<>(), ans);
+        return ans;
+    }
+
+    void dfs2(int[] nums, boolean[] visited, List<Integer> list, List<List<Integer>> ans) {
+        if(list.size() == nums.length) {
+            ans.add(new ArrayList<>(list));
+        }
+
+        for(int i = 0; i < nums.length; i++) {
+            if(visited[i]) continue;
+            list.add(nums[i]);
+            visited[i] = true;
+            dfs2(nums, visited, list, ans);
+            list.remove(list.size() - 1);
+            visited[i] = false;
         }
     }
 }
