@@ -1,6 +1,7 @@
 package BackTracking;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -27,7 +28,7 @@ public class LetterCombinationsOfaPhoneNumber17 {
      * @param digits
      * @return
      */
-    List<String> letterCombinations(String digits) {
+    List<String> letterCombinations1(String digits) {
         List<String> ans = new ArrayList<>();
         if(digits.length() == 0) return ans;
         backtracking(digits, "", 0, ans);
@@ -43,5 +44,29 @@ public class LetterCombinationsOfaPhoneNumber17 {
         for(int i = 0; i < letters.length(); i++) {
             backtracking(digits, prefix + letters.charAt(i), key + 1, ans);
         }
+    }
+
+    /**
+     * Using LinkedList - FIFO
+     * O(a^n) Time comeplity
+     * O(a^n) Space
+     * @param digits
+     * @return
+     */
+    List<String> letterCombinations2(String digits) {
+        LinkedList<String> ans = new LinkedList<String>();
+        if(digits == null || digits.length() == 0) return ans;
+        ans.add("");
+        for(int i = 0; i < digits.length(); i++) {
+            int key = digits.charAt(i) - '0';
+            while(ans.peek().length() == i) {
+                String tmp = ans.remove();
+                for(char c : keys[key].toCharArray()) {
+                    ans.add(tmp + c);
+                }
+            }
+        }
+
+        return ans;
     }
 }

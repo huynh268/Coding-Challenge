@@ -87,10 +87,11 @@
       <file leaf-file-name="LetterCombinationsOfaPhoneNumber17.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BackTracking/LetterCombinationsOfaPhoneNumber17.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="473">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1708#1716#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1011,15 +1012,15 @@
       <workItem from="1520200516961" duration="2517000" />
       <workItem from="1520309478076" duration="3700000" />
       <workItem from="1520391010129" duration="2511000" />
-      <workItem from="1520481802456" duration="2477000" />
+      <workItem from="1520481802456" duration="3461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="346078000" />
+    <option name="totallyTimeSpent" value="347062000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1439,10 +1440,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackTracking/LetterCombinationsOfaPhoneNumber17.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="473">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1708#1716#0" expanded="true" />
           </folding>
         </state>
       </provider>
