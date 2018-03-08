@@ -18,11 +18,15 @@ import java.util.List;
  */
 public class LetterCombinationsOfaPhoneNumber17 {
 
+    private static final String[] keys = new String[] {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+
     /**
      * Backtracking
-     *
+     * O(a^n) Time complexity - a = number of letters that each key can generate
+     * O(a^n) Space
+     * @param digits
+     * @return
      */
-    String[] keys = new String[] {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
     List<String> letterCombinations(String digits) {
         List<String> ans = new ArrayList<>();
         if(digits.length() == 0) return ans;

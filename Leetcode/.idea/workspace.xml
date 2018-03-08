@@ -87,8 +87,8 @@
       <file leaf-file-name="LetterCombinationsOfaPhoneNumber17.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BackTracking/LetterCombinationsOfaPhoneNumber17.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="408">
+              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1011,12 +1011,12 @@
       <workItem from="1520200516961" duration="2517000" />
       <workItem from="1520309478076" duration="3700000" />
       <workItem from="1520391010129" duration="2511000" />
-      <workItem from="1520481802456" duration="2269000" />
+      <workItem from="1520481802456" duration="2477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345870000" />
+    <option name="totallyTimeSpent" value="346078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1439,8 +1439,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackTracking/LetterCombinationsOfaPhoneNumber17.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="408">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
