@@ -1,5 +1,7 @@
 package Tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 import java.util.HashSet;
 
@@ -42,25 +44,68 @@ public class TwoSumIV653 {
      */
 
     /**
+     * DFS + HashSet
      * O(n) Time complexity
      * O(n) Space
      * @param root
      * @param k
      * @return
      */
-    boolean findTarget(TreeNode root, int k) {
+    boolean findTarget1(TreeNode root, int k) {
         HashSet<Integer> hashSet = new HashSet<>();
-        Stack<TreeNode> s = new Stack<>();
-        s.push(root);
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
 
-        while(!s.isEmpty()) {
-            root = s.pop();
+        while(!stack.isEmpty()) {
+            root = stack.pop();
             if(hashSet.contains(root.val)) return true;
             hashSet.add(k - root.val);
-            if(root.left != null) s.push(root.left);
-            if(root.right != null) s.push(root.right);
+            if(root.left != null) stack.push(root.left);
+            if(root.right != null) stack.push(root.right);
         }
         return false;
     }
-    
+
+    /**
+     * DFS Recursive + HashSet
+     * O(n) Time complexity
+     * O(n) Space
+     * @param root
+     * @param k
+     * @return
+     */
+    boolean findTarget2(TreeNode root, int k) {
+        HashSet<Integer> hashSet = new HashSet<>();
+        return dfs(root, k, hashSet);
+    }
+
+    boolean dfs(TreeNode root, int k, HashSet<Integer> hashSet) {
+        if(root == null) return false;
+        if(hashSet.contains(root.val)) return true;
+        hashSet.add(k - root.val);
+        return dfs(root.left, k, hashSet) || dfs(root.right, k, hashSet);
+    }
+
+    /**
+     * BFS + HashSet
+     * O(n) Time complexity
+     * O(n) Space
+     * @param root
+     * @param k
+     * @return
+     */
+    boolean findTarget3(TreeNode root, int k) {
+        HashSet<Integer> hashSet = new HashSet<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while(!queue.isEmpty()) {
+            root = queue.poll();
+            if(hashSet.contains(root.val)) return true;
+            hashSet.add(k - root.val);
+            if(root.left != null) queue.offer(root.left);
+            if(root.right != null) queue.offer(root.right);
+        }
+        return false;
+    }
 }
