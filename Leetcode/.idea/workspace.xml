@@ -49,11 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FriendCircles547.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FriendCircles547.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DFSandBFS/FriendCircles547.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
               <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutOfBoundaryPaths576.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DFSandBFS/OutOfBoundaryPaths576.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -87,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/MajorityElement169.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/PerfectSquares279.java" />
         <option value="$PROJECT_DIR$/src/Array/ThreeSumClosest16.java" />
         <option value="$PROJECT_DIR$/src/Array/FourSumII454.java" />
@@ -138,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/String/PermutationInString567.java" />
         <option value="$PROJECT_DIR$/src/Array/O1Matrix542.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/FriendCircles547.java" />
+        <option value="$PROJECT_DIR$/src/DFSandBFS/OutOfBoundaryPaths576.java" />
       </list>
     </option>
   </component>
@@ -969,15 +979,15 @@
       <workItem from="1520481802456" duration="4052000" />
       <workItem from="1520553778806" duration="4760000" />
       <workItem from="1520645248094" duration="3408000" />
-      <workItem from="1520724419515" duration="165000" />
+      <workItem from="1520724419515" duration="832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355986000" />
+    <option name="totallyTimeSpent" value="356653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1027,13 +1037,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/ConstructStringFromBinaryTree606.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/AverageOfLevelsInBinaryTree637.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -1389,6 +1392,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFSandBFS/OutOfBoundaryPaths576.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>
