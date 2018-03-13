@@ -1,7 +1,6 @@
 package Graph;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Tien on 3/11/2018.
@@ -28,8 +27,12 @@ import java.util.List;
  */
 public class AllPathsFromSourceToTarget797 {
 
-    
-    public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
+    /**
+     * Backtracking - DFS - Recursive
+     * @param graph
+     * @return
+     */
+    public List<List<Integer>> allPathsSourceTarget1(int[][] graph) {
         List<List<Integer>> ans = new ArrayList<>();
         if(graph == null || graph.length == 0) return ans;
 
@@ -51,5 +54,63 @@ public class AllPathsFromSourceToTarget797 {
             dfs(graph, i, path, ans);
             path.remove(path.size()-1);
         }
+    }
+
+    /**
+     * BFS
+     * @param graph
+     * @return
+     */
+    public List<List<Integer>> allPathsSourceTarget2(int[][] graph) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if(graph == null || graph.length == 0) return ans;
+
+        Queue<List<Integer>> queue = new LinkedList<>();
+        queue.offer(Arrays.asList(0));
+
+        while(!queue.isEmpty()) {
+            List<Integer> currentPath = queue.poll();
+            int previousNode = currentPath.get(currentPath.size() - 1);
+            if(previousNode == graph.length - 1) {
+                ans.add(currentPath);
+            }
+
+            for(int i : graph[previousNode]) {
+                List<Integer> tmp = new ArrayList<>(currentPath);
+                tmp.add(i);
+                queue.offer(tmp);
+            }
+        }
+
+        return ans;
+    }
+
+    /**
+     * DFS - Iterative
+     * @param graph
+     * @return
+     */
+    public List<List<Integer>> allPathsSourceTarget3(int[][] graph) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if(graph == null || graph.length == 0) return ans;
+
+        Stack<List<Integer>> stack = new Stack<>();
+        stack.push(Arrays.asList(0));
+
+        while(!stack.isEmpty()) {
+            List<Integer> currentPath = stack.pop();
+            int previousNode = currentPath.get(currentPath.size() - 1);
+            if(previousNode == graph.length - 1) {
+                ans.add(currentPath);
+            }
+
+            for(int i : graph[previousNode]) {
+                List<Integer> tmp = new ArrayList<>(currentPath);
+                tmp.add(i);
+                stack.push(tmp);
+            }
+        }
+
+        return ans;
     }
 }
