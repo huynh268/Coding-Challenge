@@ -1,5 +1,6 @@
 package Graph;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -27,7 +28,28 @@ import java.util.List;
  */
 public class AllPathsFromSourceToTarget797 {
 
+    
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if(graph == null || graph.length == 0) return ans;
 
+        List<Integer> path = new ArrayList<>();
+        path.add(0);
+        dfs(graph, 0, path, ans);
+
+        return ans;
+    }
+
+    private void dfs(int[][] graph, int node, List<Integer> path, List<List<Integer>> ans) {
+        if(node == graph.length) {
+            ans.add(new ArrayList<>(path));
+            return;
+        }
+
+        for(int i : graph[node]) {
+            path.add(i);
+            dfs(graph, i, path, ans);
+            path.remove(path.size()-1);
+        }
     }
 }
