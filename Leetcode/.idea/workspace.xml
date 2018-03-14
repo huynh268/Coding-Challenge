@@ -39,12 +39,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NQueens51.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NQueens51.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackTracking/NQueens51.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestoreIPAddresses93.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BackTracking/RestoreIPAddresses93.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/MinimumSizeSubarraySum209.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/MaximumLengthOfRepeatedSubarray718.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/PalindromicSubstrings647.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestPalindromicSubsequence516.java" />
@@ -148,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/Graph/AllPathsFromSourceToTarget797.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/WordSearch79.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/NQueens51.java" />
+        <option value="$PROJECT_DIR$/src/BackTracking/RestoreIPAddresses93.java" />
       </list>
     </option>
   </component>
@@ -1000,12 +1012,12 @@
       <workItem from="1520724419515" duration="1430000" />
       <workItem from="1520825559059" duration="906000" />
       <workItem from="1520904110872" duration="3020000" />
-      <workItem from="1520998790898" duration="817000" />
+      <workItem from="1520998790898" duration="975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361994000" />
+    <option name="totallyTimeSpent" value="362152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1058,13 +1070,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/InorderTraversal94.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/DailyTemperatures739.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -1421,6 +1426,16 @@
         <state relative-caret-position="425">
           <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackTracking/RestoreIPAddresses93.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
