@@ -49,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestoreIPAddresses93.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RestoreIPAddresses93.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackTracking/RestoreIPAddresses93.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -57,6 +57,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortestUnsortedContinuousSubarray581.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/ShortestUnsortedContinuousSubarray581.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/MaximumLengthOfRepeatedSubarray718.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/PalindromicSubstrings647.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestPalindromicSubsequence516.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition35.java" />
@@ -160,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/BackTracking/WordSearch79.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/NQueens51.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/RestoreIPAddresses93.java" />
+        <option value="$PROJECT_DIR$/src/Array/ShortestUnsortedContinuousSubarray581.java" />
       </list>
     </option>
   </component>
@@ -251,7 +261,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BackTracking" />
+              <option name="myItemId" value="Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1012,12 +1022,12 @@
       <workItem from="1520724419515" duration="1430000" />
       <workItem from="1520825559059" duration="906000" />
       <workItem from="1520904110872" duration="3020000" />
-      <workItem from="1520998790898" duration="975000" />
+      <workItem from="1520998790898" duration="1259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362152000" />
+    <option name="totallyTimeSpent" value="362436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1070,13 +1080,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/DailyTemperatures739.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/PathSumII113.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
@@ -1436,6 +1439,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/ShortestUnsortedContinuousSubarray581.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
