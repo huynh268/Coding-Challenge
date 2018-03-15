@@ -59,21 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShortestUnsortedContinuousSubarray581.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShortestUnsortedContinuousSubarray581.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Array/ShortestUnsortedContinuousSubarray581.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveNthNodeFromEndOfList19.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/List/RemoveNthNodeFromEndOfList19.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="442">
+              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -176,8 +166,8 @@
         <option value="$PROJECT_DIR$/src/BackTracking/WordSearch79.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/NQueens51.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/RestoreIPAddresses93.java" />
-        <option value="$PROJECT_DIR$/src/Array/ShortestUnsortedContinuousSubarray581.java" />
         <option value="$PROJECT_DIR$/src/List/RemoveNthNodeFromEndOfList19.java" />
+        <option value="$PROJECT_DIR$/src/Array/ShortestUnsortedContinuousSubarray581.java" />
       </list>
     </option>
   </component>
@@ -1013,15 +1003,15 @@
       <workItem from="1520825559059" duration="906000" />
       <workItem from="1520904110872" duration="3020000" />
       <workItem from="1520998790898" duration="1434000" />
-      <workItem from="1521083171864" duration="1215000" />
+      <workItem from="1521083171864" duration="2779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="363826000" />
+    <option name="totallyTimeSpent" value="365390000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1421,18 +1411,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/ShortestUnsortedContinuousSubarray581.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/List/RemoveNthNodeFromEndOfList19.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/ShortestUnsortedContinuousSubarray581.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding />
         </state>
       </provider>

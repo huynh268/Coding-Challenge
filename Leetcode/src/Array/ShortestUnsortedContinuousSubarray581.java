@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Arrays;
+
 /**
  * Created by Tien on 3/13/2018.
  *
@@ -20,7 +22,22 @@ package Array;
 
  */
 public class ShortestUnsortedContinuousSubarray581 {
-    public int findUnsortedSubarray(int[] nums) {
 
+    /**
+     * Sorting
+     * O(nlogn) Time complexity
+     * O(n)Space
+     * @param nums
+     * @return
+     */
+    public int findUnsortedSubarray(int[] nums) {
+        int[] sortedNums = nums.clone();
+        Arrays.sort(sortedNums);
+
+        int start = 0, end = nums.length-1;
+        while(start < nums.length && nums[start] == sortedNums[start]) start++;
+        while(end > start && nums[end] == sortedNums[end]) end--;
+
+        return end - start + 1;
     }
 }
