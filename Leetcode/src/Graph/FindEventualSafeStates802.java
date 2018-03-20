@@ -32,10 +32,40 @@ import java.util.List;
  */
 public class FindEventualSafeStates802 {
 
+    /**
+     * DFS
+     * O(N + E) Time complexity
+     * O(N) Space
+     *
+     * color 0 = not visited yet, 1 = safe, 2 = unsafe
+     * Visit each node and label it with 2 then check all of its connected nodes, if all of its connected nodes are safe then it is safe.
+     *
+     * @param graph
+     * @return
+     */
     public List<Integer> eventualSafeNodes(int[][] graph) {
         List<Integer> ans = new ArrayList<>();
-
+        int[] color = new int[graph.length];
+        for(int i = 0; i < graph.length; i++) {
+            if(dfs(graph, color, i)) ans.add(i);
+        }
 
         return ans;
+    }
+
+    private boolean dfs(int[][] graph, int[] color, int node) {
+
+        //If node was visited, then just check if it is safe
+        if(color[node] != 0) return color[node] == 1;
+
+        //Otherwise, label it as unsafe and then check all of its edges
+        color[node] = 2;
+        for(int nextNode : graph[node]) {
+            if(!dfs(graph, color, nextNode)) return false;
+        }
+
+        //If node connects to all safe nodes, then it is a safe node, so relabel it as safe = 1
+        color[node] = 1;
+        return true;
     }
 }
