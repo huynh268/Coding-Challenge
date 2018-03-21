@@ -29,11 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteNodeInBST450.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeleteNodeInBST450.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/DeleteNodeInBST450.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="796">
               <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestUnivaluePath687.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/LongestUnivaluePath687.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -93,16 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimilarRGBColor800.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/String/SimilarRGBColor800.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OutOfBoundaryPaths576.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DFSandBFS/OutOfBoundaryPaths576.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/DailyTemperatures739.java" />
         <option value="$PROJECT_DIR$/src/Array/RotateArray189.java" />
         <option value="$PROJECT_DIR$/src/List/RotateList61.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/MinimumPathSum64.java" />
@@ -194,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/Graph/MinimumHeightTrees310.java" />
         <option value="$PROJECT_DIR$/src/Graph/ReconstructItinerary332.java" />
         <option value="$PROJECT_DIR$/src/Tree/DeleteNodeInBST450.java" />
+        <option value="$PROJECT_DIR$/src/Tree/LongestUnivaluePath687.java" />
       </list>
     </option>
   </component>
@@ -1035,12 +1035,12 @@
       <workItem from="1521343879500" duration="559000" />
       <workItem from="1521424024630" duration="1511000" />
       <workItem from="1521512954141" duration="2439000" />
-      <workItem from="1521595065499" duration="1310000" />
+      <workItem from="1521595065499" duration="1495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="374641000" />
+    <option name="totallyTimeSpent" value="374826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1093,13 +1093,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubsequence300.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/FindBottomLeftTreeValue513.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
@@ -1463,6 +1456,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="796">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/LongestUnivaluePath687.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding />
         </state>
       </provider>
