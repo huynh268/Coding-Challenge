@@ -21,7 +21,35 @@ public class RemoveDuplicatesFromSortedListII82 {
      * }
      */
 
+    /**
+     * Two Pointers
+     * O(N) Time complexity
+     * O(1) Space
+     * @param head
+     * @return
+     */
     public ListNode deleteDuplicates(ListNode head) {
-        
+        if(head == null || head.next == null) return head;
+
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode fastPointer = head;
+        ListNode slowPointer = dummy;
+
+        while(fastPointer != null) {
+            while(fastPointer.next != null && fastPointer.val == fastPointer.next.val) {
+                fastPointer = fastPointer.next;
+            }
+
+            if(slowPointer.next != fastPointer) {
+                slowPointer.next = fastPointer.next;
+                fastPointer = slowPointer.next;
+            } else {
+                slowPointer = slowPointer.next;
+                fastPointer = fastPointer.next;
+            }
+        }
+
+        return dummy.next;
     }
 }
