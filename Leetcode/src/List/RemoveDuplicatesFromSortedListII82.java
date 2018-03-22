@@ -22,13 +22,14 @@ public class RemoveDuplicatesFromSortedListII82 {
      */
 
     /**
+     * Iterative
      * Two Pointers
      * O(N) Time complexity
      * O(1) Space
      * @param head
      * @return
      */
-    public ListNode deleteDuplicates(ListNode head) {
+    public ListNode deleteDuplicates1(ListNode head) {
         if(head == null || head.next == null) return head;
 
         ListNode dummy = new ListNode(0);
@@ -51,5 +52,25 @@ public class RemoveDuplicatesFromSortedListII82 {
         }
 
         return dummy.next;
+    }
+
+    /**
+     * Recursive
+     * O(N) Time complexity
+     * O(N) Space
+     * @param head
+     * @return
+     */
+    public ListNode deleteDuplicates2(ListNode head) {
+        if(head == null || head.next == null) return head;
+        if(head.next != null && head.val == head.next.val) {
+            while(head.next != null && head.val == head.next.val) {
+                head = head.next;
+            }
+            return deleteDuplicates2(head.next);
+        } else {
+            head.next = deleteDuplicates2(head.next);
+            return head;
+        }
     }
 }
