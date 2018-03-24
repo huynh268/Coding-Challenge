@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseNodesInKGroup25.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseNodesInKGroup25.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/List/ReverseNodesInKGroup25.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -95,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumHeightTrees310.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Graph/MinimumHeightTrees310.java">
+      <file leaf-file-name="InsertionSortList147.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/List/InsertionSortList147.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="255">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -143,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubsequence300.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestContinuousIncreasingSubsequence674.java" />
         <option value="$PROJECT_DIR$/src/List/AddTwoNumbersII445.java" />
         <option value="$PROJECT_DIR$/src/Tree/MergeTwoBinaryTrees617.java" />
@@ -194,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/List/SwapNodesInPairs24.java" />
         <option value="$PROJECT_DIR$/src/List/ReverseNodesInGroup25.java" />
         <option value="$PROJECT_DIR$/src/List/ReverseNodesInKGroup25.java" />
+        <option value="$PROJECT_DIR$/src/List/InsertionSortList147.java" />
       </list>
     </option>
   </component>
@@ -1036,12 +1036,12 @@
       <workItem from="1521595065499" duration="2407000" />
       <workItem from="1521688232270" duration="2631000" />
       <workItem from="1521744177734" duration="2447000" />
-      <workItem from="1521860441566" duration="396000" />
+      <workItem from="1521860441566" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381212000" />
+    <option name="totallyTimeSpent" value="381376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1094,13 +1094,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RotatedDigits788.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/RansomNote383.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1465,6 +1458,14 @@
             <element signature="e#963#964#0" expanded="true" />
             <element signature="e#990#991#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List/InsertionSortList147.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
