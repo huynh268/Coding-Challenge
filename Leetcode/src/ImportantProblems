@@ -6,6 +6,7 @@ List    - LinkedListCycle141 - Floy's Cycle Detection
         - ReverseLinkedList206
         - LinkedListCycleII142
         - RemoveDuplicatesFromSortedList83
+        - SortList148
 
 Tree    - InorderTraversal94
         - PostorderTraversal145
