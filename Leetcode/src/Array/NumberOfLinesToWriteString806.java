@@ -43,7 +43,27 @@ package Array;
  widths[i] will be in the range of [2, 10].
  */
 public class NumberOfLinesToWriteString806 {
-    public int[] numberOfLines(int[] widths, String S) {
 
+    /**
+     * O(S.length()) Time complexity
+     * O(1) Space
+     * @param widths
+     * @param S
+     * @return
+     */
+    public int[] numberOfLines(int[] widths, String S) {
+        int lines = 0;
+        int length = 0;
+
+        for(char c : S.toCharArray()) {
+            if(length + widths[c - 'a'] <= 100) {
+                length += widths[c-'a'];
+            } else {
+                length = widths[c-'a'];
+                lines++;
+            }
+        }
+
+        return new int[] {lines, length};
     }
 }
