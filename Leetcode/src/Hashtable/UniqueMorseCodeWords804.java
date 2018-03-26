@@ -1,5 +1,7 @@
 package Hashtable;
 
+import java.util.HashSet;
+
 /**
  * Created by Tien on 3/24/2018.
  *
@@ -35,7 +37,27 @@ package Hashtable;
  words[i] will only consist of lowercase letters.
  */
 public class UniqueMorseCodeWords804 {
-    public int uniqueMorseRepresentations(String[] words) {
 
+    /**
+     * O(total length of all words) Time complexity
+     * O(words.length) Space
+     * @param words
+     * @return
+     */
+    public int uniqueMorseRepresentations(String[] words) {
+        String[] codes = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..",
+                "--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
+
+        HashSet<String> hashSet = new HashSet<>();
+
+        for(String word : words) {
+            StringBuilder sb = new StringBuilder();
+            for(char c : word.toCharArray()) {
+                sb.append(codes[c - 'a']);
+            }
+            hashSet.add(sb.toString());
+        }
+
+        return hashSet.size();
     }
 }
