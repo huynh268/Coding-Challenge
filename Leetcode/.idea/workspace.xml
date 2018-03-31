@@ -39,16 +39,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwapNodesInPairs24.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/List/SwapNodesInPairs24.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReverseNodesInKGroup25.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/List/ReverseNodesInKGroup25.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,11 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestCommonPrefix14.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestCommonPrefix14.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/LongestCommonPrefix14.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringCompression443.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/StringCompression443.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="746">
+              <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -140,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tree/SumOfLeftLeaves404.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/Combinations77.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/CombinationSumIII216.java" />
         <option value="$PROJECT_DIR$/src/Math/CountNumbersWithUniqueDigits357.java" />
@@ -191,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/Heaters475.java" />
         <option value="$PROJECT_DIR$/src/String/RepeatedSubstringPattern459.java" />
         <option value="$PROJECT_DIR$/src/String/LongestCommonPrefix14.java" />
+        <option value="$PROJECT_DIR$/src/String/StringCompression443.java" />
       </list>
     </option>
   </component>
@@ -1047,12 +1047,12 @@
       <workItem from="1522195430579" duration="593000" />
       <workItem from="1522209660458" duration="879000" />
       <workItem from="1522380985557" duration="1003000" />
-      <workItem from="1522465561886" duration="1061000" />
+      <workItem from="1522465561886" duration="1527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390732000" />
+    <option name="totallyTimeSpent" value="391198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1105,13 +1105,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/MoveZeroes283.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/List/RemoveLinkedListElements203.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1472,6 +1465,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/StringCompression443.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding />
         </state>
       </provider>
