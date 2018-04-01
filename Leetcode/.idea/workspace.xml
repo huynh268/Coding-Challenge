@@ -29,16 +29,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestUnivaluePath687.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tree/LongestUnivaluePath687.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReverseNodesInKGroup25.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/List/ReverseNodesInKGroup25.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubdomainVisitCount811.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SubdomainVisitCount811.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SubdomainVisitCount811.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="731">
               <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpressiveWords809.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ExpressiveWords809.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BackTracking/CombinationSumIII216.java" />
         <option value="$PROJECT_DIR$/src/Math/CountNumbersWithUniqueDigits357.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/Permutations46.java" />
         <option value="$PROJECT_DIR$/src/Array/NextGreaterElementI496.java" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/String/LongestCommonPrefix14.java" />
         <option value="$PROJECT_DIR$/src/String/StringCompression443.java" />
         <option value="$PROJECT_DIR$/src/SubdomainVisitCount811.java" />
+        <option value="$PROJECT_DIR$/src/ExpressiveWords809.java" />
       </list>
     </option>
   </component>
@@ -1027,15 +1027,15 @@
       <workItem from="1522209660458" duration="879000" />
       <workItem from="1522380985557" duration="1003000" />
       <workItem from="1522465561886" duration="1757000" />
-      <workItem from="1522547595563" duration="664000" />
+      <workItem from="1522547595563" duration="833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392092000" />
+    <option name="totallyTimeSpent" value="392261000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1085,13 +1085,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/NextGreaterElementI496.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/IsAnagram242.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1449,6 +1442,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExpressiveWords809.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
