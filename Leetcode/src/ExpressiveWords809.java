@@ -1,7 +1,7 @@
 /**
  * Created by Tien on 3/31/2018.
  *
- * https://leetcode.com/contest/weekly-contest-78/problems/expressive-words/
+ * https://leetcode.com/problems/expressive-words/description/
  *
  * Sometimes people repeat letters to represent extra feeling, such as "hello" -> "heeellooo", "hi" -> "hiiii".
  * Here, we have groups, of adjacent letters that are all the same character, and adjacent characters to the group are different.
