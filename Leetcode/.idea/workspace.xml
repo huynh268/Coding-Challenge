@@ -82,8 +82,8 @@
       <file leaf-file-name="IsomorphicStrings205.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Hashtable/IsomorphicStrings205.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state relative-caret-position="559">
+              <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -1052,12 +1052,12 @@
       <workItem from="1522806879184" duration="1775000" />
       <workItem from="1522882286601" duration="7000" />
       <workItem from="1522891577891" duration="2424000" />
-      <workItem from="1522985187078" duration="1580000" />
+      <workItem from="1522985187078" duration="2063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="399785000" />
+    <option name="totallyTimeSpent" value="400268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1473,8 +1473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Hashtable/IsomorphicStrings205.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        <state relative-caret-position="559">
+          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
           <folding />
         </state>
       </provider>

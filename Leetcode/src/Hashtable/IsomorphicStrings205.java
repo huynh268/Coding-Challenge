@@ -25,7 +25,15 @@ import java.util.HashMap;
  You may assume both s and t have the same length.
  */
 public class IsomorphicStrings205 {
-    public boolean isIsomorphic(String s, String t) {
+
+    /**
+     * O(n) Time complexity
+     * O(n) Space
+     * @param s
+     * @param t
+     * @return
+     */
+    public boolean isIsomorphic1(String s, String t) {
         if(s.length() != t.length()) return false;
         char[] sc = s.toCharArray();
         char[] tc = t.toCharArray();
@@ -38,6 +46,24 @@ public class IsomorphicStrings205 {
             } else {
                 hm.put(sc[i], tc[i]);
             }
+        }
+        return true;
+    }
+
+    /**
+     * O(n) Time complexity
+     * O(n) Space
+     * @param s
+     * @param t
+     * @return
+     */
+    public boolean isIsomorphic2(String s, String t) {
+        int[] map1 = new int[256];
+        int[] map2 = new int[256];
+        for(int i = 0; i < s.length(); i++) {
+            if(map1[s.charAt(i)] != map2[t.charAt(i)]) return false;
+            map1[s.charAt(i)] = i+1;
+            map2[t.charAt(i)] = i+1;
         }
         return true;
     }
