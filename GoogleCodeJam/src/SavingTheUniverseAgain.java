@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created by Tien on 4/6/2018.
  *
@@ -85,12 +87,47 @@
  they still count as separate hacks.
  */
 public class SavingTheUniverseAgain {
-    public static int solve(int D, String P) {
+    public static int solve(int D, char[] P, int steps) {
+        if(sum(P) <= D) return steps;
+        if(steps == P.length) return -1;
+        for(int i = 0; i < P.length-1; i++) {
+            if(P[i] == 'C' && P[i+1] == 'S') {
+                swap(P, i);
+                steps++;
+                return solve(D, P, steps);
+            }
+        }
+        return -1;
+    }
 
-        return 0;
+    public static int sum(char[] P) {
+        int i = 1, ans = 0;
+        for(char c : P) {
+            if(c == 'C') i *= 2;
+            else ans += i;
+        }
+        return ans;
+    }
+
+    public static void swap(char[] P, int i) {
+        if(i < 0 || i == P.length-1)
+            System.out.println("Index out of bound!");
+        else {
+            char tmp = P[i];
+            P[i] = P[i+1];
+            P[i+1] = tmp;
+        }
     }
 
     public static void main(String[] args) {
-
+        Scanner input = new Scanner(System.in);
+        int T = input.nextInt();
+        for(int i = 1; i <= T; i++) {
+            int D = input.nextInt();
+            String P = input.next();
+            int ans = solve(D, P.toCharArray(), 0);
+            if(ans == -1) System.out.println("Case #" + i + ": IMPOSSIBLE");
+            else System.out.println("Case #" + i + ": " + ans);
+        }
     }
 }
