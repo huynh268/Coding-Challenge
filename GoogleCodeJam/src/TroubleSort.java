@@ -80,8 +80,20 @@ import java.util.Scanner;
  with the list 7 9 8. The 9 is the first value in the list that is larger than the next value, so the index of the first sorting error is 1.
  */
 public class TroubleSort {
-    public static int solve(int[] nums) {
-        return -1;
+    public static String solve(int[] nums) {
+        if(nums.length == 3) {
+            if(nums[1] >= nums[0] || nums[1] >= nums[2])
+                return "1";
+            return "OK";
+        } else {
+            for(int i = 0; i < nums.length - 3; i++) {
+                if(nums[1] > nums[2] && nums[1] > nums[0] && nums[1] <= nums[3]) {
+                    int index = i+1;
+                    return "" + index;
+                }
+            }
+            return "OK";
+        }
     }
 
     public static void main(String[] args) {
@@ -93,6 +105,8 @@ public class TroubleSort {
             for(int j = 0; j < n; j++) {
                 nums[j] = input.nextInt();
             }
+            for(int j : nums) System.out.print(j + " ");
+            System.out.print("Case #" + i + ": " + solve(nums));
         }
     }
 }
