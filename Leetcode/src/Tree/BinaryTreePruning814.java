@@ -39,7 +39,17 @@ public class BinaryTreePruning814 {
      * }
      */
 
+    /**
+     * Recursive
+     * O(n) Time complexity
+     * O(h) Space complexity - h is the height of the tree
+     * @param root
+     * @return
+     */
     public TreeNode pruneTree(TreeNode root) {
-
+        if(root == null) return root;
+        root.left = pruneTree(root.left);
+        root.right = pruneTree(root.right);
+        return root.left == null && root.right == null && root.val == 0 ? null : root;
     }
 }
