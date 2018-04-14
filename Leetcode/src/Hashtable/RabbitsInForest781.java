@@ -1,5 +1,7 @@
 package Hashtable;
 
+import java.util.HashMap;
+
 /**
  * Created by Tien on 4/12/2018.
  *
@@ -32,7 +34,22 @@ package Hashtable;
  */
 public class RabbitsInForest781 {
 
+    /**
+     * O(n) Time complexity
+     * O(n) Space
+     * @param answers
+     * @return
+     */
     public int numRabbits(int[] answers) {
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
+        for(int i : answers) {
+            hashMap.put(i, hashMap.getOrDefault(i, 0) + 1);
+        }
 
+        int ans = 0;
+        for(int i : hashMap.keySet()) {
+            ans += (hashMap.get(i) + i)/(i+1) * (i+1);
+        }
+        return ans;
     }
 }
