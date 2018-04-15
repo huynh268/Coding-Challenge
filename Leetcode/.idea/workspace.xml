@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RepeatedSubstringPattern459.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/String/RepeatedSubstringPattern459.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ExpressiveWords809.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExpressiveWords809.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RabbitsInForest781.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RabbitsInForest781.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hashtable/RabbitsInForest781.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
               <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MostCommonWord819.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Hashtable/MostCommonWord819.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/List/RemoveNthNodeFromEndOfList19.java" />
         <option value="$PROJECT_DIR$/src/Array/ShortestUnsortedContinuousSubarray581.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/DominoAndTrominoTiling790.java" />
         <option value="$PROJECT_DIR$/src/Graph/CheapestFlightsWithinKStops787.java" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/Tree/BinaryTreePruning814.java" />
         <option value="$PROJECT_DIR$/src/Tree/MaximumWidthOfBinaryTree662.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/RabbitsInForest781.java" />
+        <option value="$PROJECT_DIR$/src/Hashtable/MostCommonWord819.java" />
       </list>
     </option>
   </component>
@@ -216,9 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,6 +262,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1061,12 +1061,13 @@
       <workItem from="1523417654372" duration="1159000" />
       <workItem from="1523506456063" duration="1079000" />
       <workItem from="1523590369372" duration="810000" />
-      <workItem from="1523674753536" duration="897000" />
+      <workItem from="1523674753536" duration="926000" />
+      <workItem from="1523763265543" duration="109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="407784000" />
+    <option name="totallyTimeSpent" value="407922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1086,7 +1087,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21344087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2155914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1119,13 +1120,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/RestoreIPAddresses93.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/SimilarRGBColor800.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1482,6 +1476,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hashtable/MostCommonWord819.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding />
         </state>
       </provider>
