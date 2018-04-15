@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExpressiveWords809.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExpressiveWords809.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="62" lean-forward="false" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReverseBits190.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BitManipulation/ReverseBits190.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MostCommonWord819.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MostCommonWord819.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hashtable/MostCommonWord819.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
               <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListComponents817.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/List/LinkedListComponents817.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/ShortestUnsortedContinuousSubarray581.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/DominoAndTrominoTiling790.java" />
         <option value="$PROJECT_DIR$/src/Graph/CheapestFlightsWithinKStops787.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/WordSearch79.java" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/Tree/MaximumWidthOfBinaryTree662.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/RabbitsInForest781.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/MostCommonWord819.java" />
+        <option value="$PROJECT_DIR$/src/List/LinkedListComponents817.java" />
       </list>
     </option>
   </component>
@@ -256,7 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Hashtable" />
+              <option name="myItemId" value="List" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1062,12 +1062,12 @@
       <workItem from="1523506456063" duration="1079000" />
       <workItem from="1523590369372" duration="810000" />
       <workItem from="1523674753536" duration="926000" />
-      <workItem from="1523763265543" duration="109000" />
+      <workItem from="1523763265543" duration="686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="407922000" />
+    <option name="totallyTimeSpent" value="408499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1120,13 +1120,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/SimilarRGBColor800.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/JudgeRouteCircle657.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1484,6 +1477,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List/LinkedListComponents817.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding />
         </state>
       </provider>
