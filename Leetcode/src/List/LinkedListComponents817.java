@@ -1,5 +1,6 @@
 package List;
 
+import java.util.HashSet;
 /**
  * Created by Tien on 4/14/2018.
  *
@@ -41,7 +42,21 @@ public class LinkedListComponents817 {
      * }
      */
 
+    /**
+     * O(n) Time comeplexity
+     * O(n) Space
+     * @param head
+     * @param G
+     * @return
+     */
     public int numComponents(ListNode head, int[] G) {
-
+        HashSet<Integer> hashSet = new HashSet<>();
+        for(int i : G) hashSet.add(i);
+        int ans = 0;
+        while(head != null) {
+            if(hashSet.contains(head.val) && (head == null || !hashSet.contains(head.next.val))) ans++;
+            head = head.next;
+        }
+        return ans;
     }
 }
