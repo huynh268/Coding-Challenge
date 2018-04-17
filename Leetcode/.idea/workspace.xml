@@ -29,11 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CanPlaceFlowers605.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CanPlaceFlowers605.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/CanPlaceFlowers605.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NextPermutation31.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/NextPermutation31.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -107,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BackTracking/WordSearch79.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/WordSearchII212.java" />
         <option value="$PROJECT_DIR$/src/Array/MinimumSwapsToMakeSequencesIncreasing801.java" />
         <option value="$PROJECT_DIR$/src/String/SimilarRGBColor800.java" />
@@ -158,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/String/AmbiguousCoordinates816.java" />
         <option value="$PROJECT_DIR$/src/Tree/MaximumWidthOfBinaryTree662.java" />
         <option value="$PROJECT_DIR$/src/Array/CanPlaceFlowers605.java" />
+        <option value="$PROJECT_DIR$/src/Array/NextPermutation31.java" />
       </list>
     </option>
   </component>
@@ -1038,7 +1048,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="410491000" />
+    <option name="totallyTimeSpent" value="411054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1111,13 +1121,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/WordSearchII212.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFSandBFS/OutOfBoundaryPaths576.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1475,6 +1478,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/NextPermutation31.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
