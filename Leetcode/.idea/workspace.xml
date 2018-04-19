@@ -59,16 +59,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LargestTriangleArea812.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Math/LargestTriangleArea812.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LargestSumOfAverages813.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LargestSumOfAverages813.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidTriangleNumber611.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValidTriangleNumber611.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/ValidTriangleNumber611.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumSwap670.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/MaximumSwap670.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/String/JudgeRouteCircle657.java" />
         <option value="$PROJECT_DIR$/src/Graph/FindEventualSafeStates802.java" />
         <option value="$PROJECT_DIR$/src/Graph/CourseSchedule207.java" />
         <option value="$PROJECT_DIR$/src/Graph/MinimumHeightTrees310.java" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/Array/DegreeOfAnArray697.java" />
         <option value="$PROJECT_DIR$/src/Array/SubarraySumEqualsK560.java" />
         <option value="$PROJECT_DIR$/src/Array/ValidTriangleNumber611.java" />
+        <option value="$PROJECT_DIR$/src/Array/MaximumSwap670.java" />
       </list>
     </option>
   </component>
@@ -1065,12 +1065,12 @@
       <workItem from="1523763265543" duration="686000" />
       <workItem from="1523855517142" duration="1383000" />
       <workItem from="1524029541052" duration="2091000" />
-      <workItem from="1524109413533" duration="1499000" />
+      <workItem from="1524109413533" duration="2050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="414664000" />
+    <option name="totallyTimeSpent" value="415215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1123,13 +1123,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Graph/MinimumHeightTrees310.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MinimumSwapsToMakeSequencesIncreasing801.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1486,6 +1479,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/MaximumSwap670.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
