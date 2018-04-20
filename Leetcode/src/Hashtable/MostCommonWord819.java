@@ -1,5 +1,8 @@
 package Hashtable;
 
+import java.util.HashMap;
+import java.util.HashSet;
+
 /**
  * Created by Tien on 4/14/2018.
  *
@@ -35,7 +38,35 @@ package Hashtable;
  */
 public class MostCommonWord819 {
 
+    /**
+     * Hash table
+     * n = paragraph.length()
+     * m = banned.length()
+     * O(n + m) Time complexity
+     * O(n + m) Space complexity
+     * @param paragraph
+     * @param banned
+     * @return
+     */
     public String mostCommonWord(String paragraph, String[] banned) {
+        paragraph = paragraph.toLowerCase().replaceAll("[^a-zA-Z ]", "");
+        String[] words = paragraph.split("\\s+");
 
+        HashMap<String, Integer> hashMap = new HashMap<>();
+        HashSet<String> hashSet = new HashSet<>();
+
+        for(String word : banned) hashSet.add(word);
+
+        int maxCount = 0;
+        String ans = "";
+        for(String word : words) {
+            hashMap.put(word, hashMap.getOrDefault(word, 0) + 1);
+            if(hashMap.get(word) > maxCount && !hashSet.contains(word)) {
+                ans = word;
+                maxCount = hashMap.get(word);
+            }
+        }
+
+        return ans;
     }
 }
