@@ -111,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayNesting565.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Array/ArrayNesting565.java">
+      <file leaf-file-name="BestTimeToBuyAndSellStockWithTransactionFee714.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee714.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            <state relative-caret-position="578">
+              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -139,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Graph/CourseSchedule207.java" />
         <option value="$PROJECT_DIR$/src/Graph/MinimumHeightTrees310.java" />
         <option value="$PROJECT_DIR$/src/Graph/ReconstructItinerary332.java" />
         <option value="$PROJECT_DIR$/src/Tree/DeleteNodeInBST450.java" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/DynamicProgramming/LargestSumOfAverages813.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/MostCommonWord819.java" />
         <option value="$PROJECT_DIR$/src/Array/ArrayNesting565.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee714.java" />
       </list>
     </option>
   </component>
@@ -260,7 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Array" />
+              <option name="myItemId" value="DynamicProgramming" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1069,12 +1069,12 @@
       <workItem from="1524029541052" duration="2091000" />
       <workItem from="1524109413533" duration="2075000" />
       <workItem from="1524193023306" duration="3606000" />
-      <workItem from="1524254439684" duration="1846000" />
+      <workItem from="1524254439684" duration="2558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420692000" />
+    <option name="totallyTimeSpent" value="421404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1127,13 +1127,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Graph/ReconstructItinerary332.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BackTracking/NQueens51.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1479,6 +1472,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/ArrayNesting565.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hashtable/MostCommonWord819.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -1489,10 +1490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/ArrayNesting565.java">
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee714.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="578">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
