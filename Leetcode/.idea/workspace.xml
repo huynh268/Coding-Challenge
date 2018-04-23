@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ValidTriangleNumber611.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/ValidTriangleNumber611.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaximumSwap670.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/MaximumSwap670.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +101,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxChunksToMakeSorted769.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxChunksToMakeSorted769.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/MaxChunksToMakeSorted769.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
               <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RotateImage48.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/RotateImage48.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -139,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/List/ReorderList143.java" />
         <option value="$PROJECT_DIR$/src/List/SwapNodesInPairs24.java" />
         <option value="$PROJECT_DIR$/src/List/ReverseNodesInGroup25.java" />
         <option value="$PROJECT_DIR$/src/List/ReverseNodesInKGroup25.java" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/Hashtable/CardFlippingGame822.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/BinaryTreesWithFactors823.java" />
         <option value="$PROJECT_DIR$/src/Array/MaxChunksToMakeSorted769.java" />
+        <option value="$PROJECT_DIR$/src/Array/RotateImage48.java" />
       </list>
     </option>
   </component>
@@ -1071,12 +1071,12 @@
       <workItem from="1524193023306" duration="3606000" />
       <workItem from="1524254439684" duration="2990000" />
       <workItem from="1524366780887" duration="3774000" />
-      <workItem from="1524454928328" duration="1600000" />
+      <workItem from="1524454928328" duration="2877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427210000" />
+    <option name="totallyTimeSpent" value="428487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1129,13 +1129,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/NumberOfLinesToWriteString806.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hashtable/UniqueMorseCodeWords804.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -1495,6 +1488,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/RotateImage48.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding />
         </state>
       </provider>
