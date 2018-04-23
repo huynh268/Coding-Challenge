@@ -114,8 +114,8 @@
       <file leaf-file-name="MaxChunksToMakeSorted769.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Array/MaxChunksToMakeSorted769.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="440">
+              <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -1071,12 +1071,12 @@
       <workItem from="1524193023306" duration="3606000" />
       <workItem from="1524254439684" duration="2990000" />
       <workItem from="1524366780887" duration="3774000" />
-      <workItem from="1524454928328" duration="776000" />
+      <workItem from="1524454928328" duration="1600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426386000" />
+    <option name="totallyTimeSpent" value="427210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1493,8 +1493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MaxChunksToMakeSorted769.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="440">
+          <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
           <folding />
         </state>
       </provider>

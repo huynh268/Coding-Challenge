@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Arrays;
+
 /**
  * Created by Tien on 4/22/2018.
  *
@@ -29,6 +31,7 @@ package Array;
 public class MaxChunksToMakeSorted769 {
 
     /**
+     * Since arr[i] is a permutation of [0, 1, ..., arr.length - 1], we use the index of array for comparison.
      * O(n) Time complexity
      * O(1) Space
      * @param arr
@@ -41,6 +44,31 @@ public class MaxChunksToMakeSorted769 {
             max = Math.max(arr[i], max);
             if(max == i) ans++;
         }
+        return ans;
+    }
+
+    /**
+     * This solution works on the case which arr[i] is not a permutation of [0, 1, ..., arr.length - 1].
+     * arr[i] is a random number.
+     * O(nlogn) Time complexity
+     * O(n) Space
+     * @param arr
+     * @return
+     */
+    public int maxChunksToSorted2(int[] arr) {
+        int[] max = new int[arr.length];
+        int currentMax = 0;
+        for(int i = 0; i < arr.length; i++) {
+            currentMax = Math.max(currentMax, arr[i]);
+            max[i] = currentMax;
+        }
+
+        Arrays.sort(arr);
+        int ans = 0;
+        for(int i = 0; i < arr.length; i++) {
+            if(max[i] == arr[i]) ans++;
+        }
+
         return ans;
     }
 }
