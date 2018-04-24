@@ -33,7 +33,24 @@ public class SortColors75 {
         }
     }
 
+    /**
+     * 1-pass
+     * O(n) Time complexity
+     * O(1) Space
+     * @param nums
+     */
     public void sortColors2(int[] nums) {
-
+        int zero = 0, two = nums.length-1, index = 0;
+        while(index <= two) {
+            if(nums[index] == 0) {
+                nums[index] = nums[zero];
+                nums[zero++] = 0;
+            }
+            if(nums[index] == 2) {
+                nums[index--] = nums[two];
+                nums[two--] = 2;
+            }
+            index++;
+        }
     }
 }
