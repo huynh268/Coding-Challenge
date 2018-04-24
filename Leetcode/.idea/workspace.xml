@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaximumSwap670.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/MaximumSwap670.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MostCommonWord819.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hashtable/MostCommonWord819.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortColors75.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortColors75.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/SortColors75.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="53" column="9" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="372">
+              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WiggleSortII324.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/WiggleSortII324.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -141,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/List/SwapNodesInPairs24.java" />
         <option value="$PROJECT_DIR$/src/List/ReverseNodesInGroup25.java" />
         <option value="$PROJECT_DIR$/src/List/ReverseNodesInKGroup25.java" />
         <option value="$PROJECT_DIR$/src/List/InsertionSortList147.java" />
@@ -192,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/Array/MaxChunksToMakeSorted769.java" />
         <option value="$PROJECT_DIR$/src/Array/RotateImage48.java" />
         <option value="$PROJECT_DIR$/src/Array/SortColors75.java" />
+        <option value="$PROJECT_DIR$/src/Array/WiggleSortII324.java" />
       </list>
     </option>
   </component>
@@ -1074,12 +1074,12 @@
       <workItem from="1524254439684" duration="2990000" />
       <workItem from="1524366780887" duration="3774000" />
       <workItem from="1524454928328" duration="2899000" />
-      <workItem from="1524544992613" duration="1095000" />
+      <workItem from="1524544992613" duration="1406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="429604000" />
+    <option name="totallyTimeSpent" value="429915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1132,13 +1132,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Hashtable/UniqueMorseCodeWords804.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/List/RemoveDuplicatesFromSortedListII82.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -1498,8 +1491,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/SortColors75.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="372">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/WiggleSortII324.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
           <folding />
         </state>
       </provider>
