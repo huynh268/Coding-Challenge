@@ -1,5 +1,8 @@
 package Array;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by Tien on 4/25/2018.
  *
@@ -37,14 +40,34 @@ package Array;
  In calls to MyCalendar.book(start, end), start and end are integers in the range [0, 10^9].
  */
 public class MyCalendarII731 {
+
+    /**
+     * Brute force
+     * O(n^2) Time complexity
+     * O(n) Space
+     */
     class MyCalendarTwo {
+        List<int[]> events;
+        List<int[]> bookedEvents;
 
         public MyCalendarTwo() {
-
+            events = new ArrayList<>();
+            bookedEvents = new ArrayList<>();
         }
 
         public boolean book(int start, int end) {
+            //Check if the event is a double booking
+            for(int[] event : bookedEvents) {
+                if(event[0] < end && start < event[1]) return false;
+            }
 
+            for(int[] event : events) {
+                if(event[0] < end && start < event[1]) {
+                    bookedEvents.add(new int[] {Math.max(event[0], start), Math.min(event[1], end)});
+                }
+            }
+            events.add(new int[] {start, end});
+            return true;
         }
     }
 
