@@ -19,18 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MostCommonWord819.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Hashtable/MostCommonWord819.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="57" column="52" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BestTimeToBuyAndSellStockWithTransactionFee714.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee714.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyCalendarII731.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyCalendarII731.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/MyCalendarII731.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -115,16 +103,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SplitLinkedListInParts725.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/List/SplitLinkedListInParts725.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="797">
+              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MyCalendarI729.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/MyCalendarI729.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
+            <state relative-caret-position="680">
               <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1873#1874#0" expanded="true" />
-                <element signature="e#1923#1924#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/NumberOfLinesToWriteString806.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/UniqueMorseCodeWords804.java" />
         <option value="$PROJECT_DIR$/src/Array/MaxIncreaseToKeepCitySkyline807.java" />
         <option value="$PROJECT_DIR$/src/List/OddEvenLinkedList328.java" />
@@ -198,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/HeapStackQueue/BaseballGame682.java" />
         <option value="$PROJECT_DIR$/src/Array/MyCalendarI729.java" />
         <option value="$PROJECT_DIR$/src/Array/MyCalendarII731.java" />
+        <option value="$PROJECT_DIR$/src/List/SplitLinkedListInParts725.java" />
       </list>
     </option>
   </component>
@@ -268,25 +262,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HeapStackQueue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Array" />
+              <option name="myItemId" value="List" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1100,12 +1076,13 @@
       <workItem from="1524454928328" duration="2899000" />
       <workItem from="1524544992613" duration="2043000" />
       <workItem from="1524625892330" duration="2905000" />
-      <workItem from="1524715632427" duration="3425000" />
+      <workItem from="1524715632427" duration="3452000" />
+      <workItem from="1524797693011" duration="1375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="436882000" />
+    <option name="totallyTimeSpent" value="438284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1125,7 +1102,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23655914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2392473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1158,13 +1135,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/List/ReverseNodesInKGroup25.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/List/SortList148.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-291">
@@ -1494,9 +1464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="695">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1518,13 +1485,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MyCalendarI729.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="680">
           <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1923#1924#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1535,6 +1498,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List/SplitLinkedListInParts725.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
