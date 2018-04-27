@@ -1,5 +1,9 @@
 package DFSandBFS;
 
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
 /**
  * Created by Tien on 3/10/2018.
  *
@@ -43,7 +47,7 @@ public class FriendCircles547 {
      * @param M
      * @return
      */
-    public int findCircleNum(int[][] M) {
+    public int findCircleNum1(int[][] M) {
         int ans = 0;
         for(int i = 0; i < M.length; i++) {
             if(M[i][i] == 1) {
@@ -62,5 +66,71 @@ public class FriendCircles547 {
                 dfs(M, j);
             }
         }
+    }
+
+    /**
+     * Iterative - Stack
+     * O(n^2) Time complexity
+     * O(n) Space
+     * @param M
+     * @return
+     */
+    public int findCircleNum2(int[][] M) {
+        int ans = 0;
+        Stack<Integer> stack = new Stack<>();
+
+        for(int i = 0; i < M.length; i++) {
+            if(M[i][i] == 1) {
+                ans++;
+                stack.push(i);
+
+                while(!stack.isEmpty()) {
+                    int row = stack.pop();
+                    for(int j = 0; j < M.length; j++) {
+                        if(M[j][j] == 1 && M[row][j] == 1) {
+                            M[j][j] = 0;
+                            stack.push(j);
+                        }
+                    }
+                }
+
+                M[i][i] = 0;
+            }
+        }
+
+        return ans;
+    }
+
+    /**
+     * Iterative - Queue
+     * O(n^2) Time complexity
+     * O(n) Space
+     * @param M
+     * @return
+     */
+    public int findCircleNum3(int[][] M) {
+        int ans = 0;
+        Queue<Integer> queue = new LinkedList<>();
+
+        for (int i = 0; i < M.length; i++) {
+            if (M[i][i] == 1) {
+                ans++;
+                queue.offer(i);
+
+                while (!queue.isEmpty()) {
+                    int row = queue.poll();
+                    for (int j = 0; j < M.length; j++) {
+                        if (M[j][j] == 1 && M[row][j] == 1) {
+                            M[j][j] = 0;
+                            queue.offer(j);
+                        }
+                    }
+                }
+
+                M[i][i] = 0;
+            }
+        }
+
+        return ans;
     }
 }

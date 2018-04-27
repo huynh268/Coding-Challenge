@@ -42,9 +42,11 @@
       <file leaf-file-name="FriendCircles547.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DFSandBFS/FriendCircles547.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="270">
+              <caret line="106" column="17" lean-forward="false" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/List/SplitLinkedListInParts725.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="797">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1077,12 +1079,12 @@
       <workItem from="1524544992613" duration="2043000" />
       <workItem from="1524625892330" duration="2905000" />
       <workItem from="1524715632427" duration="3452000" />
-      <workItem from="1524797693011" duration="2350000" />
+      <workItem from="1524797693011" duration="3864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439259000" />
+    <option name="totallyTimeSpent" value="440773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1489,7 +1491,7 @@
     <entry file="file://$PROJECT_DIR$/src/List/SplitLinkedListInParts725.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="797">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1504,9 +1506,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DFSandBFS/FriendCircles547.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="106" column="17" lean-forward="false" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
