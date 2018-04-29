@@ -29,18 +29,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShortEncodingOfWords820.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Hashtable/ShortEncodingOfWords820.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CardFlippingGame822.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hashtable/CardFlippingGame822.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FriendsOfAppropriateAges825.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FriendsOfAppropriateAges825.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/FriendsOfAppropriateAges825.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MostProfitAssigningWork826.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MostProfitAssigningWork826.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -139,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinarySearch/Heaters475.java" />
         <option value="$PROJECT_DIR$/src/String/RepeatedSubstringPattern459.java" />
         <option value="$PROJECT_DIR$/src/String/LongestCommonPrefix14.java" />
         <option value="$PROJECT_DIR$/src/String/StringCompression443.java" />
@@ -190,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/String/IntegerToRoman12.java" />
         <option value="$PROJECT_DIR$/src/String/GoatLatin824.java" />
         <option value="$PROJECT_DIR$/src/Array/FriendsOfAppropriateAges825.java" />
+        <option value="$PROJECT_DIR$/src/MostProfitAssigningWork826.java" />
       </list>
     </option>
   </component>
@@ -244,24 +242,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1078,12 +1058,12 @@
       <workItem from="1524797693011" duration="4490000" />
       <workItem from="1524858748445" duration="1163000" />
       <workItem from="1524950380766" duration="2122000" />
-      <workItem from="1524974267719" duration="658000" />
+      <workItem from="1524974267719" duration="1037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445342000" />
+    <option name="totallyTimeSpent" value="445721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1136,13 +1116,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/StringCompression443.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SubdomainVisitCount811.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -1502,6 +1475,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MostProfitAssigningWork826.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
