@@ -50,8 +50,17 @@ package String;
  Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
  */
 public class IntegerToRoman12 {
+    private final int[] values = new int[] {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+    private final String[] symbols = new String[] {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
     public String intToRoman(int num) {
-
+        StringBuilder stringBuilder = new StringBuilder();
+        for(int i = 0; i < values.length; i++) {
+            while(num >= values[i]) {
+                stringBuilder.append(symbols[i]);
+                num -= values[i];
+            }
+        }
+        return stringBuilder.toString();
     }
 }
