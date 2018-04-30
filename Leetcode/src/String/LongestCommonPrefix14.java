@@ -24,7 +24,14 @@ package String;
 
  */
 public class LongestCommonPrefix14 {
-    public String longestCommonPrefix(String[] strs) {
+
+    /**
+     * O(sum length of words) Time complexity
+     * O(1) Space complexity
+     * @param strs
+     * @return
+     */
+    public String longestCommonPrefix1(String[] strs) {
         if(strs.length == 0) return "";
 
         String prefix = strs[0];
@@ -36,5 +43,26 @@ public class LongestCommonPrefix14 {
         }
 
         return prefix;
+    }
+
+    /**
+     * O(sum length of words) Time complexity
+     * O(1) Space complexity
+     * @param strs
+     * @return
+     */
+    public String longestCommonPrefix2(String[] strs) {
+        if(strs.length == 0) return "";
+
+        for(int i = 0; i < strs[0].length(); i++) {
+            char c = strs[0].charAt(i);
+            for(int j = 1; j  < strs.length; j++) {
+                if(i == strs[j].length() || c != strs[j].charAt(i)) {
+                    return strs[0].substring(0, i);
+                }
+            }
+        }
+
+        return strs[0];
     }
 }

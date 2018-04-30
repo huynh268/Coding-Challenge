@@ -52,8 +52,8 @@
       <file leaf-file-name="LongestCommonPrefix14.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/String/LongestCommonPrefix14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="661">
+              <caret line="52" column="7" lean-forward="false" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -1083,12 +1083,12 @@
       <workItem from="1524858748445" duration="1163000" />
       <workItem from="1524950380766" duration="2122000" />
       <workItem from="1524974267719" duration="1295000" />
-      <workItem from="1525027935873" duration="2457000" />
+      <workItem from="1525027935873" duration="3130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="448436000" />
+    <option name="totallyTimeSpent" value="449109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1510,8 +1510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/String/LongestCommonPrefix14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="661">
+          <caret line="52" column="7" lean-forward="false" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding />
         </state>
       </provider>
