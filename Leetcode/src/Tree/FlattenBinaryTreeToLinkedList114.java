@@ -39,7 +39,21 @@ public class FlattenBinaryTreeToLinkedList114 {
      * }
      */
 
-    public void flatten(TreeNode root) {
+    public void flatten1(TreeNode root) {
+        if(root == null) return;
 
+        TreeNode left = root.left;
+        TreeNode right = root.right;
+
+        flatten1(left);
+        flatten1(right);
+
+        root.left = null;
+        root.right = left;
+
+        TreeNode currentNode = root;
+        while(currentNode.right != null) currentNode = currentNode.right;
+
+        currentNode.right = right;
     }
 }
