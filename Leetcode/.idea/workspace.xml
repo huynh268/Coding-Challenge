@@ -69,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BestTimeToBuyAndSellStockII122.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BestTimeToBuyAndSellStockII122.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStockII122.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
               <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestTimeToBuyAndSellStockIII123.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStockIII123.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -127,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SubdomainVisitCount811.java" />
         <option value="$PROJECT_DIR$/src/Math/ChalkboardXORGame810.java" />
         <option value="$PROJECT_DIR$/src/Math/NthDigit400.java" />
         <option value="$PROJECT_DIR$/src/HeapStackQueue/MinStack155.java" />
@@ -178,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/String/ValidParenthesisString678.java" />
         <option value="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStock121.java" />
         <option value="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStockII122.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStockIII123.java" />
       </list>
     </option>
   </component>
@@ -246,7 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Array" />
+              <option name="myItemId" value="DynamicProgramming" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1068,12 +1078,12 @@
       <workItem from="1524950380766" duration="2122000" />
       <workItem from="1524974267719" duration="1295000" />
       <workItem from="1525027935873" duration="3662000" />
-      <workItem from="1525146674814" duration="1989000" />
+      <workItem from="1525146674814" duration="2173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="451630000" />
+    <option name="totallyTimeSpent" value="451814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1126,13 +1136,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/ConvertSortedListToBinarySearchTree109.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Math/NthDigit400.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1492,6 +1495,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStockIII123.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding />
         </state>
       </provider>
