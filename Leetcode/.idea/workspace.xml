@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubarraySumEqualsK560.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Array/SubarraySumEqualsK560.java">
+      <file leaf-file-name="ContinuousSubarraySum523.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/ContinuousSubarraySum523.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+            <state relative-caret-position="355">
+              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -127,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Math/ChalkboardXORGame810.java" />
         <option value="$PROJECT_DIR$/src/Math/NthDigit400.java" />
         <option value="$PROJECT_DIR$/src/HeapStackQueue/MinStack155.java" />
         <option value="$PROJECT_DIR$/src/Tree/ConvertSortedListToBinarySearchTree109.java" />
@@ -178,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/Array/BestTimeToBuyAndSellStockII122.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStockIII123.java" />
         <option value="$PROJECT_DIR$/src/Array/SubarraySumEqualsK560.java" />
+        <option value="$PROJECT_DIR$/src/Array/ContinuousSubarraySum523.java" />
       </list>
     </option>
   </component>
@@ -927,6 +927,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4b306ecb-7951-49a5-a402-ca05fdda0b0e" name="Default" comment="" />
@@ -1069,12 +1072,12 @@
       <workItem from="1524974267719" duration="1295000" />
       <workItem from="1525027935873" duration="3662000" />
       <workItem from="1525146674814" duration="2208000" />
-      <workItem from="1525228790088" duration="2625000" />
+      <workItem from="1525228790088" duration="3964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="454474000" />
+    <option name="totallyTimeSpent" value="455813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1127,13 +1130,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Math/NthDigit400.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/MinStack155.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -1480,6 +1476,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/SubarraySumEqualsK560.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/BinaryTreesWithFactors823.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1488,10 +1492,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/SubarraySumEqualsK560.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/ContinuousSubarraySum523.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        <state relative-caret-position="355">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>
