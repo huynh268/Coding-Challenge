@@ -49,11 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountAndSay38.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CountAndSay38.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/CountAndSay38.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
               <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidSudoku36.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/ValidSudoku36.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="763">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -109,16 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplitLinkedListInParts725.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/List/SplitLinkedListInParts725.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HeapStackQueue/MinStack155.java" />
         <option value="$PROJECT_DIR$/src/Tree/ConvertSortedListToBinarySearchTree109.java" />
         <option value="$PROJECT_DIR$/src/ExpressiveWords809.java" />
         <option value="$PROJECT_DIR$/src/BitManipulation/ReverseBits190.java" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/Array/SubarraySumEqualsK560.java" />
         <option value="$PROJECT_DIR$/src/Array/ContinuousSubarraySum523.java" />
         <option value="$PROJECT_DIR$/src/String/CountAndSay38.java" />
+        <option value="$PROJECT_DIR$/src/Array/ValidSudoku36.java" />
       </list>
     </option>
   </component>
@@ -257,7 +257,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="String" />
+              <option name="myItemId" value="Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1083,12 +1083,12 @@
       <workItem from="1525027935873" duration="3662000" />
       <workItem from="1525146674814" duration="2208000" />
       <workItem from="1525228790088" duration="3964000" />
-      <workItem from="1525324161097" duration="715000" />
+      <workItem from="1525324161097" duration="960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="456528000" />
+    <option name="totallyTimeSpent" value="456773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1141,13 +1141,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/RepeatedSubstringPattern459.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ExpressiveWords809.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1504,6 +1497,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/ValidSudoku36.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding />
         </state>
       </provider>
