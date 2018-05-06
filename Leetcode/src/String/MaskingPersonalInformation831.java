@@ -66,7 +66,7 @@ public class MaskingPersonalInformation831 {
      * @param S
      * @return
      */
-    public String maskPII(String S) {
+    public String maskPII1(String S) {
         int i = S.indexOf('@');
         S = S.toLowerCase();
         if(i >= 0) return maskEmail(S, i);
@@ -97,5 +97,32 @@ public class MaskingPersonalInformation831 {
         if(count == 13) ans.insert(0, "+***-***-***-");
 
         return ans.toString();
+    }
+
+    /**
+     * 
+     * @param S
+     * @return
+     */
+    public String maskPII2(String S) {
+        S = S.toLowerCase();
+        if(S.indexOf('@') >= 0) {
+            return S.charAt(0) + "*****" + S.substring(S.indexOf('@')-1);
+        } else {
+            int count = 0;
+            S = S.replaceAll("[^0-9]", "");
+            System.out.println(S);
+            StringBuilder ans = new StringBuilder();
+            for(int i = 0; i < S.length(); i++) {
+                if(S.charAt(i) >= '0' && S.charAt(i) <= '9') count++;
+            }
+            ans.append(S.substring(S.length() - 4));
+            if(count == 10) ans.insert(0, "***-***-");
+            if(count == 11) ans.insert(0, "+*-***-***-");
+            if(count == 12) ans.insert(0, "+**-***-***-");
+            if(count == 13) ans.insert(0, "+***-***-***-");
+
+            return ans.toString();
+        }
     }
 }
