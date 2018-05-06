@@ -69,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsecutiveNumbersSum829.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConsecutiveNumbersSum829.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Math/ConsecutiveNumbersSum829.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="610">
@@ -79,12 +79,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestCommonPrefix14.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/String/LongestCommonPrefix14.java">
+      <file leaf-file-name="MaskingPersonalInformation831.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/MaskingPersonalInformation831.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="7" lean-forward="false" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="341">
+              <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+              <folding>
+                <element signature="e#3015#3016#0" expanded="true" />
+                <element signature="e#3078#3079#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Hashtable/WordPattern290.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/IsomorphicStrings205.java" />
         <option value="$PROJECT_DIR$/src/Math/LargestTriangleArea812.java" />
         <option value="$PROJECT_DIR$/src/Tree/BinaryTreePruning814.java" />
@@ -188,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchForARange34.java" />
         <option value="$PROJECT_DIR$/src/Array/PositionsOfLargeGroups830.java" />
         <option value="$PROJECT_DIR$/src/Math/ConsecutiveNumbersSum829.java" />
+        <option value="$PROJECT_DIR$/src/String/MaskingPersonalInformation831.java" />
       </list>
     </option>
   </component>
@@ -256,7 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Math" />
+              <option name="myItemId" value="String" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1086,12 +1089,12 @@
       <workItem from="1525324161097" duration="982000" />
       <workItem from="1525403083902" duration="2876000" />
       <workItem from="1525469622562" duration="2055000" />
-      <workItem from="1525576404102" duration="2010000" />
+      <workItem from="1525576404102" duration="2838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="463736000" />
+    <option name="totallyTimeSpent" value="464564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1144,13 +1147,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/AmbiguousCoordinates816.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreePruning814.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
@@ -1512,6 +1508,17 @@
         <state relative-caret-position="610">
           <caret line="45" column="38" lean-forward="false" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/MaskingPersonalInformation831.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding>
+            <element signature="e#3015#3016#0" expanded="true" />
+            <element signature="e#3078#3079#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
