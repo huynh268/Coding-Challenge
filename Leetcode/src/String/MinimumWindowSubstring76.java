@@ -17,6 +17,6 @@ package String;
  */
 public class MinimumWindowSubstring76 {
     public String minWindow(String s, String t) {
-        
+
     }
 }

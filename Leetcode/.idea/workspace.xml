@@ -71,11 +71,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumWindowSubstring76.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinimumWindowSubstring76.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/MinimumWindowSubstring76.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloneGraph133.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Graph/CloneGraph133.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -129,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tree/BinaryTreePruning814.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/RabbitsInForest781.java" />
         <option value="$PROJECT_DIR$/src/List/LinkedListComponents817.java" />
         <option value="$PROJECT_DIR$/src/String/AmbiguousCoordinates816.java" />
@@ -180,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/String/MaskingPersonalInformation831.java" />
         <option value="$PROJECT_DIR$/src/String/UniqueLetterString828.java" />
         <option value="$PROJECT_DIR$/src/String/MinimumWindowSubstring76.java" />
+        <option value="$PROJECT_DIR$/src/Graph/CloneGraph133.java" />
       </list>
     </option>
   </component>
@@ -251,7 +261,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="String" />
+              <option name="myItemId" value="Graph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1079,12 +1089,12 @@
       <workItem from="1525403083902" duration="2876000" />
       <workItem from="1525469622562" duration="2055000" />
       <workItem from="1525576404102" duration="3630000" />
-      <workItem from="1525643510543" duration="1424000" />
+      <workItem from="1525643510543" duration="1781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="466780000" />
+    <option name="totallyTimeSpent" value="467137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -1137,13 +1147,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/List/LinkedListComponents817.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Math/ReverseInteger7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1503,7 +1506,15 @@
     <entry file="file://$PROJECT_DIR$/src/String/MinimumWindowSubstring76.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph/CloneGraph133.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding />
         </state>
       </provider>
