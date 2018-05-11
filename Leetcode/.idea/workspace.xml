@@ -31,8 +31,18 @@
       <file leaf-file-name="EvaluateReversePolishNotation150.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/EvaluateReversePolishNotation150.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state relative-caret-position="45">
+              <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicCalculator224.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/BasicCalculator224.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -56,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/CanPlaceFlowers605.java" />
         <option value="$PROJECT_DIR$/src/Array/NextPermutation31.java" />
         <option value="$PROJECT_DIR$/src/Math/ArrangingCoins441.java" />
         <option value="$PROJECT_DIR$/src/Array/DegreeOfAnArray697.java" />
@@ -106,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/Graph/UndirectedGraphNode.java" />
         <option value="$PROJECT_DIR$/src/SubstringWithConcatenationOfAllWords30.java" />
         <option value="$PROJECT_DIR$/src/List/CopyListWithRandomPointer138.java" />
+        <option value="$PROJECT_DIR$/src/HeapStackQueue/BasicCalculator224.java" />
         <option value="$PROJECT_DIR$/src/HeapStackQueue/EvaluateReversePolishNotation150.java" />
       </list>
     </option>
@@ -973,12 +983,12 @@
       <workItem from="1525753472785" duration="1337000" />
       <workItem from="1525817660913" duration="899000" />
       <workItem from="1525920049598" duration="508000" />
-      <workItem from="1526013051571" duration="411000" />
+      <workItem from="1526013051571" duration="561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470322000" />
+    <option name="totallyTimeSpent" value="470472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="6" />
@@ -1031,7 +1041,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/NextPermutation31.java" />
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LargestSumOfAverages813.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1142,10 +1151,18 @@
     <entry file="file://$PROJECT_DIR$/src/Graph/CloneGraph133.java" />
     <entry file="file://$PROJECT_DIR$/src/SubstringWithConcatenationOfAllWords30.java" />
     <entry file="file://$PROJECT_DIR$/src/List/CopyListWithRandomPointer138.java" />
+    <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/BasicCalculator224.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/EvaluateReversePolishNotation150.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="45">
+          <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
           <folding />
         </state>
       </provider>
