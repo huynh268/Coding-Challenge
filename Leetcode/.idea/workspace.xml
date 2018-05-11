@@ -31,8 +31,8 @@
       <file leaf-file-name="EvaluateReversePolishNotation150.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/EvaluateReversePolishNotation150.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="495">
+              <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -973,12 +973,12 @@
       <workItem from="1525753472785" duration="1337000" />
       <workItem from="1525817660913" duration="899000" />
       <workItem from="1525920049598" duration="508000" />
-      <workItem from="1526013051571" duration="252000" />
+      <workItem from="1526013051571" duration="411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470163000" />
+    <option name="totallyTimeSpent" value="470322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="6" />
@@ -1144,8 +1144,8 @@
     <entry file="file://$PROJECT_DIR$/src/List/CopyListWithRandomPointer138.java" />
     <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/EvaluateReversePolishNotation150.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="495">
+          <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding />
         </state>
       </provider>
