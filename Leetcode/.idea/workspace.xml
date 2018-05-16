@@ -79,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteOperationForTwoStrings583.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeleteOperationForTwoStrings583.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/DeleteOperationForTwoStrings583.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestHarmoniousSubsequence594.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/LongestHarmoniousSubsequence594.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -107,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Hashtable/MostCommonWord819.java" />
         <option value="$PROJECT_DIR$/src/Array/ArrayNesting565.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee714.java" />
         <option value="$PROJECT_DIR$/src/Array/ShortestDistanceToACharacter821.java" />
@@ -158,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/Hashtable/MinimumIndexSumOfTwoLists599.java" />
         <option value="$PROJECT_DIR$/src/Math/ValidSquare593.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/DeleteOperationForTwoStrings583.java" />
+        <option value="$PROJECT_DIR$/src/Array/LongestHarmoniousSubsequence594.java" />
       </list>
     </option>
   </component>
@@ -227,7 +237,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DynamicProgramming" />
+              <option name="myItemId" value="Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1066,15 +1076,15 @@
       <workItem from="1526268095351" duration="2277000" />
       <workItem from="1526358601059" duration="2957000" />
       <workItem from="1526408757060" duration="583000" />
-      <workItem from="1526450352214" duration="808000" />
+      <workItem from="1526450352214" duration="1258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="477977000" />
+    <option name="totallyTimeSpent" value="478427000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1124,7 +1134,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee714.java" />
     <entry file="file://$PROJECT_DIR$/src/Hashtable/ShortEncodingOfWords820.java" />
     <entry file="file://$PROJECT_DIR$/src/Hashtable/CardFlippingGame822.java" />
     <entry file="file://$PROJECT_DIR$/src/Array/RotateImage48.java" />
@@ -1322,6 +1331,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/LongestHarmoniousSubsequence594.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
