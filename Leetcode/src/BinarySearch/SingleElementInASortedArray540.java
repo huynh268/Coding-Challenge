@@ -21,7 +21,17 @@ package BinarySearch;
  */
 public class SingleElementInASortedArray540 {
 
-    public int singleNonDuplicate(int[] nums) {
-
+    /**
+     * O(n) Time complexity
+     * O(1) Space
+     * @param nums
+     * @return
+     */
+    public int singleNonDuplicate1(int[] nums) {
+        int ans = nums[0];
+        for(int i = 1; i < nums.length; i++) {
+            ans ^= nums[i];
+        }
+        return ans;
     }
 }
