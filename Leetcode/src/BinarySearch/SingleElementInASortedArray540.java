@@ -20,7 +20,7 @@ package BinarySearch;
 
  */
 public class SingleElementInASortedArray540 {
-    
+
     public int singleNonDuplicate(int[] nums) {
 
     }

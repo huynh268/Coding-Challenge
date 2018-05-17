@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.HashMap;
+
 /**
  * Created by Tien on 5/15/2018.
  *
@@ -19,7 +21,22 @@ package Array;
  */
 public class LongestHarmoniousSubsequence594 {
 
+    /**
+     * O(n) Time complexity
+     * O(n) Space
+     * @param nums
+     * @return
+     */
     public int findLHS(int[] nums) {
+        int ans = 0;
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
 
+        for(int i : nums) {
+            hashMap.put(i, hashMap.getOrDefault(i, 0) + 1);
+            if(hashMap.containsKey(i - 1)) ans = Math.max(ans, hashMap.get(i) + hashMap.get(i - 1));
+            if(hashMap.containsKey(i + 1)) ans = Math.max(ans, hashMap.get(i) + hashMap.get(i + 1));
+        }
+
+        return ans;
     }
 }
