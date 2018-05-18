@@ -25,6 +25,6 @@ package Array;
 public class JumpGame55 {
 
     public boolean canJump(int[] nums) {
-        
+
     }
 }
