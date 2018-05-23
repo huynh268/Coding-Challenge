@@ -49,15 +49,52 @@ public class LowestCommonAncestorOfBinarySearchTree235 {
      * @param q
      * @return
      */
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null || p == null || q == null) return null;
         if(root == p || root == q) return root;
 
-        TreeNode l = lowestCommonAncestor(root.left, p, q);
-        TreeNode r = lowestCommonAncestor(root.right,p, q);
+        TreeNode l = lowestCommonAncestor1(root.left, p, q);
+        TreeNode r = lowestCommonAncestor1(root.right,p, q);
 
         if(l == null) return r;
         if(r == null) return l;
+        return root;
+    }
+
+    /**
+     * O(n) Time complexity
+     * O(n) Space - Stack for recursion calls
+     * @param root
+     * @param p
+     * @param q
+     * @return
+     */
+    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+        if(root == null || p == null || q == null) return null;
+        if(root == p || root == q) return root;
+        TreeNode curNode = root;
+        while(curNode != null) {
+            if(curNode == p || curNode == q) return curNode;
+            if(curNode.val < p.val && curNode.val < q.val) curNode = curNode.right;
+            if(curNode.val >= p.val && curNode.val >= q.val) curNode = curNode.left;
+            else return curNode;
+        }
+        return curNode;
+    }
+
+    /**
+     * O(n) Time complexity
+     * O(n) Space - Stack for recursion calls
+     * @param root
+     * @param p
+     * @param q
+     * @return
+     */
+    public TreeNode lowestCommonAncestor3(TreeNode root, TreeNode p, TreeNode q) {
+        if(root == null || p == null || q == null) return null;
+        if(root == p || root == q) return root;
+        if(root.val < p.val && root.val < q.val) return lowestCommonAncestor3(root.right, p, q);
+        if(root.val >= p.val && root.val >= q.val) return lowestCommonAncestor3(root.left, p, q);
         return root;
     }
 }
