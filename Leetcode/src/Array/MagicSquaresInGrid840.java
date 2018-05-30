@@ -30,7 +30,41 @@ package Array;
 
  */
 public class MagicSquaresInGrid840 {
-    public int numMagicSquaresInside(int[][] grid) {
 
+    /**
+     * O(R*C) Time complexity
+     * O(1) Space
+     * @param grid
+     * @return
+     */
+    public int numMagicSquaresInside(int[][] grid) {
+        int count = 0;
+        for(int i = 0; i < grid.length-2; i++) {
+            for(int j = 0; j < grid[0].length-2; j++) {
+                if(check(grid, i, j)) {
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+
+    private boolean check(int[][] g, int i, int j) {
+        int[] count = new int[10];
+        for(int a = i; a < i+3; a++) {
+            for(int b = j; b < j+3; b++) {
+                if(g[a][b] > 9 || g[a][b] < 1) return false;
+                count[g[a][b]] ++;
+                if(count[g[a][b]] > 1) return false;
+            }
+        }
+
+        return g[i][j] + g[i][j+1] + g[i][j+2] == 15 &&
+                g[i+1][j] + g[i+1][j+1] + g[i+1][j+2] == 15 &&
+                g[i+2][j] + g[i+2][j+1] + g[i+2][j+2] == 15 &&
+                g[i][j] + g[i+1][j] + g[i+2][j] == 15 &&
+                g[i][j+1] + g[i+1][j+1] + g[i+2][j+1] == 15 &&
+                g[i][j] + g[i+1][j+1] + g[i+2][j+2] == 15 &&
+                g[i][j+2] + g[i+1][j+1] + g[i+2][j] == 15;
     }
 }
