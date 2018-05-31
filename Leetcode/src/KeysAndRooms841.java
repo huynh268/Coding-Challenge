@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.Stack;
+
 /**
  * https://leetcode.com/problems/keys-and-rooms/description/
  *
@@ -32,7 +35,37 @@
  */
 
 public class KeysAndRooms841 {
+
+    /**
+     * DFS - Stack
+     * O(V + E) Time complexity - V is the total vertices, and E is the total edges
+     * O(V) Space
+     * @param rooms
+     * @return
+     */
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
 
+        //Check if vertex is visited
+        boolean[] visited = new boolean[rooms.size()];
+        visited[0] = true; //Always start with 0
+
+        Stack<Integer> stack = new Stack<>();
+        stack.push(0); //Start with 0
+
+        while(!stack.isEmpty()) {
+            int vertex = stack.pop();
+            for(int neighbor : rooms.get(vertex)) {
+                if(!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    stack.push(neighbor);
+                }
+            }
+        }
+
+        for(boolean vertex : visited) { //Check if every vertex is visited
+            if(vertex) return false;
+        }
+
+        return true;
     }
 }
