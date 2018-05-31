@@ -1,4 +1,6 @@
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -43,7 +45,7 @@ public class KeysAndRooms841 {
      * @param rooms
      * @return
      */
-    public boolean canVisitAllRooms(List<List<Integer>> rooms) {
+    public boolean canVisitAllRooms1(List<List<Integer>> rooms) {
 
         //Check if vertex is visited
         boolean[] visited = new boolean[rooms.size()];
@@ -67,5 +69,62 @@ public class KeysAndRooms841 {
         }
 
         return true;
+    }
+
+    /**
+     * BFS
+     * @param rooms
+     * @return
+     */
+    public boolean canVisitAllRooms2(List<List<Integer>> rooms) {
+
+        //Check if vertex is visited
+        boolean[] visited = new boolean[rooms.size()];
+        visited[0] = true; //Always start with 0
+
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(0); //Start with 0
+
+        while(!queue.isEmpty()) {
+            int vertex = queue.poll();
+            for(int neighbor : rooms.get(vertex)) {
+                if(!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    queue.offer(neighbor);
+                }
+            }
+        }
+
+        for(boolean vertex : visited) { //Check if every vertex is visited
+            if(vertex) return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * DFS - Iterative
+     * @param rooms
+     * @return
+     */
+    public boolean canVisitAllRooms3(List<List<Integer>> rooms) {
+        boolean[] visited = new boolean[rooms.size()];
+        visited[0] = true;
+        dfs(rooms, visited, 0);
+
+        for(boolean v : visited) {
+            if(!v) return false;
+        }
+
+        return true;
+    }
+
+    private void dfs(List<List<Integer>> rooms, boolean[] visited, int v) {
+        for(int i : rooms.get(v)) {
+            if(!visited[i]) {
+                visited[i] = true;
+                dfs(rooms, visited, i);
+            }
+        }
     }
 }
