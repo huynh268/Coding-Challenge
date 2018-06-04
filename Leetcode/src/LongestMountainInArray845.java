@@ -12,7 +12,7 @@
  Given an array A of integers, return the length of the longest mountain.
 
  Return 0 if there is no mountain.
- 
+
 
  Example 1:
  Input: [2,1,4,7,3,2,5]
