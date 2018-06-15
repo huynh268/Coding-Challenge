@@ -26,6 +26,17 @@ package String;
  */
 public class ShiftingLetters848 {
     public String shiftingLetters(String S, int[] shifts) {
+        int sum = 0;
+        for(int i : shifts) {
+            sum = (sum + i)%26;
+        }
 
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < S.length(); i++) {
+            sb.append((char)((S.charAt(i) - 'a' + sum)%26 + 97));
+            sum = Math.floorMod(sum - shifts[i], 26);
+        }
+
+        return sb.toString();
     }
 }
