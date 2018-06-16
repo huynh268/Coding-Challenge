@@ -25,7 +25,15 @@ package String;
  0 <= shifts[i] <= 10 ^ 9
  */
 public class ShiftingLetters848 {
-    public String shiftingLetters(String S, int[] shifts) {
+
+    /**
+     * O(n) Time complexity
+     * O(N) Space
+     * @param S
+     * @param shifts
+     * @return
+     */
+    public String shiftingLetters1(String S, int[] shifts) {
         int sum = 0;
         for(int i : shifts) {
             sum = (sum + i)%26;
@@ -35,6 +43,27 @@ public class ShiftingLetters848 {
         for(int i = 0; i < S.length(); i++) {
             sb.append((char)((S.charAt(i) - 'a' + sum)%26 + 97));
             sum = Math.floorMod(sum - shifts[i], 26);
+        }
+
+        return sb.toString();
+    }
+
+    /**
+     * O(n) Time complexity
+     * O(N) Space
+     * @param S
+     * @param shifts
+     * @return
+     */
+    public String shiftingLetters2(String S, int[] shifts) {
+        for(int i = shifts.length-2; i >= 0; i--) {
+            shifts[i] = (shifts[i] + shifts[i+1])%26;
+        }
+
+        StringBuilder sb = new StringBuilder();
+
+        for(int i = 0; i < S.length(); i++) {
+            sb.append((char)((S.charAt(i) - 'a' + shifts[i])%26 + 'a'));
         }
 
         return sb.toString();
