@@ -36,4 +36,17 @@ public class PeakIndexInMountainArray852 {
         }
         return -1;
     }
+
+    public int peakIndexInMountainArray2(int[] A) {
+        int left = 0, right = A.length;
+        while(left < right) {
+            int middle = left + (right - left)/2;
+            if(A[middle] < A[middle+1]) {
+                left = middle+1;
+            } else {
+                right = middle;
+            }
+        }
+        return left;
+    }
 }
