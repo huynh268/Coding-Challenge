@@ -37,6 +37,13 @@ public class PeakIndexInMountainArray852 {
         return -1;
     }
 
+    /**
+     * Binary search
+     * O(logn) Time complexity
+     * O(1) Space
+     * @param A
+     * @return
+     */
     public int peakIndexInMountainArray2(int[] A) {
         int left = 0, right = A.length;
         while(left < right) {
