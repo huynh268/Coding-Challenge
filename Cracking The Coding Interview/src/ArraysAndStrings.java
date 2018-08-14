@@ -94,11 +94,104 @@ public class ArraysAndStrings {
         return c.toString();
     }
 
-    public void removeDuplicate(String s) {
-        if(s.isEmpty() || s.length() < 2) return;
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     *
+     * Design an algorithm and write code to remove the duplicate characters in a string without using any additional buffer.
+     * NOTE: One or two additional variables are fine. An extra copy of the array is not.
+     FOLLOW UP
+     Write the test cases for this method.
+     1- Empty string
+     2- String does not contain duplicate
+     3- String contains all duplicates
+     4- String with all continuous duplicates, e.g.: aaabbbb
+     5- String with non-contiguous duplicates, e.g.: abababa
+     * @param s
+     */
+    public void removeDuplicates1(char[] s) { // C-Style
+        if(s == null || s.length < 2) return;
 
+        int seen = 0;
+
+        for(int i = 0; i < s.length; i++) {
+            if((seen & (1 << s[i])) != 0) {
+                s[i] = '\0'; //null value
+            } else {
+                seen |= (1<<s[i]);
+            }
+        }
+    }
+
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     *
+     * Design an algorithm and write code to remove the duplicate characters in a string without using any additional buffer.
+     * NOTE: One or two additional variables are fine. An extra copy of the array is not.
+     FOLLOW UP
+     Write the test cases for this method.
+     * @param s
+     */
+    public String removeDuplicates2(String s) {
+        if(s.isEmpty() || s.length() < 2) return s;
+
+        int seen = 0;
         char[] c = s.toCharArray();
-        int check = 0;
-        
+
+        for(int i = 0; i < c.length; i++) {
+            if((seen & (1 << c[i])) > 0) {
+                c[i] = '\0';
+            } else {
+                seen |= (1 << c[i]);
+            }
+        }
+
+        return new String(c);
+    }
+
+
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     *
+     * Write a method to decide if two strings are anagrams or not.
+     * @param s
+     * @param t
+     * @return
+     */
+    public boolean anagram(String s, String t) {
+        if(s.length() != t.length()) return false;
+
+        int[] seen = new int[256];
+
+        for(int i = 0; i < s.length(); i++) {
+            seen[s.charAt(i)]++;
+        }
+
+        for(int i = 0; i < t.length(); i++) {
+            seen[t.charAt(i)]--;
+            if(seen[t.charAt(i)] < 0) return false;
+        }
+        return true;
+    }
+
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     *
+     * Write a method to replace all spaces in a string with ‘%20’.
+     * @param s
+     * @return
+     */
+    public String replaceSpace(String s) {
+        if(s.isEmpty()) return s;
+        StringBuilder sb = new StringBuilder();
+
+        for(int i = 0; i < s.length(); i++) {
+            if(s.charAt(i) != ' ') sb.append(s.charAt(i));
+            else sb.append("%20");
+        }
+        return sb.toString();
     }
 }
