@@ -195,9 +195,100 @@ public class ArraysAndStrings {
         return sb.toString();
     }
 
-    public void rotate(int[][] matrix) {
+    /**
+     * Time complexity: O(n^2)
+     * Space complexity: O(1)
+     *
+     * Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes,
+     * write a method to rotate the image by 90 degrees. Can you do this in place?
+     * @param matrix
+     */
+    public void rotate1(int[][] matrix) {
         int n = matrix.length;
+        int tmp;
 
-        for(int i = 0; i < )
+        //top -> left and right -> bottom
+        //swap diagonal
+        for(int i = 0; i < n; i ++) {
+            for(int j = i; j < n; j++) {
+                tmp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = tmp;
+            }
+        }
+
+        //left -> right
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n/2; j++) {
+                tmp = matrix[i][j];
+                matrix[i][j] = matrix[i][n-1-j];
+                matrix[i][n-1-j] = tmp;
+            }
+        }
+    }
+
+    /**
+     * Time complexity: O(n^2)
+     * Space complexity: O(1)
+     *
+     * Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes,
+     * write a method to rotate the image by 90 degrees. Can you do this in place?
+     * @param matrix
+     */
+    public void rotate2(int[][] matrix) {
+        int n = matrix.length;
+        int tmp;
+
+        for(int i = 0; i < n/2; i++) {
+            for(int j = i; j < n-1-i; j++) {
+                tmp = matrix[i][j]; //save top
+                matrix[i][j] = matrix[n-1-j][i]; //left -> top
+                matrix[n-1-j][i] = matrix[n-1-i][n-1-j]; //bottom -> left
+                matrix[n-1-i][n-1-j] = matrix[j][n-1-i]; //right -> bottom
+                matrix[j][n-1-i] = tmp; //saved top -> right
+            }
+        }
+    }
+
+    /**
+     * Time complexity: O(M*N)
+     * Space complexity: O(M + N)
+     *
+     * Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column is set to 0.
+     * @param matrix
+     */
+    public void setZeros(int[][] matrix) {
+        boolean[] row = new boolean[matrix.length];
+        boolean[] col = new boolean[matrix[0].length];
+
+        for(int i = 0; i < matrix.length; i++) {
+            for(int j = 0; i < matrix[0].length; j++) {
+                if(matrix[i][j] == 0) {
+                    row[i] = true;
+                    col[j] = true;
+                }
+            }
+        }
+
+        for(int i = 0; i < matrix.length; i++) {
+            for(int j = 0; j < matrix[0].length; j++) {
+                if(row[i] || col[j]) matrix[i][j] = 0;
+            }
+        }
+    }
+
+    /**
+     * Time complexity: O(m*n) where n and m are the length of the search string and pattern respectively.
+     * Space complexity: O(m)
+     *
+     * Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings, s1 and s2,
+     * write code to check if s2 is a rotation of s1 using only one call to isSubstring (i.e., “waterbottle” is a rotation of “erbottlewat”).
+     * @param s1
+     * @param s2
+     * @return
+     */
+    public boolean isRotation(String s1, String s2) {
+        String s = s1 + s1;
+        return s.indexOf(s2) >= 0;
     }
 }
