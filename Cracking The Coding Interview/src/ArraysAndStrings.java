@@ -194,4 +194,10 @@ public class ArraysAndStrings {
         }
         return sb.toString();
     }
+
+    public void rotate(int[][] matrix) {
+        int n = matrix.length;
+
+        for(int i = 0; i < )
+    }
 }
