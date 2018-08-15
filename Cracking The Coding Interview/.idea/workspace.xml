@@ -19,12 +19,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArraysAndStrings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArraysAndStrings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="281" column="29" lean-forward="false" selection-start-line="281" selection-start-column="29" selection-end-line="281" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedLists.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="661">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,6 +61,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/ArraysAndStrings1.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings.java" />
+        <option value="$PROJECT_DIR$/src/LinkedLists.java" />
       </list>
     </option>
   </component>
@@ -719,12 +733,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534202959146</updated>
       <workItem from="1534202974646" duration="8034000" />
-      <workItem from="1534303053328" duration="4862000" />
+      <workItem from="1534303053328" duration="6530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12896000" />
+    <option name="totallyTimeSpent" value="14564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -786,6 +800,17 @@
         <state relative-caret-position="525">
           <caret line="281" column="29" lean-forward="false" selection-start-line="281" selection-start-column="29" selection-end-line="281" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
