@@ -169,8 +169,8 @@ public class LinkedLists {
     }
 
     /**
-     * Time complexity:
-     * Space complexity:
+     * Time complexity: O(n)
+     * Space complexity: O(1)
      *
      * Given a circular linked list, implement an algorithm which returns node at the beginning of the loop.
      DEFINITION
@@ -181,14 +181,19 @@ public class LinkedLists {
      * @param head
      * @return
      */
-    public ListNode FindBeginning(ListNode head) {
+    public ListNode FindBeginning1(ListNode head) {
+        if(head == null || head.next == null) return null;
+
         ListNode p1 = head;
         ListNode p2 = head;
 
-        while(p1 != p2) {
+        while(p2.next != null) {
             p1 = p1.next;
             p2 = p2.next.next;
+            if(p1 == p2) break;
         }
+
+        if(p2.next == null) return null;
 
         p1 = head;
         while(p1 != p2) {
@@ -197,5 +202,33 @@ public class LinkedLists {
         }
 
         return p1;
+    }
+
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     *
+     * Given a circular linked list, implement an algorithm which returns node at the beginning of the loop.
+     DEFINITION
+     Circular linked list: A (corrupt) linked list in which a node’s next pointer points to an earlier node, so as to make a loop in the linked list.
+     EXAMPLE
+     Input: A -> B -> C -> D -> E -> C [the same C as earlier]
+     Output: C
+     * @param head
+     * @return
+     */
+    public ListNode FindBeginning2(ListNode head) {
+        if(head == null || head.next == null) return null;
+
+        HashSet<ListNode> hs = new HashSet<>();
+        ListNode cur = head;
+
+        while(cur.next != null) {
+            if(hs.contains(cur)) return cur;
+            hs.add(cur);
+            cur = cur.next;
+        }
+
+        return null;
     }
 }
