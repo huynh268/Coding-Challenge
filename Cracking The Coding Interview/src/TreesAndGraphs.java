@@ -240,4 +240,19 @@ public class TreesAndGraphs {
         if(r1 == null || r2 == null) return false;
         return r1 == r2 && isIdentical(r1.left, r2.left) && isIdentical(r1.right, r2.right);
     }
+
+    /**
+     * 4.8
+     *
+     * You are given a binary tree in which each node contains a value. Design an algorithm to print all
+     * paths which sum up to that value. Note that it can be any path in the tree - it does not have to start at the root.
+     * @param root
+     * @param sum
+     * @return
+     */
+    public List<List<TreeNode>> pathSum(TreeNode root, int sum) {
+
+    }
+
+    public List<List<TreeNode>> helper(TreeNode root,)
 }
