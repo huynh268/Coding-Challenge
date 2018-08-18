@@ -47,4 +47,55 @@ public class BitManipulation {
         allOnes |= ((1 << i) - 1);
         return (n & allOnes) | (m << i);
     }
+
+    /**
+     * 5.4
+     *
+     * Explain what the following code does: ((n & (n-1)) == 0).
+     * n       = 1000000 is a power of 2
+     * n-1     = 0111111
+     * n&(n-1) = 0000000
+     *
+     * @param n
+     * @return
+     */
+    public boolean isPowerOf2(int n) {
+        return (n & (n-1)) == 0;
+    }
+
+    /**
+     * 5.5
+     *
+     * Write a function to determine the number of bits required to convert integer A to integer B.
+     Input: 31, 14
+     Output: 2
+     * @param a
+     * @param b
+     * @return
+     */
+    public int bitSwapRequired(int a, int b) {
+        int count = 0;
+        for(int xor = a^b; xor > 0; xor >>= 1) {
+            count += (xor & 1);
+        }
+        return count;
+    }
+
+    /**
+     * 5.6
+     *
+     * Write a program to swap odd and even bits in an integer with as few instructions as possible (e.g., bit 0 and bit 1 are swapped, bit 2 and bit 3 are swapped, etc).
+     *
+     * 0xaaaaaaaa = 10101010101010101010101010101010
+     * 0x55555555 =  1010101010101010101010101010101
+     *
+     * x & 0xaaaaaaaa takes all odd bits in place
+     * x & 0x55555555 tales all even bits in place
+     * then shift to swap odd and even bits
+     * @param x
+     * @return
+     */
+    public int swapOddEvenBits(int x) {
+        return ((x & 0xaaaaaaaa) >> 1) | ((x & 0x55555555) << 1);
+    }
 }
