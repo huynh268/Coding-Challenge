@@ -49,6 +49,45 @@ public class BitManipulation {
     }
 
     /**
+     * 5.2
+     *
+     * Given a (decimal - e.g. 3.72) number that is passed in as a string, print the binary representation.
+     * If the number can not be represented accurately in binary, print “ERROR”
+     * @param n
+     * @return
+     */
+    public String printBinary(String n) {
+        int intPart = Integer.parseInt(n.substring(0, n.indexOf('.')));
+        double decPart = Double.parseDouble(n.substring(n.indexOf('.'), n.length()));
+
+        String intString = "";
+        while(intPart > 0) {
+            intString = intPart%2 + intString;
+            intPart >>= 1;
+        }
+
+        StringBuilder decString = new StringBuilder();
+        while(decPart > 0) {
+            if(decString.length() > 32) return "ERROR";
+            if(decPart == 1) {
+                decString.append(1);
+                break;
+            }
+
+            double r = decPart*2;
+            if(r >= 1){
+                decPart = r - 1;
+                decString.append(1);
+            } else {
+                decPart = r;
+                decString.append(0);
+            }
+        }
+
+        return intString + "." + decString;
+    }
+
+    /**
      * 5.4
      *
      * Explain what the following code does: ((n & (n-1)) == 0).
