@@ -251,8 +251,25 @@ public class TreesAndGraphs {
      * @return
      */
     public List<List<TreeNode>> pathSum(TreeNode root, int sum) {
-
+        List<List<TreeNode>> result = new ArrayList<>();
+        helper(root, sum, new ArrayList<>(), result);
+        return result;
     }
 
-    public List<List<TreeNode>> helper(TreeNode root,)
+    public void helper(TreeNode root, int sum, List<TreeNode> list, List<List<TreeNode>> result) {
+        if(root == null) return;
+
+        list.add(root);
+        if(root.val == sum) result.add(list);
+
+        //Paths starts from previous nodes
+        //Create copies of list for left and right path
+        //then continue to search for a path that sums up to sum
+        helper(root.left, sum - root.val, new ArrayList<>(list), result);
+        helper(root.right, sum - root.val, new ArrayList<>(list), result);
+
+        //New paths starts at current node
+        helper(root.left, sum, new ArrayList<>(), result);
+        helper(root.right, sum, new ArrayList<>(), result);
+    }
 }
