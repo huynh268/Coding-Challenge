@@ -79,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PartitionLabels763.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PartitionLabels763.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PartitionLabels763.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountAndSay38.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/CountAndSay38.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -127,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/WordBreak139.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchForARange34.java" />
         <option value="$PROJECT_DIR$/src/Array/PositionsOfLargeGroups830.java" />
         <option value="$PROJECT_DIR$/src/Math/ConsecutiveNumbersSum829.java" />
@@ -178,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/List/MiddleOfTheLinkedList876.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/UniquePathsII63.java" />
         <option value="$PROJECT_DIR$/src/String/LongestSubstringWithoutRepeatingCharacters3.java" />
+        <option value="$PROJECT_DIR$/src/String/CountAndSay38.java" />
       </list>
     </option>
   </component>
@@ -1121,15 +1131,15 @@
       <workItem from="1534734795887" duration="575000" />
       <workItem from="1534745145861" duration="20000" />
       <workItem from="1535005387350" duration="1033000" />
-      <workItem from="1535050270846" duration="1378000" />
+      <workItem from="1535050270846" duration="4436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="513678000" />
+    <option name="totallyTimeSpent" value="516736000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1919" height="1040" extended-state="1" />
+    <frame x="1" y="0" width="1919" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1179,7 +1189,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Math/ConsecutiveNumbersSum829.java" />
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchForARange34.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1530,6 +1539,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/CountAndSay38.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding />
         </state>
       </provider>
