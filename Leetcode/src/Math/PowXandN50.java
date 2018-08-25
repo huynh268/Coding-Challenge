@@ -29,7 +29,7 @@ public class PowXandN50 {
     /**
      * Time comeplxity: O(log n)
      * Space complexity: O(1)
-     * 
+     *
      * @param x
      * @param n
      * @return
