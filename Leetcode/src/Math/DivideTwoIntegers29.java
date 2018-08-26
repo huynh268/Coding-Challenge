@@ -25,6 +25,12 @@ package Math;
  */
 public class DivideTwoIntegers29 {
 
+    /**
+     *
+     * @param dividend
+     * @param divisor
+     * @return
+     */
     public int divide(int dividend, int divisor) {
         if(divisor == 0) return -1;
         if(divisor == 1) return dividend;
