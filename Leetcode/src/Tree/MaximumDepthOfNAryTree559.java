@@ -50,7 +50,7 @@ public class MaximumDepthOfNAryTree559 {
     /**
      * Time complexity: O(n)
      * Space complexity: O(n)
-     * 
+     *
      * @param root
      * @return
      */
