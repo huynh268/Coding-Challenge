@@ -70,6 +70,7 @@ public class BattleshipsInBoard419 {
                 }
             }
         }
+        return count;
     }
 
     private void dfs(char[][] board, int i, int j) {
