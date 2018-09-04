@@ -58,6 +58,8 @@ public class BitwiseORsOfSubarrays898 {
     public int subarrayBitwiseORs2(int[] A) {
         HashSet<Integer> ans = new HashSet<>();
 
+        //max = A[0] | A[1] | ... | A[n]
+        //OR operation makes result increasing
         int max = 0;
         for(int i : A) {
             max |= i;
@@ -65,11 +67,18 @@ public class BitwiseORsOfSubarrays898 {
         }
 
         for(int i = 1; i < A.length; i++) {
+
+            //A[i]&A[i-1] == A[i-1] when all bits in A[i] are covered by bits in A[i-1]
+            //A[i]   =   1010111
+            //A[i-1] = 101010111
+            //If it happens, then A[i] can be skipped
             if((A[i]&A[i-1]) != A[i-1]) {
                 int or = 0;
                 for(int j = i; j < A.length; j++) {
                     or |= A[j];
                     ans.add(or);
+
+                    //Check again
                     if((or & A[i-1]) == A[i-1] || or == max) break;
                 }
             }
