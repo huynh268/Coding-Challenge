@@ -22,7 +22,56 @@ package BitManipulation;
 
  */
 public class TotalHammingDistance477 {
-    public int totalHammingDistance(int[] nums) {
 
+
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     *
+     * @param nums
+     * @return
+     */
+    public int totalHammingDistance1(int[] nums) {
+        int ans = 0;
+        int[] count0and1 = new int[2];
+        int count = 0;
+
+        while(count < nums.length) {
+            count = 0;
+            count0and1[0] = 0;
+            count0and1[1] = 0;
+
+            for(int i = 0; i < nums.length; i++) {
+                count0and1[nums[i]%2]++;
+                nums[i] >>= 1;
+                if(nums[i] == 0) count++;
+            }
+
+            ans += count0and1[0]*count0and1[1];
+        }
+
+        return ans;
+    }
+
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     *
+     * @param nums
+     * @return
+     */
+    public int totalHammingDistance2(int[] nums) {
+        int ans = 0;
+
+        for(int i = 0; i < 32; i++) {
+            int countOne = 0;
+            for(int j = 0; j < nums.length; j++) {
+                countOne += nums[j]%2 == 0 ? 0 : 1;
+                nums[j] >>= 1;
+            }
+            ans += countOne * (nums.length - countOne);
+        }
+
+        return ans;
     }
 }
