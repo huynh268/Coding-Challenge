@@ -24,7 +24,7 @@ public class LongestValidParentheses32 {
      *
      * Time complexity: O(n)
      * Space complexity: O(n)
-     * 
+     *
      * @param s
      * @return
      */
