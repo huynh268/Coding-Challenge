@@ -42,42 +42,20 @@
       <file leaf-file-name="LongestValidParentheses32.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LongestValidParentheses32.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="440">
               <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search2DMatrix74.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/Search2DMatrix74.java">
+      <file leaf-file-name="FindMedianFromDataStream295.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/FindMedianFromDataStream295.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordSearchII212.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BackTracking/WordSearchII212.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1137">
-              <caret line="126" column="41" lean-forward="false" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
+            <state relative-caret-position="647">
+              <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1156#1157#0" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1402#1403#0" expanded="true" />
-                <element signature="e#1452#1453#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tree/LowestCommonAncestorOfBinarySearchTree235.java" />
         <option value="$PROJECT_DIR$/src/BitManipulation/ReverseBits190.java" />
         <option value="$PROJECT_DIR$/src/Array/MagicSquaresInGrid840.java" />
         <option value="$PROJECT_DIR$/src/KeysAndRooms841.java" />
@@ -187,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/Tree/ImplementTriePrefixTree208.java" />
         <option value="$PROJECT_DIR$/src/Array/ContiguousArray525.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/WordSearchII212.java" />
+        <option value="$PROJECT_DIR$/src/HeapStackQueue/FindMedianFromDataStream295.java" />
       </list>
     </option>
   </component>
@@ -257,7 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BackTracking" />
+              <option name="myItemId" value="HeapStackQueue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1151,12 +1129,12 @@
       <workItem from="1536292880844" duration="3989000" />
       <workItem from="1536347118807" duration="5102000" />
       <workItem from="1536434570164" duration="574000" />
-      <workItem from="1536464034924" duration="3768000" />
+      <workItem from="1536464034924" duration="5965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="569080000" />
+    <option name="totallyTimeSpent" value="571277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1919" height="1040" extended-state="0" />
@@ -1209,13 +1187,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SplitArrayIntoFibonacciSequence842.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/StringCompression443.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="670">
@@ -1507,14 +1478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LongestValidParentheses32.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition35.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1551,14 +1514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/Search2DMatrix74.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/ContiguousArray525.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1574,19 +1529,45 @@
         <state relative-caret-position="1137">
           <caret line="126" column="41" lean-forward="false" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#908#909#0" expanded="false" />
+            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1061#1062#0" expanded="false" />
+            <element signature="e#1111#1112#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1195#1196#0" expanded="false" />
+            <element signature="e#1240#1241#0" expanded="false" />
+            <element signature="e#1284#1285#0" expanded="false" />
+            <element signature="e#1324#1325#0" expanded="false" />
+            <element signature="e#1402#1403#0" expanded="false" />
+            <element signature="e#1452#1453#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/Search2DMatrix74.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestValidParentheses32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapStackQueue/FindMedianFromDataStream295.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+          <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
           </folding>
         </state>
       </provider>
