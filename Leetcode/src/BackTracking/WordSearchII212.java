@@ -28,6 +28,10 @@ import java.util.List;
  */
 public class WordSearchII212 {
     public List<String> findWords(char[][] board, String[] words) {
+        for(String word : words) {
+            trie.
+        }
+
         List<String> ans = new ArrayList<>();
 
         return ans;
