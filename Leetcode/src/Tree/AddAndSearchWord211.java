@@ -1,5 +1,9 @@
 package Tree;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 /**
  * Created by Tien on 9/9/2018.
  *
@@ -26,7 +30,7 @@ package Tree;
  */
 public class AddAndSearchWord211 {
 
-    class WordDictionary {
+    class WordDictionary1 {
 
         public class TrieNode {
             private TrieNode[] childrens;
@@ -55,7 +59,7 @@ public class AddAndSearchWord211 {
 
         private TrieNode root;
         /** Initialize your data structure here. */
-        public WordDictionary() {
+        public WordDictionary1() {
             this.root = new TrieNode();
         }
 
@@ -99,6 +103,44 @@ public class AddAndSearchWord211 {
             return false;
         }
 
+    }
+
+
+    class WordDictionary2 {
+
+        private HashMap<Integer, List<String>> hashMap;
+
+        /** Initialize your data structure here. */
+        public WordDictionary2() {
+            this.hashMap = new HashMap<>();
+        }
+
+        /** Adds a word into the data structure. */
+        public void addWord(String word) {
+            if(!hashMap.containsKey(word.length())) {
+                hashMap.put(word.length(), new ArrayList<>());
+            }
+            hashMap.get(word.length()).add(word);
+        }
+
+        /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
+        public boolean search(String word) {
+            if(!hashMap.containsKey(word.length())) return false;
+            List<String> dicts = hashMap.get(word.length());
+            for(String dict : dicts) {
+                if(match(dict, word)) return true;
+            }
+            return false;
+        }
+
+        public boolean match(String dict, String word) {
+            for(int i = 0; i < dict.length(); i++) {
+                if(dict.charAt(i) != word.charAt(i)) {
+                    if(word.charAt(i) != '.') return false;
+                }
+            }
+            return true;
+        }
     }
 
 }
