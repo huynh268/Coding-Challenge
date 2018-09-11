@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JumpGameII45.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Array/JumpGameII45.java">
+      <file leaf-file-name="TrappingRainWater42.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/TrappingRainWater42.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="797">
+              <caret line="60" column="4" lean-forward="false" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -112,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DFSandBFS/KeysAndRooms841.java" />
         <option value="$PROJECT_DIR$/src/SplitArrayIntoFibonacciSequence842.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/GuessNumberHigherOrLower374.java" />
         <option value="$PROJECT_DIR$/src/TwentyFourGame679.java" />
@@ -163,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/Tree/AddAndSearchWord211.java" />
         <option value="$PROJECT_DIR$/src/Array/JumpGame55.java" />
         <option value="$PROJECT_DIR$/src/Array/JumpGameII45.java" />
+        <option value="$PROJECT_DIR$/src/Array/TrappingRainWater42.java" />
       </list>
     </option>
   </component>
@@ -1130,12 +1130,12 @@
       <workItem from="1536464034924" duration="5994000" />
       <workItem from="1536521676689" duration="595000" />
       <workItem from="1536549963866" duration="3738000" />
-      <workItem from="1536609336867" duration="2201000" />
+      <workItem from="1536609336867" duration="4469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="577840000" />
+    <option name="totallyTimeSpent" value="580108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1919" height="1040" extended-state="0" />
@@ -1188,13 +1188,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/ShiftingLetters848.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="56" column="7" lean-forward="false" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MaximizeDistanceToClosestPerson849.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1540,6 +1533,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/JumpGameII45.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LongestValidParentheses32.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1548,10 +1549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/JumpGameII45.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/TrappingRainWater42.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state relative-caret-position="797">
+          <caret line="60" column="4" lean-forward="false" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
           <folding />
         </state>
       </provider>
