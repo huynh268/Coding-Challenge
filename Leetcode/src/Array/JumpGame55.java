@@ -24,7 +24,48 @@ package Array;
  */
 public class JumpGame55 {
 
-    public boolean canJump(int[] nums) {
+    /**
+     * Dynamic Programming
+     *
+     * Time complexity: O(n^2)
+     * Space complexity: O(n)
+     *
+     * @param nums
+     * @return
+     */
+    public boolean canJump1(int[] nums) {
+        boolean[] dp = new boolean[nums.length];
 
+        for(int i = nums.length-1; i >= 0; i--) {
+            if(i + nums[i] >= nums.length-1) {
+                dp[i] = true;
+            } else {
+                for(int j = i+1; j <= i+nums[i]; j++) {
+                    if(dp[j]) {
+                        dp[i] = true;
+                        break;
+                    }
+                }
+            }
+        }
+
+        return dp[0];
+    }
+
+    /**
+     * Greedy
+     *
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     * 
+     * @param nums
+     * @return
+     */
+    public boolean canJump2(int[] nums) {
+        int lastIndex = nums.length-1;
+        for(int i = nums.length-1; i >= 0; i--) {
+            if(i + nums[i] >= lastIndex) lastIndex = i;
+        }
+        return lastIndex == 0;
     }
 }
