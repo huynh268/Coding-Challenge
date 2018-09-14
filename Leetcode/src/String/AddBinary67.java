@@ -21,14 +21,16 @@ package String;
 public class AddBinary67 {
 
     /**
+     * Iteration
+     *
      * Time complexity: O(n)
      * Space complexity: O(n)
-     * 
+     *
      * @param a
      * @param b
      * @return
      */
-    public String addBinary(String a, String b) {
+    public String addBinary1(String a, String b) {
         char[] ca = a.toCharArray();
         char[] cb = b.toCharArray();
 
@@ -45,5 +47,30 @@ public class AddBinary67 {
         }
 
         return sb.reverse().toString();
+    }
+
+    /**
+     * Recursion
+     *
+     * Time comeplexity: O(2^n)
+     * Space complexity: O(2^n)
+     *
+     * @param a
+     * @param b
+     * @return
+     */
+    public String addBinary2(String a, String b) {
+        int n = a.length();
+        int m = b.length();
+
+        if(n == 0 || m == 0) return a + b;
+        if(a.charAt(n-1) == '1' && b.charAt(m-1) == '1') {
+            return addBinary2(addBinary2(a.substring(0, n-1), b.substring(0, m-1)), "1") + "0";
+        }
+        if(a.charAt(n-1) == '0' && b.charAt(m-1) == '0') {
+            return addBinary2(a.substring(0, n-1), b.substring(0, m-1)) + "0";
+        }
+
+        return addBinary2(a.substring(0, n-1), b.substring(0, m-1)) + "1";
     }
 }
