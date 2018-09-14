@@ -62,7 +62,7 @@
       <file leaf-file-name="MinimumWindowSubstring76.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/MinimumWindowSubstring76.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="425">
               <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding />
             </state>
@@ -79,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InterleavingString97.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InterleavingString97.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/InterleavingString97.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddBinary67.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/AddBinary67.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -94,16 +104,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PartitionLabels763.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PartitionLabels763.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -142,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TwentyFourGame679.java" />
         <option value="$PROJECT_DIR$/src/String/BackspaceStringCompare844.java" />
         <option value="$PROJECT_DIR$/src/LongestMountainInArray845.java" />
         <option value="$PROJECT_DIR$/src/HandOfStraights846.java" />
@@ -193,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/Array/TrappingRainWater42.java" />
         <option value="$PROJECT_DIR$/src/String/MinimumWindowSubstring76.java" />
         <option value="$PROJECT_DIR$/src/String/InterleavingString97.java" />
+        <option value="$PROJECT_DIR$/src/String/AddBinary67.java" />
       </list>
     </option>
   </component>
@@ -222,9 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,6 +268,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1162,12 +1162,13 @@
       <workItem from="1536549963866" duration="3738000" />
       <workItem from="1536609336867" duration="4469000" />
       <workItem from="1536692541931" duration="1922000" />
-      <workItem from="1536814122004" duration="1253000" />
+      <workItem from="1536814122004" duration="1851000" />
+      <workItem from="1536863726049" duration="1368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="583283000" />
+    <option name="totallyTimeSpent" value="585249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1919" height="1040" extended-state="0" />
@@ -1187,7 +1188,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2711135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2738031" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1220,20 +1221,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Hashtable/UncommonWordsFromTwoSentences884.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/List/MiddleOfTheLinkedList876.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/UniquePathsII63.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -1565,7 +1552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/String/MinimumWindowSubstring76.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="425">
           <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding />
         </state>
@@ -1579,10 +1566,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/AddStrings415.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/InterleavingString97.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/AddBinary67.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding />
         </state>
       </provider>
