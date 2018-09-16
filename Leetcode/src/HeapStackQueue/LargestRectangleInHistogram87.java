@@ -18,7 +18,7 @@ public class LargestRectangleInHistogram87 {
     /**
      * Time complexity: O(n) - Each element in heights is visited twice
      * Space complexity: O(n)
-     * 
+     *
      * @param heights
      * @return
      */

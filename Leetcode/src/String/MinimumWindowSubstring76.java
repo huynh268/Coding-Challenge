@@ -74,7 +74,4 @@ public class MinimumWindowSubstring76 {
         return s.substring(minL, minL + min);
     }
 
-    public String minWindow(String s, String t) {
-
-    }
 }
