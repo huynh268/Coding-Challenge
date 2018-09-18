@@ -47,6 +47,14 @@ import java.util.HashMap;
  0 <= tree[i] < tree.length
  */
 public class FruitIntoBaskets904 {
+
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     *
+     * @param tree
+     * @return
+     */
     public int totalFruit(int[] tree) {
         int max = 0;
         HashMap<Integer, Integer> hashMap = new HashMap<>();
