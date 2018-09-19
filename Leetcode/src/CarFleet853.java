@@ -1,3 +1,5 @@
+import java.util.TreeMap;
+
 /**
  * Created by Tien on 6/19/2018.
  *
@@ -32,7 +34,33 @@
  All initial positions are different.
  */
 public class CarFleet853 {
-    public int carFleet(int target, int[] position, int[] speed) {
 
+    /**
+     * Time complexity: O(nlogn) - Treemap insertion takes O(logn) and there are n insertions which sum up O(nlogn)
+     * Space complexity: O(n)
+     *
+     * @param target
+     * @param position
+     * @param speed
+     * @return
+     */
+    public int carFleet(int target, int[] position, int[] speed) {
+        int fleets = 0;
+        TreeMap<Integer, Double> treeMap = new TreeMap<>();
+
+        for(int i = position.length; i >= 0; i--) {
+            int distance = target - position[i];
+            treeMap.put(distance, (double) distance / speed[i]);
+        }
+
+        double maxTime = 0;
+        for(double time : treeMap.values()) {
+            if(time > maxTime) {
+                maxTime = time;
+                fleets++;
+            }
+        }
+
+        return fleets;
     }
 }

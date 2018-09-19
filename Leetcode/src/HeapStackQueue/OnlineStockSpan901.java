@@ -49,7 +49,7 @@ public class OnlineStockSpan901 {
         /**
          * Time complexity: O(n) - n is the numbers of next() calls
          * Space complexity: O(n)
-         * 
+         *
          * @param price
          * @return
          */
