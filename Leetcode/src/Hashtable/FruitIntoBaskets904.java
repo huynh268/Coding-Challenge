@@ -55,7 +55,7 @@ public class FruitIntoBaskets904 {
      * @param tree
      * @return
      */
-    public int totalFruit(int[] tree) {
+    public int totalFruit1(int[] tree) {
         int max = 0;
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         int j = 0;
@@ -71,5 +71,34 @@ public class FruitIntoBaskets904 {
         }
 
         return max;
+    }
+
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     * 
+     * @param tree
+     * @return
+     */
+    public int totalFruit2(int[] tree) {
+        int max = 0;
+        int a = 0, b = 0, curLen = 0, count_b = 0;
+
+        for(int c : tree){
+            if(c == b) {
+                curLen++;
+                count_b++;
+            } else if (c == a) {
+                curLen++;
+                count_b = 1;
+                a = b;
+                b = c;
+            } else {
+                curLen = count_b + 1;
+                count_b = 1;
+                a = b;
+                b = c;
+            }
+        }
     }
 }

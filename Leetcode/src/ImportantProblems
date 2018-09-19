@@ -1,6 +1,7 @@
 Array   - FindTheDuplicateNumber287 - Binary Search || Floy's Cycle Detection
         - ThreeSum15
         - FourSum18
+        - FruitIntoBaskets904
 
 List    - LinkedListCycle141 - Floy's Cycle Detection
         - ReverseLinkedList206
@@ -18,6 +19,7 @@ Tree    - InorderTraversal94
 
 
 String  - RegularExpressionMatching10
+        - UniqueLetterString828
 
 
 HeapStackQueue  - LargestRectangleInHistogram87
