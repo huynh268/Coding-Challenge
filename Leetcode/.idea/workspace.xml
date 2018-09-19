@@ -79,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarFleet853.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CarFleet853.java">
+      <file leaf-file-name="UniqueLetterString828.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/UniqueLetterString828.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+            <state relative-caret-position="595">
+              <caret line="68" column="94" lean-forward="false" selection-start-line="68" selection-start-column="94" selection-end-line="68" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -112,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/PeakIndexInMountainArray852.java" />
         <option value="$PROJECT_DIR$/src/PartitionLabels763.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/UncommonWordsFromTwoSentences884.java" />
         <option value="$PROJECT_DIR$/src/List/MiddleOfTheLinkedList876.java" />
@@ -163,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/HeapStackQueue/DailyTemperatures739.java" />
         <option value="$PROJECT_DIR$/src/ImportantProblems" />
         <option value="$PROJECT_DIR$/src/CarFleet853.java" />
+        <option value="$PROJECT_DIR$/src/String/UniqueLetterString828.java" />
       </list>
     </option>
   </component>
@@ -251,7 +251,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GoogleCodeJam" />
-    <property name="SearchEverywhereHistoryKey" value="dai&#9;PSI&#9;JAVA://Array.DailyTemperatures739&#10;cha&#9;PSI&#9;JAVA://Math.ChalkboardXORGame810&#10;Substring&#9;PSI&#9;JAVA://SubstringWithConcatenationOfAllWords30&#10;minim&#9;FILE&#9;file://E:/Github/Coding-Challenge/Leetcode/src/String/MinimumWindowSubstring76.java&#10;jump&#9;PSI&#9;JAVA://Array.JumpGame55&#10;Contiguous&#9;PSI&#9;JAVA://Array.ContiguousArray525" />
+    <property name="SearchEverywhereHistoryKey" value="uniq&#9;PSI&#9;JAVA://String.UniqueLetterString828&#10;dai&#9;PSI&#9;JAVA://Array.DailyTemperatures739&#10;cha&#9;PSI&#9;JAVA://Math.ChalkboardXORGame810&#10;Substring&#9;PSI&#9;JAVA://SubstringWithConcatenationOfAllWords30&#10;minim&#9;FILE&#9;file://E:/Github/Coding-Challenge/Leetcode/src/String/MinimumWindowSubstring76.java&#10;jump&#9;PSI&#9;JAVA://Array.JumpGame55&#10;Contiguous&#9;PSI&#9;JAVA://Array.ContiguousArray525" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1139,12 +1139,12 @@
       <workItem from="1537036572192" duration="2418000" />
       <workItem from="1537166639347" duration="1412000" />
       <workItem from="1537241998621" duration="2431000" />
-      <workItem from="1537295283200" duration="1844000" />
+      <workItem from="1537295283200" duration="3383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="601294000" />
+    <option name="totallyTimeSpent" value="602833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1919" height="1035" extended-state="0" />
@@ -1197,13 +1197,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray34.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PartitionLabels763.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1495,14 +1488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/InterleavingString97.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hashtable/FruitIntoBaskets904.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -1561,6 +1546,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
           <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/InterleavingString97.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/UniqueLetterString828.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="68" column="94" lean-forward="false" selection-start-line="68" selection-start-column="94" selection-end-line="68" selection-end-column="94" />
           <folding />
         </state>
       </provider>
