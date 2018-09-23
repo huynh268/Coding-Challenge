@@ -51,6 +51,6 @@ public class SumOfDistancesInTree834 {
         }
     }
     public int[] sumOfDistancesInTree(int N, int[][] edges) {
-        
+
     }
 }
