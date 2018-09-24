@@ -38,7 +38,7 @@ public class SmallestRangeI908 {
     /**
      * Time complexity: O(n)
      * Space complexity: O(1)
-     * 
+     *
      * @param A
      * @param K
      * @return
