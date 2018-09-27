@@ -40,8 +40,27 @@ public class BinaryTreeMaximumPathSum124 {
      *     TreeNode(int x) { val = x; }
      * }
      */
-    
-    public int maxPathSum(TreeNode root) {
 
+
+    /**
+     * Time complexity: O(n) - visit each node once
+     * Space complexity: O(n)
+     * @param root
+     * @return
+     */
+    int max = Integer.MAX_VALUE;
+    public int maxPathSum(TreeNode root) {
+        helper(root);
+        return max;
+    }
+
+    public int helper(TreeNode root) {
+        if(root == null) return 0;
+
+        int left = Math.max(0, helper(root.left));
+        int right = Math.max(0, helper(root.right));
+        max = Math.max(max, left + right + root.val);
+
+        return root.val + Math.max(left, right);
     }
 }
