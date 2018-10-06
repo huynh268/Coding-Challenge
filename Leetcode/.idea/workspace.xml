@@ -103,25 +103,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="WordSubsets916.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/WordSubsets916.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CrackingTheSafe753.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DFSandBFS/CrackingTheSafe753.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XOfAKindInADeckOfCards914.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Math/XOfAKindInADeckOfCards914.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-              <folding>
-                <element signature="e#1294#1295#0" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/FirstMissingPositive41.java" />
         <option value="$PROJECT_DIR$/src/Math/PowXandN50.java" />
         <option value="$PROJECT_DIR$/src/Math/DivideTwoIntegers29.java" />
         <option value="$PROJECT_DIR$/src/Math/UglyNumber263.java" />
@@ -200,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/Tree/BinaryTreeMaximumPathSum124.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/CrackingTheSafe753.java" />
         <option value="$PROJECT_DIR$/src/Math/XOfAKindInADeckOfCards914.java" />
+        <option value="$PROJECT_DIR$/src/String/WordSubsets916.java" />
       </list>
     </option>
   </component>
@@ -271,7 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Math" />
+              <option name="myItemId" value="String" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1189,12 +1186,12 @@
       <workItem from="1537989009611" duration="994000" />
       <workItem from="1538104294232" duration="1258000" />
       <workItem from="1538717242745" duration="1259000" />
-      <workItem from="1538792839489" duration="967000" />
+      <workItem from="1538792839489" duration="1608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="617009000" />
+    <option name="totallyTimeSpent" value="617650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1919" height="1035" extended-state="0" />
@@ -1247,13 +1244,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Hashtable/FindAndReplacePattern890.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/BattleshipsInBoard419.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
@@ -1594,14 +1584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeMaximumPathSum124.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFSandBFS/CrackingTheSafe753.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1615,9 +1597,25 @@
         <state relative-caret-position="724">
           <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
           <folding>
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeMaximumPathSum124.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/WordSubsets916.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
