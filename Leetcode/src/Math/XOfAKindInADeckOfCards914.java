@@ -42,7 +42,25 @@ package Math;
  0 <= deck[i] < 10000
  */
 public class XOfAKindInADeckOfCards914 {
+
+    /**
+     * Time complexity: O(nlog^2(N))
+     * Space complexity: O(n)
+     * 
+     * @param deck
+     * @return
+     */
     public boolean hasGroupsSizeX(int[] deck) {
-        
+        int[] count = new int[100000];
+        for(int i : deck) count[i]++;
+
+        int gcd = 0;
+        for(int i : count) gcd = gcd(gcd, i);
+
+        return gcd > 1;
+    }
+
+    public int gcd(int a, int b) {
+        return b == 0? a : gcd(b, a%b);
     }
 }
