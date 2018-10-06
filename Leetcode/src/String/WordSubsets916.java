@@ -1,5 +1,8 @@
 package String;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by Tien on 10/5/2018.
  *
@@ -43,6 +46,13 @@ package String;
  */
 public class WordSubsets916 {
 
+    /**
+     * Time complexity: O(A+B) - A = total length of all words in A, B = total length of all words in B
+     * Space complexity: O(A+B)
+     * @param A
+     * @param B
+     * @return
+     */
     public List<String> wordSubsets(String[] A, String[] B) {
         List<String> ans = new ArrayList<>();
 
@@ -54,9 +64,15 @@ public class WordSubsets916 {
             }
         }
 
-        for(String a : A) {
-
+        search: for(String a : A) {
+            int[] ca = count(a);
+            for(int i = 0; i < 26; i++) {
+                if(ca[i] < count[i]) continue search;
+            }
+            ans.add(a);
         }
+
+        return ans;
     }
 
     public int[] count(String s) {
