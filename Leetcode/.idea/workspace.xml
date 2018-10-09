@@ -79,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseOnlyLetters917.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/String/ReverseOnlyLetters917.java">
+      <file leaf-file-name="MaximumSumCircularSubarray918.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/MaximumSumCircularSubarray918.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="697">
+              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -142,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Math/UglyNumber263.java" />
         <option value="$PROJECT_DIR$/src/Hashtable/BullsAndCows299.java" />
         <option value="$PROJECT_DIR$/src/Array/ProjectionAreaOf3DShapes883.java" />
         <option value="$PROJECT_DIR$/src/Tree/LeafSimilarTrees872.java" />
@@ -193,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/String/WordSubsets916.java" />
         <option value="$PROJECT_DIR$/src/Array/PartitionArrayIntoDisjointIntervals915.java" />
         <option value="$PROJECT_DIR$/src/String/ReverseOnlyLetters917.java" />
+        <option value="$PROJECT_DIR$/src/Array/MaximumSumCircularSubarray918.java" />
       </list>
     </option>
   </component>
@@ -262,7 +262,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="String" />
+              <option name="myItemId" value="Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1185,12 +1185,12 @@
       <workItem from="1538792839489" duration="1629000" />
       <workItem from="1538856207461" duration="982000" />
       <workItem from="1538969247661" duration="1876000" />
-      <workItem from="1539065223702" duration="773000" />
+      <workItem from="1539065223702" duration="1432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="621302000" />
+    <option name="totallyTimeSpent" value="621961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1919" height="1035" extended-state="0" />
@@ -1243,13 +1243,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/ToLowerCase709.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/RandomPickWithWeight528.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
@@ -1594,6 +1587,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/ReverseOnlyLetters917.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/PartitionArrayIntoDisjointIntervals915.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1602,10 +1603,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/ReverseOnlyLetters917.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/MaximumSumCircularSubarray918.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="697">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding />
         </state>
       </provider>
