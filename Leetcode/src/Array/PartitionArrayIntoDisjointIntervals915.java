@@ -32,6 +32,6 @@ package Array;
 public class PartitionArrayIntoDisjointIntervals915 {
 
     public int partitionDisjoint(int[] A) {
-        
+
     }
 }
