@@ -44,7 +44,24 @@ package Array;
  */
 public class MaximumSumCircularSubarray918 {
 
+    /**
+     * Modified Kadane's algorithm
+     *
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     *
+     * @param A
+     * @return
+     */
     public int maxSubarraySumCircular(int[] A) {
-        
+        int max = Integer.MIN_VALUE, min = Integer.MAX_VALUE, curMax = 0, curMin = 0, sum = 0;
+        for(int i : A) {
+            curMax = Math.max(i, curMax + i);
+            curMin = Math.min(i, curMin + i);
+            max = Math.max(curMax, max);
+            min = Math.min(curMin, min);
+            sum += i;
+        }
+        return max > 0 ? Math.max(max, sum-min) : max;
     }
 }
