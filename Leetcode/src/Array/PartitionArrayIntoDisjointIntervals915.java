@@ -31,7 +31,66 @@ package Array;
  */
 public class PartitionArrayIntoDisjointIntervals915 {
 
-    public int partitionDisjoint(int[] A) {
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     *
+     * @param A
+     * @return
+     */
+    public int partitionDisjoint1(int[] A) {
+        int n = A.length;
+        int[] max = new int[n], min = new int[n];
+        max[0] = A[0];
+        min[n-1] = A[n-1];
+        for(int i = 1; i < n; i++) max[i] = Math.max(max[i-1], A[i]);
+        for(int i = n-2; i >= 0; i--) min[i] = Math.min(min[i+1], A[i]);
+        for(int i = 1; i < n; i++) if(max[i-1] <= min[i]) return i;
+        return n;
+    }
 
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     * @param A
+     * @return
+     */
+    public int partitionDisjoint2(int[] A) {
+        int n = A.length;
+        int[] min = new int[n];
+        int maxL = A[0];
+        min[n-1] = A[n-1];
+
+        for(int i = n-2; i >= 0; i--) {
+            min[i] = Math.min(min[i+1], A[i]);
+        }
+
+        for(int i = 1; i < n; i++) {
+            if(maxL <= min[i]) return i;
+            maxL = Math.max(maxL, A[i]);
+        }
+
+        return n;
+    }
+    
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     * @param A
+     * @return
+     */
+    public int partitionDisjoint3(int[] A) {
+        int maxL = A[0]; //max value of left group
+        int max = A[0]; //max value from A[0] to current A[i]
+        int partIndex = 0; //partition index
+        for(int i = 1; i < A.length; i++) {
+            if(maxL > A[i]) { //if max of left group is greater than A[i], repartition
+                maxL = max; //update max of left group to the current max value from A[0] to A[i]
+                partIndex = i;
+            } else {
+                max = Math.max(max, A[i]);
+            }
+        }
+        return partIndex + 1;
     }
 }
