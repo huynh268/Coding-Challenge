@@ -72,7 +72,7 @@ public class PartitionArrayIntoDisjointIntervals915 {
 
         return n;
     }
-    
+
     /**
      * Time complexity: O(n)
      * Space complexity: O(1)
