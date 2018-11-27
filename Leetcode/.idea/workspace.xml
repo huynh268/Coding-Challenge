@@ -41,18 +41,28 @@
       <file leaf-file-name="SplitArrayIntoFibonacciSequence842.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SplitArrayIntoFibonacciSequence842.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
+            <state relative-caret-position="645">
               <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeysAndRooms841.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KeysAndRooms841.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KeysAndRooms841.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreeSumWithMultiplicity923.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/ThreeSumWithMultiplicity923.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -76,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/MyCalendarII731.java" />
         <option value="$PROJECT_DIR$/src/List/SplitLinkedListInParts725.java" />
         <option value="$PROJECT_DIR$/src/DFSandBFS/FriendCircles547.java" />
         <option value="$PROJECT_DIR$/src/String/RomanToInteger13.java" />
@@ -127,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/Array/MagicSquaresInGrid840.java" />
         <option value="$PROJECT_DIR$/src/SplitArrayIntoFibonacciSequence842.java" />
         <option value="$PROJECT_DIR$/src/KeysAndRooms841.java" />
+        <option value="$PROJECT_DIR$/src/Array/ThreeSumWithMultiplicity923.java" />
       </list>
     </option>
   </component>
@@ -168,14 +178,20 @@
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1004,15 +1020,16 @@
       <workItem from="1527057269336" duration="2332000" />
       <workItem from="1527312588654" duration="443000" />
       <workItem from="1527397896231" duration="468000" />
-      <workItem from="1527485136273" duration="656000" />
+      <workItem from="1527485136273" duration="679000" />
+      <workItem from="1543258197199" duration="883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489965000" />
+    <option name="totallyTimeSpent" value="490871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="802" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1062,13 +1079,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/List/RotateList61.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/RomanToInteger13.java" />
     <entry file="file://$PROJECT_DIR$/src/String/GoatLatin824.java" />
     <entry file="file://$PROJECT_DIR$/src/MostProfitAssigningWork826.java" />
@@ -1319,7 +1329,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SplitArrayIntoFibonacciSequence842.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="645">
           <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding />
         </state>
@@ -1327,8 +1337,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KeysAndRooms841.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/ThreeSumWithMultiplicity923.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding />
         </state>
       </provider>
