@@ -59,11 +59,11 @@ public class ThreeSumWithMultiplicity923 {
             if(count[i] > 0) keys[j++] = i;
         }
 
-        for(int i = 0; i < keys.length-2; i++) {
+        for(int i = 0; i < keys.length; i++) {
             int l = i, r = keys.length-1;
             while(l <= r) {
                 int sum = keys[i] + keys[l] + keys[r];
-                if(sum == 0) {
+                if(sum == target) {
                     if(keys[i] != keys[l] && keys[l] != keys[r]) {
                         ans += count[keys[i]] * count[keys[l]] * count[keys[r]];
                     } else if(keys[i] == keys[l] && keys[l] != keys[r]) {
@@ -76,7 +76,7 @@ public class ThreeSumWithMultiplicity923 {
                     ans %= MOD;
                     l++;
                     r--;
-                } else if(sum < 0){
+                } else if(sum < target){
                     l++;
                 } else {
                     r--;
