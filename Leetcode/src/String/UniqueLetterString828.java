@@ -1,5 +1,7 @@
 package String;
 
+import java.util.Arrays;
+
 /**
  * Created by Tien on 5/5/2018.
  *
@@ -34,7 +36,41 @@ package String;
  */
 public class UniqueLetterString828 {
 
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     *
+     * @param S
+     * @return
+     */
     public int uniqueLetterString(String S) {
+        int ans = 0;
+        int n = S.length();
 
+        //indexes stores indexes of the last 2 occurences of char c
+        int[][] indexes = new int[26][2];
+
+        for(int[] i : indexes) {
+            Arrays.fill(i, -1);
+        }
+
+        for(int i = 0; i < n; i++) {
+            int c = S.charAt(i) - 'A';
+
+            //for any char c, there are (indexes[c][1] - indexes[c][0]) ways to start and (i - indexes[c][1]) ways to end the substring that contains only one char c
+            //therefore, there are (i - indexes[c][1]) * (indexes[c][1] - indexes[c][0]) substrings
+            ans += (i - indexes[c][1]) * (indexes[c][1] - indexes[c][0]);
+
+            //update indexes of c
+            indexes[c][0] = indexes[c][c];
+            indexes[c][1] = i;
+        }
+
+        //since previous loop runs from 0 to n-1, loop again the indexes array and count for n
+        for(int i = 0; i < 26; i++) {
+            ans += (n - indexes[i][1]) * (indexes[i][1] - indexes[i][0]);
+        }
+
+        return ans;
     }
 }

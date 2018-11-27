@@ -30,7 +30,35 @@ package String;
  */
 public class CountAndSay38 {
 
+    /**
+     * Time complexity: O(2^n)
+     * Space complexity: O(2^n)
+     *
+     * @param n
+     * @return
+     */
     public String countAndSay(int n) {
+        String ans = "1";
+        while(n > 0) {
+            ans = helper(ans);
+            n--;
+        }
+        return ans;
+    }
 
+    public String helper(String s) {
+        StringBuilder sb = new StringBuilder();
+
+        for(int i = 0; i < s.length(); i++) {
+            int j = 1;
+            while(i < s.length() - 1 && s.charAt(i) == s.charAt(i+1)) {
+                i++;
+                j++;
+            }
+            sb.append(j);
+            sb.append(s.charAt(i));
+        }
+
+        return sb.toString();
     }
 }

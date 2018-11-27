@@ -1,4 +1,4 @@
-package Array;
+package HeapStackQueue;
 
 import java.util.Stack;
 

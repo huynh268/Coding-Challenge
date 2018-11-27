@@ -27,7 +27,17 @@ package Math;
  0 <= nums[i] <= 2^16.
  */
 public class ChalkboardXORGame810 {
-    public boolean xorGame(int[] nums) {
 
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     *
+     * @param nums
+     * @return
+     */
+    public boolean xorGame(int[] nums) {
+        int xor = 0;
+        for(int i : nums) xor ^= i;
+        return xor == 0 || (nums.length & 1) == 0;
     }
 }

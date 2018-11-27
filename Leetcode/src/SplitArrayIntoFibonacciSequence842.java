@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * Given a string S of digits, such as S = "123456579", we can split it into a Fibonacci-like sequence [123, 456, 579].
 

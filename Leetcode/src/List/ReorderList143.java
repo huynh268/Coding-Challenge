@@ -24,6 +24,7 @@ public class ReorderList143 {
      */
 
     public void reorderList(ListNode head) {
-        ListNode
+        ListNode temp = head;
+     
     }
 }
