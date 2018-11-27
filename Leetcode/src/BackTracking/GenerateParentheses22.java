@@ -13,7 +13,13 @@ package BackTracking;
  */
 
 public class GenerateParentheses22 {
-    public List<String> generateParenthesis(int n) {
+
+    /**
+     * Backtracking
+     * @param n
+     * @return
+     */
+    public List<String> generateParenthesis1(int n) {
         List<String> ans = new ArrayList<>();
         backtrack(n, "", 0, 0, ans);
         return ans;
@@ -26,5 +32,21 @@ public class GenerateParentheses22 {
         }
         if(open < n) backtrack(n, current + "(", open + 1, close, ans);
         if(close < open) backtrack(n, current + ")", open, close + 1, ans);
+    }
+
+    public List<String> generateParenthesis2(int n) {
+        List<String> ans = new ArrayList<>();
+        if(n == 0) {
+            ans.add("");
+        } else {
+            for(int i = 0; i < n; i++) {
+                for(String left : generateParenthesis2(i)){
+                    for(String right : generateParenthesis2(n-i-1)) {
+                        ans.add("(" + left + ")" + right);
+                    }
+                }
+            }
+        }
+        return ans;
     }
 }
