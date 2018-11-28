@@ -16,6 +16,7 @@ Tree    - InorderTraversal94
         - MinimumDepthOfBinaryTree111
         - BinaryTreePaths257
         - ImplementTriePrefixTree208
+        - NaryTreePreorderTraversal589
 
 
 String  - RegularExpressionMatching10
