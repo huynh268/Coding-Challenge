@@ -26,7 +26,32 @@ package Array;
  */
 public class CanPlaceFlowers605 {
 
+    /**
+     * Time complexity: O(N)
+     * Space complexity: O(1)
+     * @param flowerbed
+     * @param n
+     * @return
+     */
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
+        if(n == 0) return true;
+        if(flowerbed.length == 1) {
+            if(flowerbed[0] == 0 && n == 1 || n == 0) return true;
+            return false;
+        }
+        for(int i = 0; i < flowerbed.length && n > 0; i++) {
+            if(flowerbed[i] == 1) {
+                i++;
 
+                continue;
+            }
+            if(flowerbed[i] == 0 && ((i < flowerbed.length-1 && flowerbed[i+1] == 0) || i == flowerbed.length-1)) {
+                flowerbed[i] = 1;
+                n--;
+                i++;
+                if(n == 0) return true;
+            }
+        }
+        return false;
     }
 }
