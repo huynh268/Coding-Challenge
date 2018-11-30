@@ -27,7 +27,7 @@ public class NaryTreePostorderTraversal590 {
 
     /**
      * DFS
-     * 
+     *
      * Time complexity: O(N)
      * Space complexity: O(N)
      * @param root
